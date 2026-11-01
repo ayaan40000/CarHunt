@@ -86,6 +86,10 @@ The Oct 26 records carry no photo URLs, so the dashboard embeds no photos. If a 
 
 Card links stay as static `https://www.facebook.com/marketplace/item/<id>/` hrefs in the HTML. Every rebuild of `index.html` MUST keep the small app-link script block just before `</body>`: on Android it rewrites each Marketplace link to an `intent://` URL for the Facebook app (package `com.facebook.katana`) with the web URL as `browser_fallback_url`, so taps open the app and fall back to the browser if the app is missing. Desktop and no-JS keep the plain https links. If the script is missing from a rebuild, the links are wrong — treat it as a failed self-check.
 
+## App icon & inline manifest (owner rule, 2026-11-01)
+
+Every rebuild of `index.html` MUST keep, in `<head>`: the `rel="icon"` and `rel="apple-touch-icon"` links (SVG data URIs — cream car front on the deep-green tile) plus the `theme-color` meta; and just before `</body>`, AFTER the app-link script: the inline manifest script (generates the web app manifest from the favicon, name "CarHunt"). Together they are what makes the phone home-screen icon the CarHunt logo instead of a generic letter/screenshot. Missing either block = failed self-check, same as the app-link script.
+
 ## Publish flow
 
 1. Build/refresh files locally in this repo: `index.html`, `data/listings.json`, `docs/FAQ.md`, `docs/RESEARCH.md`, `docs/METHOD.md`, `README.md`.
