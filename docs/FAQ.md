@@ -1,10 +1,10 @@
 # FAQ & Help — Reliable Car Under $12,000 (Houston)
 
-Data stamp: Listings from Facebook Marketplace sweep, Oct 26, 2026 — listings sell fast; a car shown here may already be gone.
+Data stamp: Listings from Facebook Marketplace sweep, Oct 31, 2026 — listings sell fast; a car shown here may already be gone.
 
-Owner's criteria: under $12,000 cash, sedan, ≤75,000 miles, factory Android Auto + reverse camera required. Hybrid and lane assist preferred. Reliability first.
+Owner's criteria: under $12,000 cash, any body type except trucks and compact hatchbacks, at most 100,000 miles, factory Android Auto + reverse camera required. Private sellers and gas/hybrid preferred. Models with reliability concerns or major recalls are excluded outright. Every deal is graded A+ to F against a market value estimate.
 
-**Honest headline:** Only 1 of the 32 cars in the Oct 26 sweep meets ALL must-haves — the 2019 Kia Forte FE in Spring, TX ($7,000, 44,500 mi). It is a manual transmission car.
+**Honest headline:** 6 of the 10 cars in the Oct 31 sweep meet ALL must-haves — led by the 2021 Kia Forte GT-Line in Katy ($9,500, 79,000 mi, grade A, 34.2% below estimate). The Oct 26 star, the 2019 Forte FE in Spring, has sold. 16 listings found this week were excluded under the reliability/title rule and are not shown.
 
 Jargon in one line: **Trim** = version of the same car (LX basic, EX mid, Touring high). **CVT** = automatic with a belt instead of fixed gears. Hybrid **eCVT** is a different, simpler, stronger device — not a belt CVT. **PPI** = pre-purchase inspection by your own mechanic. **Android Auto (AA)** = Google's system that puts your phone's maps/calls/music on the car's screen; in this budget it is wired (USB cable) on effectively every car.
 
@@ -37,10 +37,10 @@ Every car here is wired AA unless proven otherwise. The 60-second plug test with
 | Honda Accord | 2016–17: EX+. 2018–20: Sport/EX/EX-L/Touring. LX: never in these years. |
 | Honda Accord Hybrid | 2017: EX-L/Touring only. 2018+: all hybrid trims. |
 | Honda Civic sedan | 2016–18: EX+. 2019–20: Sport and above (LX: no AA — 5-inch screen, Bluetooth only). |
-| Hyundai Sonata | 2015–16: Nav/Display Audio + free update must be installed. 2017–19: SE+ with 7″ screen. |
+| Hyundai Sonata | 2015–16: Nav/Display Audio + free update must be installed. 2017–19: SE+ with 7″ screen. 2020+: AA standard all trims (2.5L Smartstream, not Theta II). |
 | Hyundai Sonata Hybrid | 2016: Nav + update. 2017–19: all hybrid trims. |
 | Hyundai Elantra | 2017–20: SEL+. SE small-screen = no (package cars: verify). |
-| Kia Forte | 2017–18: S/EX (LX: no). 2019–20: all trims standard. |
+| Kia Forte | 2017–18: S/EX (LX: no). 2019+: all trims standard (same generation through 2024). |
 | Kia Optima | 2015–16: Nav/UVO3 + update installed. 2017 EX+ verified; 2017 LX & 2018–19 by trim: unverified — check in person. |
 | Kia Optima Hybrid | 2017: standard. 2015–16: update-eligible only. 2018–19: unverified — check in person. |
 | Toyota Camry | 2018: none. 2019: CarPlay only. 2020+: all trims. |

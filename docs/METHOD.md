@@ -61,7 +61,7 @@ Grade ladder: A+, A, A-, B+, B, B-, C+, C, C-, D+, D, D-, F.
 1. Base grade from `discount_pct` (asking vs value estimate): ≥25% under → A · 18–25% → B+ · 12–18% → B · 7–12% → C+ · 3–7% → C · 0–3% → D · priced above estimate → F.
 2. Step adjustments (one ladder step each): reliability_score 5 → +1 · reliability_score 3 → −1 (score ≤2 is excluded, never graded) · mileage ≤60,000 → +1 · mileage 90,000–100,000 → −1 · private (non-dealer) seller → +1.
 3. Not-preferred penalties: manual transmission, diesel, or electric → −1 step each, max −2 total.
-4. Caps: if factory Android Auto or reverse camera is unconfirmed (`null`), the grade is capped at C+ until confirmed.
+4. Caps: if factory Android Auto or reverse camera is unconfirmed (`null`), the grade is capped at C+ until confirmed. A car that fails a must-have outright (AA or camera confirmed absent for its year/trim) is likewise capped at C+ — it may be listed for context but cannot rank as a deal.
 5. **A+ is reserved**: base A AND reliability_score 5 AND mileage ≤75,000 AND both must-haves confirmed AND private seller AND no penalties. A+ means a great deal at a great price — most listings should not reach it.
 6. The grade replaces `pref_score` as the displayed rank (sort by grade, then discount). `pref_score` is still computed for continuity.
 
@@ -74,7 +74,7 @@ Grade ladder: A+, A, A-, B+, B, B-, C+, C, C-, D+, D, D-, F.
 
 Every published dashboard carries this line, visibly, at the top:
 
-> Listings from Facebook Marketplace sweep, Oct 26, 2026 — listings sell fast; a car shown here may already be gone.
+> Listings from Facebook Marketplace sweep, Oct 31, 2026 — listings sell fast; a car shown here may already be gone.
 
 On a refresh, replace the date with the new sweep date. Never publish a dashboard without the stamp, and never mix two sweep dates in one listings file.
 

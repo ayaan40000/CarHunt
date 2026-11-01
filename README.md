@@ -4,7 +4,7 @@ Ayaan Pathan's used-car search dashboard: a filterable, single-file board of Hou
 
 **Live:** https://ayaan40000.github.io/CarHunt/
 
-**Data stamp:** Listings from Facebook Marketplace sweep, Oct 26, 2026 — listings sell fast; a car shown here may already be gone.
+**Data stamp:** Listings from Facebook Marketplace sweep, Oct 31, 2026 — listings sell fast; a car shown here may already be gone.
 
 ## Owner's criteria
 
@@ -16,19 +16,19 @@ Ayaan Pathan's used-car search dashboard: a filterable, single-file board of Hou
 - Reliability first; every model reliability cross-checked; models with reliability concerns or major recalls are excluded
 - Every deal graded A+ to F (A+ = great deal at a great price) against a CarMax / leading-provider value estimate — target is below estimated value
 
-Honest headline for the Oct 26 sweep: **only 1 of 32 listings meets all must-haves** — the 2019 Kia Forte FE, Spring TX, $7,000, 44,500 mi (manual transmission, flagged on its card). The Sep 28, 2026 listings were not re-verified and are presumed sold, so they are not included.
+Honest headline for the Oct 31 sweep: **6 of 10 listings meet all must-haves** — led by the 2021 Kia Forte GT-Line in Katy ($9,500, 79,000 mi, grade A, 34.2% below estimate). The Oct 26 star, the 2019 Forte FE in Spring, has sold; 16 listings found this week were excluded under the reliability/title rule and are not shown. One Oct 26 listing (the 2018 Ford Fusion in Richmond) was re-verified Oct 31 and is included; the other Oct 26 listings were not re-verified and are not included.
 
 ## What's inside
 
 | File | What it is |
 |---|---|
-| `index.html` | The dashboard — Listings tab (filters: max price, max mileage, model, hybrid only, Android Auto confirmed-by-matrix, meets-criteria only, underpriced only; sort by price / mileage / discount / pref score) and FAQ & Help tab. Self-contained, no frameworks, works on mobile; listing text is in the page even with JavaScript off. |
-| `data/listings.json` | The 32 fresh Oct 26 records, fixed schema, unchanged from the sweep. |
+| `index.html` | The dashboard — Listings tab (filters: max price, max mileage, model, hybrid only, Android Auto confirmed-by-matrix, meets-criteria only, underpriced only; sort by grade / price / mileage / discount) and FAQ & Help tab. Self-contained, no frameworks, works on mobile; listing text is in the page even with JavaScript off. |
+| `data/listings.json` | The 10 verified Oct 31 records, fixed schema, unchanged from the sweep. |
 | `docs/FAQ.md` | The same FAQ & Help content as the page, in Markdown. |
 | `docs/RESEARCH.md` | Expert dossiers condensed: pursue/avoid per model-year-engine with failure modes, hybrid battery notes, Houston flood/salvage notes, recall-confirm list, AA matrix with UNVERIFIED flags. |
 | `docs/METHOD.md` | How the sweep and refresh work: Pi-browser-only Facebook access + session rule, sweep method, fixed schema, matrix-over-seller-claim rule, data stamp rule, publish flow. |
 
-Key dashboard rules: Android Auto on each card is the expert matrix verdict for that year/trim (not the seller's claim — mismatches are flagged), and the underpriced flag is measured against comparable Marketplace asking prices seen in the same sweep, named in each record's notes.
+Key dashboard rules: Android Auto on each card is the expert matrix verdict for that year/trim (not the seller's claim — mismatches are flagged), the underpriced flag is measured against the market estimate (median of KBB, CarGurus, Edmunds and dealer comparable figures, named per record), and every card shows its A+ to F grade from the rubric in `docs/METHOD.md`.
 
 ## How it updates
 
