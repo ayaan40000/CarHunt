@@ -22,7 +22,7 @@ Honest headline for the Oct 31 sweep: **6 of 10 listings meet all must-haves** �
 
 | File | What it is |
 |---|---|
-| `index.html` | The dashboard — Listings tab (filters: max price, max mileage, model, hybrid only, Android Auto confirmed-by-matrix, meets-criteria only, underpriced only; sort by grade / price / mileage / discount) and FAQ & Help tab. Self-contained, no frameworks, works on mobile; listing text is in the page even with JavaScript off. |
+| `index.html` | The dashboard — Listings tab (filters: max price, max mileage, model, hybrid only, Android Auto confirmed-by-matrix, meets-criteria only, underpriced only; sort by grade / price / mileage / discount) and FAQ & Help tab. Self-contained, no frameworks, works on mobile; listing text is in the page even with JavaScript off. Marketplace links open the Facebook app on Android (web fallback if the app is missing). |
 | `data/listings.json` | The 10 verified Oct 31 records, fixed schema, unchanged from the sweep. |
 | `docs/FAQ.md` | The same FAQ & Help content as the page, in Markdown. |
 | `docs/RESEARCH.md` | Expert dossiers condensed: pursue/avoid per model-year-engine with failure modes, hybrid battery notes, Houston flood/salvage notes, recall-confirm list, AA matrix with UNVERIFIED flags. |

@@ -82,6 +82,10 @@ On a refresh, replace the date with the new sweep date. Never publish a dashboar
 
 The Oct 26 records carry no photo URLs, so the dashboard embeds no photos. If a future sweep records photo URLs, link/embed the URL only — never commit image binaries to this repo, and keep every file ≤ ~110 KB (files are uploaded individually).
 
+## Listing links — Facebook app on Android (owner rule, 2026-10-31)
+
+Card links stay as static `https://www.facebook.com/marketplace/item/<id>/` hrefs in the HTML. Every rebuild of `index.html` MUST keep the small app-link script block just before `</body>`: on Android it rewrites each Marketplace link to an `intent://` URL for the Facebook app (package `com.facebook.katana`) with the web URL as `browser_fallback_url`, so taps open the app and fall back to the browser if the app is missing. Desktop and no-JS keep the plain https links. If the script is missing from a rebuild, the links are wrong — treat it as a failed self-check.
+
 ## Publish flow
 
 1. Build/refresh files locally in this repo: `index.html`, `data/listings.json`, `docs/FAQ.md`, `docs/RESEARCH.md`, `docs/METHOD.md`, `README.md`.

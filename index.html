@@ -250,4 +250,19 @@ function apply(){
 }
 ['fPrice','fMiles','fModel','fSort','fHybrid','fAA','fMeets','fDeal'].forEach(function(id){document.getElementById(id).addEventListener('input',apply);document.getElementById(id).addEventListener('change',apply);});
 apply();
+</script>
+<script>
+// Owner rule (2026-10-31): Marketplace links open the Facebook app on Android.
+// Static hrefs stay https (desktop + no-JS safe); on Android they are rewritten
+// to intent:// URLs for the Facebook app with the web page as fallback.
+(function(){
+  if(!/Android/i.test(navigator.userAgent)) return;
+  document.querySelectorAll('a[href*="facebook.com/marketplace/item/"]').forEach(function(a){
+    var m=a.href.match(/marketplace\/item\/(\d+)/);
+    if(!m) return;
+    var web='https://www.facebook.com/marketplace/item/'+m[1]+'/';
+    a.href='intent://www.facebook.com/marketplace/item/'+m[1]+'/#Intent;scheme=https;package=com.facebook.katana;S.browser_fallback_url='+encodeURIComponent(web)+';end';
+    a.removeAttribute('target');
+  });
+})();
 </script></body></html>
