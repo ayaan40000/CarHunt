@@ -2,176 +2,254 @@
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Reliable Car Under $12K — Houston Dashboard (Oct 31, 2026)</title>
 <style>
-*{box-sizing:border-box}body{font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;margin:0;background:#f6f7f9;color:#17202a;line-height:1.45}
-header{background:#123524;color:#fff;padding:20px 16px}header h1{margin:0 0 6px;font-size:24px}header p{margin:4px 0;max-width:900px}
-.stamp{background:#fff3cd;border:2px solid #b58900;padding:10px 14px;font-weight:600}
-main{max-width:1100px;margin:0 auto;padding:14px}
-.tabs{display:flex;gap:8px;margin:12px 0}.tabs button,.filters button{padding:10px 14px;border-radius:8px;border:1px solid #888;background:#fff;cursor:pointer;font-size:15px}
-.tabs button.active{background:#123524;color:#fff}
-.filters{background:#fff;border:1px solid #ddd;border-radius:10px;padding:12px;display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:10px}
-.filters label{font-size:13px;font-weight:600;display:block}.filters input,.filters select{width:100%;padding:8px;margin-top:4px}
-.checks{display:flex;flex-wrap:wrap;gap:12px;margin-top:10px}.checks label{font-weight:400}
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px;margin-top:14px}
-.card{background:#fff;border:1px solid #ddd;border-radius:10px;padding:14px}.card h3{margin:0 0 6px;font-size:17px}
-.price{font-size:20px;font-weight:700}.muted{color:#5d6d7e;font-size:13px}.small{font-size:14px}
-.tag{display:inline-block;padding:2px 8px;border-radius:99px;background:#eaf2f8;font-size:12px;font-weight:700}
-.hyb{background:#d5f5e3}.meets{background:#145a32;color:#fff;padding:3px 8px;border-radius:6px;font-weight:700;font-size:13px}
-.badge-pursue{background:#145a32;color:#fff}.badge-caution{background:#f9e79f}.badge-avoid{background:#922b21;color:#fff}.grade{background:#1a5276;color:#fff}
-.deal{color:#7d6608;font-weight:700}.mismatch{display:block;background:#fadbd8;padding:4px 6px;border-radius:6px;font-weight:600}
-section.help{background:#fff;border:1px solid #ddd;border-radius:10px;padding:16px;margin-top:14px}
-table{border-collapse:collapse;width:100%;font-size:14px}th,td{border:1px solid #ccc;padding:6px;text-align:left;vertical-align:top}
-footer{padding:18px;color:#555;font-size:13px;text-align:center}a{color:#1a5276}
+:root{--ink:#17202a;--green:#123524;--green2:#145a32;--line:#d5dcd2;--bg:#eef1ec;--muted:#4d5a66;--steel:#1a5276}
+*{box-sizing:border-box}
+body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;margin:0;background:var(--bg);color:var(--ink);line-height:1.45;font-size:16px;-webkit-text-size-adjust:100%}
+header{background:var(--green);color:#fff;padding:18px 16px 16px}
+header h1{margin:0 0 8px;font-size:22px;line-height:1.25}
+header p{margin:6px 0;max-width:900px;font-size:15px;color:#e3ede3}
+.stamp{background:#fff3cd;border-bottom:3px solid #b58900;color:#4a3800;padding:12px 16px;font-weight:600;font-size:14.5px}
+main{max-width:1140px;margin:0 auto;padding:10px 12px 20px}
+/* Sticky phone-first control deck: tabs + sort + filters toggle */
+.stickyhead{position:sticky;top:0;z-index:30;background:var(--bg);padding:8px 0 10px;border-bottom:1px solid var(--line)}
+.tabs{display:flex;gap:8px}
+.tabs button{flex:1;min-height:48px;padding:10px 12px;border-radius:10px;border:1.5px solid #9db3a4;background:#fff;color:var(--green);cursor:pointer;font-size:16px;font-weight:700;transition:background-color .15s ease,color .15s ease}
+.tabs button.active{background:var(--green);color:#fff;border-color:var(--green)}
+.tabs button:active{filter:brightness(.94)}
+.bar-row{display:flex;gap:8px;margin-top:10px;align-items:flex-end}
+.sortwrap{flex:1;min-width:0}
+.sortwrap label{font-size:12.5px;font-weight:700;color:var(--muted);display:block}
+.sortwrap select{width:100%;min-height:48px;margin-top:3px;padding:10px;font-size:16px;border:1.5px solid #9db3a4;border-radius:10px;background:#fff;color:var(--ink)}
+.filters-btn{min-height:48px;padding:10px 18px;border-radius:10px;border:1.5px solid var(--green);background:#fff;color:var(--green);cursor:pointer;font-size:16px;font-weight:700;display:inline-flex;align-items:center;gap:8px;transition:background-color .15s ease}
+.filters-btn:active{background:#e2ecdf}
+.fbadge{background:var(--green);color:#fff;border-radius:99px;min-width:24px;height:24px;display:inline-flex;align-items:center;justify-content:center;font-size:13px;font-weight:800;padding:0 6px}
+.fbadge[hidden]{display:none}
+.filters{margin-top:10px;background:#fff;border:1px solid var(--line);border-radius:12px;padding:14px;max-height:62vh;overflow-y:auto}
+.filters.collapsed{display:none}
+.fgrid{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.fgrid .wide{grid-column:1/-1}
+.filters label{font-size:13px;font-weight:600;display:block}
+.filters input,.filters select{width:100%;min-height:48px;padding:10px;margin-top:4px;font-size:16px;border:1.5px solid #b7c0b2;border-radius:10px;background:#fff;color:var(--ink)}
+.checks{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.checks label{position:relative;display:inline-flex;align-items:center;min-height:48px;padding:10px 14px;border:1.5px solid #9db3a4;border-radius:99px;background:#fff;font-size:15px;font-weight:600;cursor:pointer}
+.checks input{position:absolute;opacity:0;width:1px;height:1px;margin:0}
+.checks label:has(input:checked){background:var(--green);color:#fff;border-color:var(--green)}
+.checks label:has(input:checked)::before{content:"✓ "}
+.checks label:has(input:focus-visible){outline:3px solid #2f7d4f;outline-offset:2px}
+.filters .small{margin:12px 0 0}
+#count{font-size:14px;font-weight:600;color:var(--muted);margin:10px 2px 0}
+/* Cards */
+.grid{display:grid;grid-template-columns:1fr;gap:14px;margin-top:14px}
+.card{background:#fff;border:1px solid var(--line);border-top:5px solid #9db3a4;border-radius:14px;padding:16px;display:flex;flex-direction:column;box-shadow:0 1px 3px rgba(18,53,36,.10)}
+.card[data-grade^="A"]{border-top-color:#1e7a3c}
+.card[data-grade^="B"]{border-top-color:#1a5276}
+.card[data-grade^="C"]{border-top-color:#b58900}
+.card[data-grade^="D"]{border-top-color:#c05621}
+.card[data-grade="F"]{border-top-color:#922b21}
+.card h3{margin:0 0 8px;font-size:18px;line-height:1.3}
+.card p{margin:0 0 9px}
+.price{font-size:27px;font-weight:800;line-height:1.2;margin:0 0 10px}
+.price .muted{font-size:15px;font-weight:600}
+.badges{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:0 0 10px}
+.muted{color:var(--muted);font-size:13px}
+.small{font-size:14.5px}
+.tag{display:inline-block;padding:3px 9px;border-radius:99px;background:#eaf2f8;font-size:12.5px;font-weight:700}
+.hyb{background:#d5f5e3}
+.meets{background:var(--green2);color:#fff;padding:7px 10px;border-radius:8px;font-weight:700;font-size:13px}
+.badge-pursue{background:#145a32;color:#fff}.badge-caution{background:#f9e79f}.badge-avoid{background:#922b21;color:#fff}
+.tag.grade{font-size:15px;padding:7px 13px;border-radius:8px;color:#fff;background:var(--steel)}
+.card[data-grade^="A"] .tag.grade{background:#145a32}
+.card[data-grade^="B"] .tag.grade{background:#1a5276}
+.card[data-grade^="C"] .tag.grade{background:#8a5a00}
+.card[data-grade^="D"] .tag.grade{background:#a83e0c}
+.card[data-grade="F"] .tag.grade{background:#922b21}
+.deal{display:inline-block;background:#e6f4ea;color:#14532d;padding:8px 10px;border-radius:8px;font-weight:700}
+.mismatch{display:block;background:#fadbd8;padding:8px 10px;border-radius:6px;font-weight:600}
+.cta-wrap{margin:6px 0 2px}
+.cta{display:flex;align-items:center;justify-content:center;min-height:52px;padding:12px;background:var(--steel);color:#fff;font-weight:700;font-size:16px;border-radius:10px;text-decoration:none;transition:background-color .15s ease}
+.cta:active{background:#123c56}
+.card details{margin-top:10px;border-top:1px solid var(--line);padding-top:4px}
+.card summary{min-height:44px;display:flex;align-items:center;font-weight:700;font-size:15px;color:var(--green);cursor:pointer}
+.card details p{margin:4px 0 8px}
+/* FAQ */
+section.help{background:#fff;border:1px solid var(--line);border-radius:14px;padding:18px 16px;margin-top:14px}
+section.help h2{margin:0 0 10px;font-size:20px}
+section.help h3{margin:20px 0 8px;font-size:16.5px}
+section.help li{margin-bottom:6px}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{border:1px solid #c9d2c6;padding:7px 6px;text-align:left;vertical-align:top}
+th{background:#eef3ee}
+footer{padding:18px 14px;color:#555;font-size:13px;text-align:center}
+a{color:var(--steel)}
+:focus-visible{outline:3px solid #2f7d4f;outline-offset:2px}
+@media (min-width:720px){
+ .grid{grid-template-columns:repeat(2,1fr)}
+ .fgrid{grid-template-columns:repeat(3,1fr)}
+ .fgrid .wide{grid-column:auto}
+ header h1{font-size:26px}
+}
+@media (min-width:1024px){.grid{grid-template-columns:repeat(3,1fr)}}
+@media (prefers-reduced-motion: reduce){*{transition:none!important}}
 </style></head><body>
 <header><h1>Reliable car under $12,000 — Houston</h1>
 <p>Cash, any body type except trucks and compact hatchbacks, under $12,000, at most 100,000 miles, factory Android Auto + reverse camera required. Private sellers and gas/hybrid preferred. Models with reliability concerns or major recalls are excluded outright.</p>
 <p><b>Honest headline:</b> 6 of these 10 cars meet ALL must-haves — led by the 2021 Kia Forte GT-Line in Katy ($9,500, 79,000 mi, grade A, 34.2% below estimate). The Oct 26 star, the 2019 Forte FE in Spring, has sold. 16 listings found this week were excluded under the reliability/title rule (13 branded or prior-total-loss titles, 3 excluded engines) — they are not shown.</p></header>
 <div class="stamp">Listings from Facebook Marketplace sweep, Oct 31, 2026 — listings sell fast; a car shown here may already be gone.</div>
 <main>
+<div class="stickyhead">
 <nav class="tabs"><button id="tabList" class="active" onclick="showTab('list')">Listings (10)</button><button id="tabFaq" onclick="showTab('faq')">FAQ &amp; Help</button></nav>
-
-<div id="view-list">
+<div class="toolbar" id="toolbar">
+<div class="bar-row">
+<div class="sortwrap"><label>Sort by <select id="fSort"><option value="">Default (grade, then discount)</option><option value="price">Price, low first</option><option value="miles">Mileage, low first</option><option value="discount">Discount %, high first</option><option value="pref">Pref score, high first</option><option value="grade">Grade, then discount</option></select></label></div>
+<button type="button" class="filters-btn" id="filtersBtn" aria-expanded="true" aria-controls="filters">Filters<span class="fbadge" id="fBadge" hidden></span></button>
+</div>
 <div class="filters" id="filters">
-<div><label>Max price ($) <input type="number" id="fPrice" placeholder="12000"></label></div>
-<div><label>Max mileage <input type="number" id="fMiles" placeholder="100000"></label></div>
-<div><label>Model <select id="fModel"><option value="">All models</option><option value="Ford Fusion">Ford Fusion</option><option value="Hyundai Elantra">Hyundai Elantra</option><option value="Hyundai Sonata">Hyundai Sonata</option><option value="Kia Forte">Kia Forte</option></select></label></div>
-<div><label>Sort by <select id="fSort"><option value="">Default (grade, then discount)</option><option value="price">Price, low first</option><option value="miles">Mileage, low first</option><option value="discount">Discount %, high first</option><option value="pref">Pref score, high first</option><option value="grade">Grade, then discount</option></select></label></div>
+<div class="fgrid">
+<div><label>Max price ($) <input type="number" id="fPrice" placeholder="12000" inputmode="numeric"></label></div>
+<div><label>Max mileage <input type="number" id="fMiles" placeholder="100000" inputmode="numeric"></label></div>
+<div class="wide"><label>Model <select id="fModel"><option value="">All models</option><option value="Ford Fusion">Ford Fusion</option><option value="Hyundai Elantra">Hyundai Elantra</option><option value="Hyundai Sonata">Hyundai Sonata</option><option value="Kia Forte">Kia Forte</option></select></label></div>
+</div>
 <div class="checks">
 <label><input type="checkbox" id="fHybrid"> Hybrid only</label>
 <label><input type="checkbox" id="fAA"> Android Auto confirmed by matrix</label>
 <label><input type="checkbox" id="fMeets"> Meets all criteria only</label>
 <label><input type="checkbox" id="fDeal"> Underpriced (deal flag) only</label>
 </div>
-<p class="small muted" style="grid-column:1/-1">“Underpriced” = asking price at least 10% below the market estimate (median of KBB, CarGurus, Edmunds and dealer comparable figures, named on each card). A discount can also be a warning (rebuilt title, bad miles) — read the card. Android Auto on every card is the expert matrix verdict for that year/trim, not the seller’s claim. Grades follow the A+ to F rubric in docs/METHOD.md: base from discount, adjusted for reliability, mileage, seller type and not-preferred penalties; unconfirmed or missing must-haves cap the grade at C+. No photos are embedded: the sweep records carried no photo URLs.</p>
+<p class="small muted">“Underpriced” = asking price at least 10% below the market estimate (median of KBB, CarGurus, Edmunds and dealer comparable figures, named on each card). A discount can also be a warning (rebuilt title, bad miles) — read the card. Android Auto on every card is the expert matrix verdict for that year/trim, not the seller’s claim. Grades follow the A+ to F rubric in docs/METHOD.md: base from discount, adjusted for reliability, mileage, seller type and not-preferred penalties; unconfirmed or missing must-haves cap the grade at C+. No photos are embedded: the sweep records carried no photo URLs.</p>
 </div>
 <p id="count" class="small"></p>
+</div>
+</div>
+
+<div id="view-list">
 <div class="grid" id="grid"><article class="card" data-price="9500" data-miles="79000" data-model="Kia Forte" data-hybrid="false" data-aa="confirmed" data-meets="true" data-deal="true" data-pref="5" data-discount="34.2" data-grade="A">
 <h3>2021 Kia Forte GT-Line Sedan 4D</h3>
 <p class="price">$9,500 <span class="muted">· 79,000 mi · Katy, TX</span></p>
-<p><span class="tag grade">Grade A</span> <span class='meets'>✓ MEETS ALL MUST-HAVES</span></p>
+<p class="badges"><span class="tag grade">Grade A</span> <span class='meets'>✓ MEETS ALL MUST-HAVES</span></p>
 <p class="small"><b>Why:</b> Forte value pick: AA + lane-keeping standard, simple 2.0L</p>
 <p class="small"><b>Miss / note:</b> ✓ Meets all must-haves</p>
 <p class="small"><b>Android Auto:</b> AA confirmed — 2019+ Forte: all trims standard (same generation)<br></p>
 <p class="small">Reverse camera: Yes · Lane assist: Yes · Reliability: 4/5 · Pref score: 5/10</p>
 <p class="small"><span class='deal'>★ Underpriced — 34.2% below market est. $14,440</span><br><span class="muted">Market basis: KBB resale value, CarGurus average asking price, dealer comparable listing.</span></p>
 <p class="small muted">Seller: Katherine Miranda (private seller, Facebook Marketplace)</p>
-<p><a href="https://www.facebook.com/marketplace/item/2137005053575052/" target="_blank" rel="noopener">View on Facebook Marketplace →</a></p>
+<p class="cta-wrap"><a class="cta" href="https://www.facebook.com/marketplace/item/2137005053575052/" target="_blank" rel="noopener">View on Facebook Marketplace →</a></p>
 <details><summary>Full sweep notes</summary><p class="small">MEETS all must-haves. Clear history, no significant damage stated. Android Auto and backup camera are factory standard on all 2021 Forte trims (same generation as the 2019 redesign; matrix covers 2019 all-trim standard). Lane-keeping standard on Forte since 2019. Title not explicitly stated as clean (FB shows clear history only) — verify the physical title brand before money moves. Market estimate $14,440 = median of KBB 2021 Forte resale $11,450, CarGurus 2021 Forte average asking $14,440, dealer 2021 GT-Line 68,607 mi $15,600. Grade A: base A (34.2% under) + private seller, capped below A+ because reliability is 4, not 5.</p></details>
 </article>
 <article class="card" data-price="10500" data-miles="35000" data-model="Kia Forte" data-hybrid="false" data-aa="confirmed" data-meets="true" data-deal="true" data-pref="6" data-discount="27.3" data-grade="A">
 <h3>2021 Kia Forte GT-Line Sedan 4D</h3>
 <p class="price">$10,500 <span class="muted">· 35,000 mi · Houston, TX</span></p>
-<p><span class="tag grade">Grade A</span> <span class='meets'>✓ MEETS ALL MUST-HAVES</span></p>
+<p class="badges"><span class="tag grade">Grade A</span> <span class='meets'>✓ MEETS ALL MUST-HAVES</span></p>
 <p class="small"><b>Why:</b> Forte value pick: AA + lane-keeping standard, simple 2.0L</p>
 <p class="small"><b>Miss / note:</b> ✓ Meets all must-haves</p>
 <p class="small"><b>Android Auto:</b> AA confirmed — 2019+ Forte: all trims standard (same generation)<br></p>
 <p class="small">Reverse camera: Yes · Lane assist: Yes · Reliability: 4/5 · Pref score: 6/10</p>
 <p class="small"><span class='deal'>★ Underpriced — 27.3% below market est. $14,440</span><br><span class="muted">Market basis: KBB resale value, CarGurus average asking price, dealer comparable listing.</span></p>
 <p class="small muted">Seller: Wisam Nassar (private seller, Facebook Marketplace)</p>
-<p><a href="https://www.facebook.com/marketplace/item/1778585043338605/" target="_blank" rel="noopener">View on Facebook Marketplace →</a></p>
+<p class="cta-wrap"><a class="cta" href="https://www.facebook.com/marketplace/item/1778585043338605/" target="_blank" rel="noopener">View on Facebook Marketplace →</a></p>
 <details><summary>Full sweep notes</summary><p class="small">MEETS all must-haves. Seller states Apple CarPlay/Android Auto and backup camera, cash price. Leather seats, sunroof, keyless entry. Title not stated — verify the physical title brand before money moves. Market estimate $14,440 = median of KBB 2021 Forte resale $11,450, CarGurus 2021 Forte average asking $14,440, dealer 2021 GT-Line 68,607 mi $15,600. Grade A: base A (27.3% under) + low miles + private seller, capped below A+ because reliability is 4, not 5.</p></details>
 </article>
 <article class="card" data-price="8900" data-miles="31000" data-model="Kia Forte" data-hybrid="false" data-aa="confirmed" data-meets="true" data-deal="true" data-pref="5" data-discount="23.6" data-grade="A">
 <h3>2020 Kia Forte LXS Sedan 4D</h3>
 <p class="price">$8,900 <span class="muted">· 31,000 mi · Tomball, TX</span></p>
-<p><span class="tag grade">Grade A</span> <span class='meets'>✓ MEETS ALL MUST-HAVES</span></p>
+<p class="badges"><span class="tag grade">Grade A</span> <span class='meets'>✓ MEETS ALL MUST-HAVES</span></p>
 <p class="small"><b>Why:</b> Forte value pick: AA + lane-keeping standard, simple 2.0L</p>
 <p class="small"><b>Miss / note:</b> ✓ Meets all must-haves</p>
 <p class="small"><b>Android Auto:</b> AA confirmed — 2019+ Forte: all trims standard (same generation)<br></p>
 <p class="small">Reverse camera: Yes · Lane assist: Yes · Reliability: 3.5/5 · Pref score: 5/10</p>
 <p class="small"><span class='deal'>★ Underpriced — 23.6% below market est. $11,650</span><br><span class="muted">Market basis: KBB Fair Purchase Price, KBB resale value, CarGurus average asking price.</span></p>
 <p class="small muted">Seller: Fernando Valde (private seller, Facebook Marketplace)</p>
-<p><a href="https://www.facebook.com/marketplace/item/1625691275824447/" target="_blank" rel="noopener">View on Facebook Marketplace →</a></p>
+<p class="cta-wrap"><a class="cta" href="https://www.facebook.com/marketplace/item/1625691275824447/" target="_blank" rel="noopener">View on Facebook Marketplace →</a></p>
 <details><summary>Full sweep notes</summary><p class="small">MEETS all must-haves. Seller states 2.0 engine, automatic, 31k original miles, front and rear cameras, Apple CarPlay and Android Auto, cold AC, warranty. Title not stated — verify the physical title brand before money moves. Market estimate $11,650 = median of KBB 2020 Forte LXS Fair Purchase Price $11,650, KBB 2020 Forte resale $10,400, CarGurus 2020 Forte average asking $13,293. Grade A: base B+ (23.6% under) + low miles + private seller. Reliability 3.5 = Forte family value (CR 3/5 for 2019-20).</p></details>
 </article>
 <article class="card" data-price="9800" data-miles="84472" data-model="Kia Forte" data-hybrid="false" data-aa="confirmed" data-meets="true" data-deal="true" data-pref="5" data-discount="24.5" data-grade="A-">
 <h3>2021 Kia Forte S Sedan 4D</h3>
 <p class="price">$9,800 <span class="muted">· 84,472 mi · Houston, TX</span></p>
-<p><span class="tag grade">Grade A-</span> <span class='meets'>✓ MEETS ALL MUST-HAVES</span></p>
+<p class="badges"><span class="tag grade">Grade A-</span> <span class='meets'>✓ MEETS ALL MUST-HAVES</span></p>
 <p class="small"><b>Why:</b> Forte value pick: AA + lane-keeping standard, simple 2.0L</p>
 <p class="small"><b>Miss / note:</b> ✓ Meets all must-haves</p>
 <p class="small"><b>Android Auto:</b> AA confirmed — 2019+ Forte: all trims standard (same generation)<br></p>
 <p class="small">Reverse camera: Yes · Lane assist: Yes · Reliability: 4/5 · Pref score: 5/10</p>
 <p class="small"><span class='deal'>★ Underpriced — 24.5% below market est. $12,984</span><br><span class="muted">Market basis: KBB resale value, CarGurus average asking price, dealer comparable listing.</span></p>
 <p class="small muted">Seller: Edward Asamoah (private seller, Facebook Marketplace)</p>
-<p><a href="https://www.facebook.com/marketplace/item/1833749960971879/" target="_blank" rel="noopener">View on Facebook Marketplace →</a></p>
+<p class="cta-wrap"><a class="cta" href="https://www.facebook.com/marketplace/item/1833749960971879/" target="_blank" rel="noopener">View on Facebook Marketplace →</a></p>
 <details><summary>Full sweep notes</summary><p class="small">MEETS all must-haves. Clean title seller-stated, paid off, backup camera seller-stated. Android Auto factory standard on all 2021 Forte trims (same generation as the 2019 redesign). Market estimate $12,984 = median of KBB 2021 Forte resale $11,450, CarGurus 2021 Forte average asking $14,440, dealer 2021 GT-Line 60.7k mi $12,984. Grade A-: base B+ (24.5% under) + private seller. Reliability 4 = CR 4/5 for 2021 Forte.</p></details>
 </article>
 <article class="card" data-price="11500" data-miles="70000" data-model="Hyundai Sonata" data-hybrid="false" data-aa="confirmed" data-meets="true" data-deal="true" data-pref="5" data-discount="19.6" data-grade="A-">
 <h3>2022 Hyundai Sonata SEL Sedan 4D</h3>
 <p class="price">$11,500 <span class="muted">· 70,000 mi · Richmond, TX</span></p>
-<p><span class="tag grade">Grade A-</span> <span class='meets'>✓ MEETS ALL MUST-HAVES</span></p>
+<p class="badges"><span class="tag grade">Grade A-</span> <span class='meets'>✓ MEETS ALL MUST-HAVES</span></p>
 <p class="small"><b>Why:</b> 2022 Sonata SEL: 2.5L Smartstream (not Theta II), AA + safety kit standard</p>
 <p class="small"><b>Miss / note:</b> ✓ Meets all must-haves</p>
 <p class="small"><b>Android Auto:</b> AA confirmed — 2022 Sonata: standard on SE and above<br></p>
 <p class="small">Reverse camera: Yes · Lane assist: Yes · Reliability: 4/5 · Pref score: 5/10</p>
 <p class="small"><span class='deal'>★ Underpriced — 19.6% below market est. $14,300</span><br><span class="muted">Market basis: KBB Fair Purchase Price, KBB resale value, Edmunds trade-in value.</span></p>
 <p class="small muted">Seller: Ahmed Sam (private seller, Facebook Marketplace)</p>
-<p><a href="https://www.facebook.com/marketplace/item/2099246277666831/" target="_blank" rel="noopener">View on Facebook Marketplace →</a></p>
+<p class="cta-wrap"><a class="cta" href="https://www.facebook.com/marketplace/item/2099246277666831/" target="_blank" rel="noopener">View on Facebook Marketplace →</a></p>
 <details><summary>Full sweep notes</summary><p class="small">MEETS all must-haves. Seller states rear camera, front radar, blind spot, lane departure, keyless entry. Android Auto factory standard on 2022 Sonata (SE and SEL: 8-inch touchscreen with Apple CarPlay/Android Auto; SEL adds blind-spot and lane-keeping). Engine is the 2.5L Smartstream (191 hp), NOT the excluded Theta II family (2011-2019). Title not stated — verify the physical title brand before money moves. Caution: seller account joined Facebook in 2026. Market estimate $14,300 = median of KBB 2022 Sonata SEL Fair Purchase Price $17,000, KBB 2022 Sonata resale $14,300, Edmunds 2022 Sonata SEL trade-in $11,839. Grade A-: base B+ (19.6% under) + private seller. Reliability 4 = RepairPal Sonata 4/5.</p></details>
 </article>
 <article class="card" data-price="11900" data-miles="57000" data-model="Kia Forte" data-hybrid="false" data-aa="confirmed" data-meets="true" data-deal="true" data-pref="5" data-discount="15.9" data-grade="A-">
 <h3>2023 Kia Forte LXS Sedan 4D</h3>
 <p class="price">$11,900 <span class="muted">· 57,000 mi · Richmond, TX</span></p>
-<p><span class="tag grade">Grade A-</span> <span class='meets'>✓ MEETS ALL MUST-HAVES</span></p>
+<p class="badges"><span class="tag grade">Grade A-</span> <span class='meets'>✓ MEETS ALL MUST-HAVES</span></p>
 <p class="small"><b>Why:</b> Forte value pick: AA + lane-keeping standard, simple 2.0L</p>
 <p class="small"><b>Miss / note:</b> ✓ Meets all must-haves</p>
 <p class="small"><b>Android Auto:</b> AA confirmed — 2019+ Forte: all trims standard (same generation)<br></p>
 <p class="small">Reverse camera: Yes · Lane assist: Yes · Reliability: 4/5 · Pref score: 5/10</p>
 <p class="small"><span class='deal'>★ Underpriced — 15.9% below market est. $14,150</span><br><span class="muted">Market basis: KBB Fair Purchase Price, KBB resale value, Edmunds retail value.</span></p>
 <p class="small muted">Seller: John Joseph (private seller, Facebook Marketplace)</p>
-<p><a href="https://www.facebook.com/marketplace/item/941745025677309/" target="_blank" rel="noopener">View on Facebook Marketplace →</a></p>
+<p class="cta-wrap"><a class="cta" href="https://www.facebook.com/marketplace/item/941745025677309/" target="_blank" rel="noopener">View on Facebook Marketplace →</a></p>
 <details><summary>Full sweep notes</summary><p class="small">MEETS all must-haves. Paid off, clear history, no significant damage stated; listing description is empty. Android Auto and backup camera factory standard on 2023 Forte (same generation as the 2019 redesign). Title not explicitly stated as clean — verify the physical title brand before money moves. Market estimate $14,150 = median of KBB 2023 Forte LXS Fair Purchase Price $16,250, KBB 2023 Forte resale $14,150, Edmunds 2023 Forte LXS retail $11,949. Grade A-: base B (15.9% under) + low miles + private seller. Reliability 4 = Forte family estimate (CR 4/5 for 2021).</p></details>
 </article>
 <article class="card" data-price="5900" data-miles="55000" data-model="Ford Fusion" data-hybrid="false" data-aa="unconfirmed" data-meets="false" data-deal="true" data-pref="1" data-discount="44.3" data-grade="C+">
 <h3>2018 Ford Fusion Not stated</h3>
 <p class="price">$5,900 <span class="muted">· 55,000 mi · Richmond, TX</span></p>
-<p><span class="tag grade">Grade C+</span> </p>
+<p class="badges"><span class="tag grade">Grade C+</span> </p>
 <p class="small"><b>Why:</b> Fusion — verify trim, screen and engine before treating as a deal</p>
 <p class="small"><b>Miss / note:</b> Android Auto unconfirmed · backup camera unconfirmed · engine not stated — verify before buying</p>
 <p class="small"><b>Android Auto:</b> Not confirmed — trim not stated / SE small screen (verify on car)<br></p>
 <p class="small">Reverse camera: Not stated · Lane assist: Not stated · Reliability: 3.5/5 · Pref score: 1/10</p>
 <p class="small"><span class='deal'>★ Underpriced — 44.3% below market est. $10,590</span><br><span class="muted">Market basis: KBB Fair Purchase Price, KBB resale value, CarGurus average asking price.</span></p>
 <p class="small muted">Seller: Sandoval Fernando (private seller, Facebook Marketplace)</p>
-<p><a href="https://www.facebook.com/marketplace/item/1103093259359456/" target="_blank" rel="noopener">View on Facebook Marketplace →</a></p>
+<p class="cta-wrap"><a class="cta" href="https://www.facebook.com/marketplace/item/1103093259359456/" target="_blank" rel="noopener">View on Facebook Marketplace →</a></p>
 <details><summary>Full sweep notes</summary><p class="small">VERIFY CANDIDATE — re-verified Oct 31 (also listed Oct 26). Price, miles and clean title all pass, 1 owner, clear history, paid off. Does NOT meet criteria because trim is not stated, so factory Android Auto and backup camera cannot be confirmed, and the engine is not stated — a Fusion of this year could carry the excluded 1.5L EcoBoost, so verify engine and screen before buying. Duplicate listing also live under a second ID (same seller/price/miles) — count once. Market estimate $10,590 = median of KBB 2018 Fusion SE Fair Purchase Price $10,590, KBB 2018 SE Fair Purchase Price (national) $10,150, KBB 2018 Fusion resale $8,775, CarGurus 2018 Fusion Houston average $12,275, CarGurus 2018 Fusion current average $11,407 (SE figure used as proxy; trim unstated). Grade C+: computed A before the unconfirmed-must-have cap.</p></details>
 </article>
 <article class="card" data-price="6000" data-miles="45000" data-model="Hyundai Elantra" data-hybrid="false" data-aa="unconfirmed" data-meets="false" data-deal="true" data-pref="3" data-discount="32.8" data-grade="C+">
 <h3>2019 Hyundai Elantra SE Sedan 4D</h3>
 <p class="price">$6,000 <span class="muted">· 45,000 mi · Missouri City, TX</span></p>
-<p><span class="tag grade">Grade C+</span> </p>
+<p class="badges"><span class="tag grade">Grade C+</span> </p>
 <p class="small"><b>Why:</b> Elantra value pick — but SE trim and the 21V-301 recall need checks</p>
 <p class="small"><b>Miss / note:</b> Android Auto unconfirmed · see notes</p>
 <p class="small"><b>Android Auto:</b> Not confirmed — trim not stated / SE small screen (verify on car)<br></p>
 <p class="small">Reverse camera: Yes · Lane assist: Not stated · Reliability: 3.5/5 · Pref score: 3/10</p>
 <p class="small"><span class='deal'>★ Underpriced — 32.8% below market est. $8,925</span><br><span class="muted">Market basis: KBB Fair Purchase Price, KBB resale value, iSeeCars price range.</span></p>
 <p class="small muted">Seller: Mike Eze (private seller, Facebook Marketplace)</p>
-<p><a href="https://www.facebook.com/marketplace/item/988472907230813/" target="_blank" rel="noopener">View on Facebook Marketplace →</a></p>
+<p class="cta-wrap"><a class="cta" href="https://www.facebook.com/marketplace/item/988472907230813/" target="_blank" rel="noopener">View on Facebook Marketplace →</a></p>
 <details><summary>Full sweep notes</summary><p class="small">Does NOT meet criteria: 2019 Elantra SE has the small screen in most builds, so factory Android Auto is unconfirmed (SEL and above are the AA trims). Backup camera confirmed by the 2019+ federal standard. Price dropped from $6,500 to $6,000. Title not stated — verify the physical title brand. MUST VERIFY BEFORE BUYING: piston oil-ring recall NHTSA 21V-301 covers certain 2019-2020 Elantra 2.0L Nu MPI — demand dealer/NHTSA proof of completion; do not take the seller&#x27;s word. Market estimate $8,925 = median of KBB 2019 Elantra SE Fair Purchase Price $10,150, KBB 2019 Elantra resale $8,925, iSeeCars 2019 Elantra SE range low $8,800. Grade C+: computed A before the unconfirmed-must-have cap.</p></details>
 </article>
 <article class="card" data-price="7500" data-miles="86615" data-model="Ford Fusion" data-hybrid="false" data-aa="none" data-meets="false" data-deal="true" data-pref="1" data-discount="23.3" data-grade="C+">
 <h3>2018 Ford Fusion S Sedan 4D</h3>
 <p class="price">$7,500 <span class="muted">· 86,615 mi · Houston, TX</span></p>
-<p><span class="tag grade">Grade C+</span> </p>
+<p class="badges"><span class="tag grade">Grade C+</span> </p>
 <p class="small"><b>Why:</b> Fusion — verify trim, screen and engine before treating as a deal</p>
 <p class="small"><b>Miss / note:</b> no factory Android Auto on this trim · backup camera unconfirmed · engine not stated — verify before buying</p>
 <p class="small"><b>Android Auto:</b> No AA by matrix — 2018 Fusion S: 4.2-inch SYNC screen (verify on car)<br></p>
 <p class="small">Reverse camera: Not stated · Lane assist: Not stated · Reliability: 3.5/5 · Pref score: 1/10</p>
 <p class="small"><span class='deal'>★ Underpriced — 23.3% below market est. $9,775</span><br><span class="muted">Market basis: KBB Fair Purchase Price, KBB resale value, CarGurus average asking price.</span></p>
 <p class="small muted">Seller: Danyelle Ann (dealer, Facebook Marketplace)</p>
-<p><a href="https://www.facebook.com/marketplace/item/1552019169121297/" target="_blank" rel="noopener">View on Facebook Marketplace →</a></p>
+<p class="cta-wrap"><a class="cta" href="https://www.facebook.com/marketplace/item/1552019169121297/" target="_blank" rel="noopener">View on Facebook Marketplace →</a></p>
 <details><summary>Full sweep notes</summary><p class="small">Does NOT meet criteria: S trim carries the 4.2-inch SYNC screen per the expert matrix — no factory Android Auto on this trim (verify the screen on the car; a SYNC 3 car would change this). Backup camera unconfirmed. Engine is the 2.5L on the S trim (the reliable Fusion engine), but the listing does not state it. Seller states a used-car lot and financing — dealer. Title not stated — verify the physical title brand. Market estimate $9,775 = median of KBB 2018 Fusion S Fair Purchase Price $9,775, KBB 2018 Fusion resale $8,775, CarGurus 2018 Fusion current average $11,407. Grade C+: computed B+ before the must-have cap (AA confirmed absent on this trim).</p></details>
 </article>
 <article class="card" data-price="9400" data-miles="80443" data-model="Ford Fusion" data-hybrid="false" data-aa="unconfirmed" data-meets="false" data-deal="true" data-pref="2" data-discount="22.3" data-grade="C+">
 <h3>2020 Ford Fusion Not stated</h3>
 <p class="price">$9,400 <span class="muted">· 80,443 mi · Missouri City, TX</span></p>
-<p><span class="tag grade">Grade C+</span> </p>
+<p class="badges"><span class="tag grade">Grade C+</span> </p>
 <p class="small"><b>Why:</b> Fusion — verify trim, screen and engine before treating as a deal</p>
 <p class="small"><b>Miss / note:</b> Android Auto unconfirmed · engine not stated — verify before buying</p>
 <p class="small"><b>Android Auto:</b> Not confirmed — trim not stated / SE small screen (verify on car)<br></p>
 <p class="small">Reverse camera: Yes · Lane assist: Not stated · Reliability: 3.5/5 · Pref score: 2/10</p>
 <p class="small"><span class='deal'>★ Underpriced — 22.3% below market est. $12,100</span><br><span class="muted">Market basis: KBB Fair Purchase Price, KBB resale value, CarGurus average asking price.</span></p>
 <p class="small muted">Seller: Zoher Afan (private seller, Facebook Marketplace)</p>
-<p><a href="https://www.facebook.com/marketplace/item/1785137865839066/" target="_blank" rel="noopener">View on Facebook Marketplace →</a></p>
+<p class="cta-wrap"><a class="cta" href="https://www.facebook.com/marketplace/item/1785137865839066/" target="_blank" rel="noopener">View on Facebook Marketplace →</a></p>
 <details><summary>Full sweep notes</summary><p class="small">Does NOT meet criteria: trim is not stated, so factory Android Auto cannot be confirmed from the matrix. Backup camera confirmed by the 2019+ federal standard. Clean title seller-stated, clear history. Engine not stated — a 2020 Fusion could carry the 1.5L EcoBoost (SE standard engine), so verify the engine before buying. Market estimate $12,100 = median of KBB 2020 Fusion SE Fair Purchase Price $12,100, KBB 2020 Fusion resale $10,000, CarGurus 2020 Fusion average asking $14,090 (SE figure used as proxy; trim unstated). Grade C+: computed A- before the unconfirmed-must-have cap.</p></details>
 </article></div>
 </div>
@@ -236,7 +314,7 @@ footer{padding:18px;color:#555;font-size:13px;text-align:center}a{color:#1a5276}
 </main>
 <footer>Built from the Oct 31, 2026 Facebook Marketplace sweep + expert guide (2026-10-26). Research only — no seller was contacted. Full detail: docs/FAQ.md, docs/RESEARCH.md, docs/METHOD.md in this repo.</footer>
 <script>
-function showTab(t){document.getElementById('view-list').hidden=t!=='list';document.getElementById('view-faq').hidden=t!=='faq';document.getElementById('tabList').classList.toggle('active',t==='list');document.getElementById('tabFaq').classList.toggle('active',t==='faq');}
+function showTab(t){document.getElementById('view-list').hidden=t!=='list';document.getElementById('view-faq').hidden=t!=='faq';document.getElementById('toolbar').hidden=t!=='list';document.getElementById('tabList').classList.toggle('active',t==='list');document.getElementById('tabFaq').classList.toggle('active',t==='faq');}
 var grid=document.getElementById('grid');
 function apply(){
  var mp=parseFloat(document.getElementById('fPrice').value)||Infinity, mm=parseFloat(document.getElementById('fMiles').value)||Infinity, mo=document.getElementById('fModel').value;
@@ -247,9 +325,22 @@ function apply(){
  cards.sort(function(a,b){if(s==='price')return a.dataset.price-b.dataset.price; if(s==='miles')return a.dataset.miles-b.dataset.miles; if(s==='discount')return b.dataset.discount-a.dataset.discount; if(s==='pref')return b.dataset.pref-a.dataset.pref; var gr={'A+':0,'A':1,'A-':2,'B+':3,'B':4,'B-':5,'C+':6,'C':7,'C-':8,'D+':9,'D':10,'D-':11,'F':12}; if(s==='grade')return (gr[a.dataset.grade]-gr[b.dataset.grade])||(b.dataset.discount-a.dataset.discount); return (gr[a.dataset.grade]-gr[b.dataset.grade])||(b.dataset.discount-a.dataset.discount);}); cards.forEach(function(c){grid.appendChild(c)});
  var n=cards.filter(function(c){return c.style.display!=='none'}).length;
  document.getElementById('count').textContent='Showing '+n+' of 10 listings';
+ if(window.__setFilterBadge)window.__setFilterBadge((mp<Infinity?1:0)+(mm<Infinity?1:0)+(mo?1:0)+(hy?1:0)+(aa?1:0)+(me?1:0)+(de?1:0));
 }
 ['fPrice','fMiles','fModel','fSort','fHybrid','fAA','fMeets','fDeal'].forEach(function(id){document.getElementById(id).addEventListener('input',apply);document.getElementById(id).addEventListener('change',apply);});
 apply();
+</script>
+<script>
+// Phone-first toolbar: the Filters button collapses/expands the filter panel
+// (starts collapsed on narrow screens; with JS off the panel stays open) and
+// shows a badge with the number of active filters.
+(function(){
+  var panel=document.getElementById('filters'),btn=document.getElementById('filtersBtn'),badge=document.getElementById('fBadge');
+  function setOpen(o){panel.classList.toggle('collapsed',!o);btn.setAttribute('aria-expanded',o?'true':'false');}
+  btn.addEventListener('click',function(){setOpen(panel.classList.contains('collapsed'));});
+  if(window.innerWidth<720)setOpen(false);
+  window.__setFilterBadge=function(n){if(n>0){badge.textContent=n;badge.hidden=false;}else{badge.hidden=true;}};
+})();
 </script>
 <script>
 // Owner rule (2026-10-31): Marketplace links open the Facebook app on Android.
