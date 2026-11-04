@@ -1,5 +1,47 @@
 [
  {
+  "url": "https://www.facebook.com/marketplace/item/2085271345433565/",
+  "year": 2024,
+  "make": "Chevrolet",
+  "model": "Malibu",
+  "trim": "LT Sedan 4D",
+  "price": 9799,
+  "mileage": 52000,
+  "location": "Katy, TX",
+  "seller": "Mohlas McAdams (private seller, Facebook Marketplace)",
+  "hybrid": false,
+  "android_auto": true,
+  "reverse_cam": true,
+  "lane_assist": null,
+  "reliability_score": 3,
+  "market_value_estimate": 17033,
+  "discount_pct": 42.5,
+  "deal_flag": true,
+  "pref_score": 2,
+  "meets_criteria": true,
+  "notes": "MEETS all must-haves (seller-confirmed; re-verified live Nov 4, 2026). Seller states touchscreen with Apple CarPlay & Android Auto and back-up camera; 1.5L ECOTEC automatic, paid off, 2 owners, cash only. Market estimate $17,033 = median of TrueCar 2024 Malibu LT average $16,828, CarGurus comparable 2024 LT 52,155 mi $17,237, CarGurus 2024 Malibu average asking $18,386, Edmunds 2024 Malibu LT retail $13,532. Grade A: base A (42.5% under), one step down for reliability 3, one up for low miles, one up for private seller, capped below A+ because reliability is not 5. CAUTIONS: title brand unstated (only 'paid off') — verify the physical title and run NICB + NMVTIS before travelling; at 42.5% under estimate the price sits in the washed-title flag zone, so the discount is a warning as well as a bargain; no expert-matrix row exists for 2021+ Malibu, so Android Auto rests on the seller's explicit statement — plug-test in person; the 2024 1.5T is not the 2016-17 LSPI population, but a cold-start inspection for misfire/oil use still applies.",
+  "body_type": "Sedan",
+  "fuel": "Petrol",
+  "transmission": "Automatic",
+  "seller_type": "private",
+  "grade": "A",
+  "estimate_sources": "TrueCar average price, CarGurus comparable listing, CarGurus average asking price, Edmunds retail value",
+  "engine": "1.5L ECOTEC",
+  "engine_evidence": "Seller-stated ('1.5 ECOTEC'), re-read live 2026-11-04",
+  "title_status": "paid-off-only",
+  "title_evidence": "FB: paid off, 2 owners; title brand not stated (re-read live 2026-11-04)",
+  "verification_blockers": [
+   "Title brand unstated — verify the physical title, plus NICB + NMVTIS, before travelling",
+   "Price 42.5% under estimate sits in the washed-title flag zone",
+   "No expert-matrix row for 2021+ Malibu — Android Auto rests on the seller's statement; plug-test in person",
+   "1.5T: cold-start inspection for misfire/oil use"
+  ],
+  "first_seen_at": "2026-11-04",
+  "last_seen_at": "2026-11-04",
+  "last_verified_at": "2026-11-04",
+  "listing_status": "live-verified"
+ },
+ {
   "url": "https://www.facebook.com/marketplace/item/2137005053575052/",
   "year": 2021,
   "make": "Kia",
@@ -17,7 +59,7 @@
   "market_value_estimate": 14440,
   "discount_pct": 34.2,
   "deal_flag": true,
-  "pref_score": 5,
+  "pref_score": 3,
   "meets_criteria": true,
   "notes": "MEETS all must-haves. Clear history, no significant damage stated. Android Auto and backup camera are factory standard on all 2021 Forte trims (same generation as the 2019 redesign; matrix covers 2019 all-trim standard). Lane-keeping standard on Forte since 2019. Title not explicitly stated as clean (FB shows clear history only) — verify the physical title brand before money moves. Market estimate $14,440 = median of KBB 2021 Forte resale $11,450, CarGurus 2021 Forte average asking $14,440, dealer 2021 GT-Line 68,607 mi $15,600. Grade A: base A (34.2% under) + private seller, capped below A+ because reliability is 4, not 5.",
   "body_type": "Sedan",
@@ -25,7 +67,18 @@
   "transmission": "Automatic",
   "seller_type": "private",
   "grade": "A",
-  "estimate_sources": "KBB resale value, CarGurus average asking price, dealer comparable listing"
+  "estimate_sources": "KBB resale value, CarGurus average asking price, dealer comparable listing",
+  "engine": "2.0L",
+  "engine_evidence": "Trim-implied: GT-Line is the 2.0L NA trim (the turbo is the separate GT trim)",
+  "title_status": "clear-history-only",
+  "title_evidence": "FB shows clear history / no significant damage; a clean title brand is not explicitly stated",
+  "verification_blockers": [
+   "Title brand not explicitly stated — verify the physical title"
+  ],
+  "first_seen_at": "2026-10-31",
+  "last_seen_at": "2026-10-31",
+  "last_verified_at": "2026-10-31",
+  "listing_status": "not-rechecked-since-2026-10-31"
  },
  {
   "url": "https://www.facebook.com/marketplace/item/1778585043338605/",
@@ -45,7 +98,7 @@
   "market_value_estimate": 14440,
   "discount_pct": 27.3,
   "deal_flag": true,
-  "pref_score": 6,
+  "pref_score": 4,
   "meets_criteria": true,
   "notes": "MEETS all must-haves. Seller states Apple CarPlay/Android Auto and backup camera, cash price. Leather seats, sunroof, keyless entry. Title not stated — verify the physical title brand before money moves. Market estimate $14,440 = median of KBB 2021 Forte resale $11,450, CarGurus 2021 Forte average asking $14,440, dealer 2021 GT-Line 68,607 mi $15,600. Grade A: base A (27.3% under) + low miles + private seller, capped below A+ because reliability is 4, not 5.",
   "body_type": "Sedan",
@@ -53,7 +106,18 @@
   "transmission": "Automatic",
   "seller_type": "private",
   "grade": "A",
-  "estimate_sources": "KBB resale value, CarGurus average asking price, dealer comparable listing"
+  "estimate_sources": "KBB resale value, CarGurus average asking price, dealer comparable listing",
+  "engine": "2.0L",
+  "engine_evidence": "Trim-implied: GT-Line is the 2.0L NA trim (the turbo is the separate GT trim)",
+  "title_status": "unknown",
+  "title_evidence": "Title not stated in the listing",
+  "verification_blockers": [
+   "Title brand unstated — verify the physical title"
+  ],
+  "first_seen_at": "2026-10-31",
+  "last_seen_at": "2026-10-31",
+  "last_verified_at": "2026-10-31",
+  "listing_status": "not-rechecked-since-2026-10-31"
  },
  {
   "url": "https://www.facebook.com/marketplace/item/1625691275824447/",
@@ -70,18 +134,31 @@
   "reverse_cam": true,
   "lane_assist": true,
   "reliability_score": 3.5,
-  "market_value_estimate": 11650,
-  "discount_pct": 23.6,
+  "market_value_estimate": 12072,
+  "discount_pct": 26.3,
   "deal_flag": true,
-  "pref_score": 5,
+  "pref_score": 3,
   "meets_criteria": true,
-  "notes": "MEETS all must-haves. Seller states 2.0 engine, automatic, 31k original miles, front and rear cameras, Apple CarPlay and Android Auto, cold AC, warranty. Title not stated — verify the physical title brand before money moves. Market estimate $11,650 = median of KBB 2020 Forte LXS Fair Purchase Price $11,650, KBB 2020 Forte resale $10,400, CarGurus 2020 Forte average asking $13,293. Grade A: base B+ (23.6% under) + low miles + private seller. Reliability 3.5 = Forte family value (CR 3/5 for 2019-20).",
+  "notes": "MEETS all must-haves. Seller states 2.0 engine, automatic, 31k original miles, front and rear cameras, Apple CarPlay and Android Auto, cold AC, warranty; Android Auto corroborated by the 2019+ all-trim matrix. 1 owner, paid off. Title brand not stated — verify the physical title before money moves. Cautions: the seller's WARRANTY claim is unverified; the description writes the trim as XLS (the title says LXS); an unexplained 'anti theft ignition switch' note; listed 7 weeks ago. Market estimate $12,072 = median of KBB Fair Purchase Price LXS $11,850, Edmunds private-party clean $12,294, CarGurus 2020 Forte average asking $12,901, CarGurus comparable 2020 LXS 81,538 mi $11,188. Grade A: base A (26.3% under) + low miles + private seller, capped below A+ because reliability is not 5. Phase 0 (Nov 4, 2026): this car was published Oct 31 and re-staged Nov 3 with a different estimate — merged into this one canonical record; the Nov 3 estimate supersedes the Oct 31 figure ($11,650 / 23.6% under); re-verified live Nov 4 at $8,900 and 31,000 mi.",
   "body_type": "Sedan",
   "fuel": "Petrol",
   "transmission": "Automatic",
   "seller_type": "private",
   "grade": "A",
-  "estimate_sources": "KBB Fair Purchase Price, KBB resale value, CarGurus average asking price"
+  "estimate_sources": "KBB Fair Purchase Price, Edmunds private-party value, CarGurus average asking price, CarGurus comparable listing",
+  "engine": "2.0L",
+  "engine_evidence": "Seller-stated ('2.0 ENGINE'), re-read live 2026-11-04",
+  "title_status": "paid-off-only",
+  "title_evidence": "FB: paid off, 1 owner; title brand not stated (re-read live 2026-11-04)",
+  "verification_blockers": [
+   "Title brand unstated — verify the physical title",
+   "Seller 'WARRANTY' claim unverified",
+   "Description writes the trim as 'XLS' vs LXS in the title"
+  ],
+  "first_seen_at": "2026-10-31",
+  "last_seen_at": "2026-11-04",
+  "last_verified_at": "2026-11-04",
+  "listing_status": "live-verified"
  },
  {
   "url": "https://www.facebook.com/marketplace/item/1833749960971879/",
@@ -101,7 +178,7 @@
   "market_value_estimate": 12984,
   "discount_pct": 24.5,
   "deal_flag": true,
-  "pref_score": 5,
+  "pref_score": 3,
   "meets_criteria": true,
   "notes": "MEETS all must-haves. Clean title seller-stated, paid off, backup camera seller-stated. Android Auto factory standard on all 2021 Forte trims (same generation as the 2019 redesign). Market estimate $12,984 = median of KBB 2021 Forte resale $11,450, CarGurus 2021 Forte average asking $14,440, dealer 2021 GT-Line 60.7k mi $12,984. Grade A-: base B+ (24.5% under) + private seller. Reliability 4 = CR 4/5 for 2021 Forte.",
   "body_type": "Sedan",
@@ -109,7 +186,16 @@
   "transmission": "Automatic",
   "seller_type": "private",
   "grade": "A-",
-  "estimate_sources": "KBB resale value, CarGurus average asking price, dealer comparable listing"
+  "estimate_sources": "KBB resale value, CarGurus average asking price, dealer comparable listing",
+  "engine": "2.0L",
+  "engine_evidence": "Trim-implied: the S trim carries the 2.0L NA engine",
+  "title_status": "clean-stated",
+  "title_evidence": "Seller states clean title, paid off",
+  "verification_blockers": [],
+  "first_seen_at": "2026-10-31",
+  "last_seen_at": "2026-10-31",
+  "last_verified_at": "2026-10-31",
+  "listing_status": "not-rechecked-since-2026-10-31"
  },
  {
   "url": "https://www.facebook.com/marketplace/item/2099246277666831/",
@@ -129,15 +215,28 @@
   "market_value_estimate": 14300,
   "discount_pct": 19.6,
   "deal_flag": true,
-  "pref_score": 5,
+  "pref_score": 3,
   "meets_criteria": true,
-  "notes": "MEETS all must-haves. Seller states rear camera, front radar, blind spot, lane departure, keyless entry. Android Auto factory standard on 2022 Sonata (SE and SEL: 8-inch touchscreen with Apple CarPlay/Android Auto; SEL adds blind-spot and lane-keeping). Engine is the 2.5L Smartstream (191 hp), NOT the excluded Theta II family (2011-2019). Title not stated — verify the physical title brand before money moves. Caution: seller account joined Facebook in 2026. Market estimate $14,300 = median of KBB 2022 Sonata SEL Fair Purchase Price $17,000, KBB 2022 Sonata resale $14,300, Edmunds 2022 Sonata SEL trade-in $11,839. Grade A-: base B+ (19.6% under) + private seller. Reliability 4 = RepairPal Sonata 4/5.",
+  "notes": "MEETS all must-haves. Seller states rear camera, front radar, blind spot, lane departure, keyless entry. Android Auto factory standard on 2022 Sonata (SE and SEL: 8-inch touchscreen with Apple CarPlay/Android Auto; SEL adds blind-spot and lane-keeping). Engine is the 2.5L Smartstream (191 hp), NOT the excluded Theta II family (2011-2019). Title not stated — verify the physical title brand before money moves. Caution: seller account joined Facebook in 2026. Market estimate $14,300 = median of KBB 2022 Sonata SEL Fair Purchase Price $17,000, KBB 2022 Sonata resale $14,300, Edmunds 2022 Sonata SEL trade-in $11,839. Grade A-: base B+ (19.6% under) + private seller. Reliability 4 = RepairPal Sonata 4/5. Phase 0 (Nov 4, 2026): a Nov 3 staged record treated Android Auto as unconfirmed, claiming the expert guide has no 2020+ Sonata matrix row — checked: docs/FAQ.md gives '2020+: AA standard all trims', so this matrix-confirmed record stands and the staged reading was in error. Re-verified live Nov 4: still $11,500 / 70,000 mi; the seller still does not mention Android Auto and the title is still unstated.",
   "body_type": "Sedan",
   "fuel": "Petrol",
   "transmission": "Automatic",
   "seller_type": "private",
   "grade": "A-",
-  "estimate_sources": "KBB Fair Purchase Price, KBB resale value, Edmunds trade-in value"
+  "estimate_sources": "KBB Fair Purchase Price, KBB resale value, Edmunds trade-in value",
+  "engine": "2.5L Smartstream",
+  "engine_evidence": "Model-year/trim standard engine per published notes; NOT the excluded Theta II family",
+  "title_status": "unknown",
+  "title_evidence": "Title not stated in the listing (re-read live 2026-11-04)",
+  "verification_blockers": [
+   "Title brand unstated — verify the physical title",
+   "Seller account joined Facebook in 2026",
+   "Seller does not mention Android Auto (matrix-confirmed) — plug-test in person"
+  ],
+  "first_seen_at": "2026-10-31",
+  "last_seen_at": "2026-11-04",
+  "last_verified_at": "2026-11-04",
+  "listing_status": "live-verified"
  },
  {
   "url": "https://www.facebook.com/marketplace/item/941745025677309/",
@@ -157,7 +256,7 @@
   "market_value_estimate": 14150,
   "discount_pct": 15.9,
   "deal_flag": true,
-  "pref_score": 5,
+  "pref_score": 3,
   "meets_criteria": true,
   "notes": "MEETS all must-haves. Paid off, clear history, no significant damage stated; listing description is empty. Android Auto and backup camera factory standard on 2023 Forte (same generation as the 2019 redesign). Title not explicitly stated as clean — verify the physical title brand before money moves. Market estimate $14,150 = median of KBB 2023 Forte LXS Fair Purchase Price $16,250, KBB 2023 Forte resale $14,150, Edmunds 2023 Forte LXS retail $11,949. Grade A-: base B (15.9% under) + low miles + private seller. Reliability 4 = Forte family estimate (CR 4/5 for 2021).",
   "body_type": "Sedan",
@@ -165,7 +264,19 @@
   "transmission": "Automatic",
   "seller_type": "private",
   "grade": "A-",
-  "estimate_sources": "KBB Fair Purchase Price, KBB resale value, Edmunds retail value"
+  "estimate_sources": "KBB Fair Purchase Price, KBB resale value, Edmunds retail value",
+  "engine": "2.0L",
+  "engine_evidence": "Trim-implied: LXS carries the 2.0L NA engine",
+  "title_status": "paid-off-only",
+  "title_evidence": "Paid off + clear history stated; a clean title brand is not explicitly stated",
+  "verification_blockers": [
+   "Title brand not explicitly stated — verify the physical title",
+   "Listing description is empty"
+  ],
+  "first_seen_at": "2026-10-31",
+  "last_seen_at": "2026-10-31",
+  "last_verified_at": "2026-10-31",
+  "listing_status": "not-rechecked-since-2026-10-31"
  },
  {
   "url": "https://www.facebook.com/marketplace/item/1103093259359456/",
@@ -193,7 +304,20 @@
   "transmission": "Automatic",
   "seller_type": "private",
   "grade": "C+",
-  "estimate_sources": "KBB Fair Purchase Price, KBB resale value, CarGurus average asking price"
+  "estimate_sources": "KBB Fair Purchase Price, KBB resale value, CarGurus average asking price",
+  "engine": null,
+  "engine_evidence": "Not stated — trim not stated, so the engine is unknown",
+  "title_status": "clean-stated",
+  "title_evidence": "Clean title stated; 1 owner, clear history, paid off",
+  "verification_blockers": [
+   "Engine not stated — could be the excluded 1.5L EcoBoost",
+   "Trim/screen unstated — Android Auto and backup camera unconfirmed",
+   "Duplicate listing live under a second ID — counted once"
+  ],
+  "first_seen_at": "2026-10-26",
+  "last_seen_at": "2026-10-31",
+  "last_verified_at": "2026-10-31",
+  "listing_status": "not-rechecked-since-2026-10-31"
  },
  {
   "url": "https://www.facebook.com/marketplace/item/988472907230813/",
@@ -221,7 +345,20 @@
   "transmission": "Automatic",
   "seller_type": "private",
   "grade": "C+",
-  "estimate_sources": "KBB Fair Purchase Price, KBB resale value, iSeeCars price range"
+  "estimate_sources": "KBB Fair Purchase Price, KBB resale value, iSeeCars price range",
+  "engine": "2.0L Nu MPI",
+  "engine_evidence": "Trim standard engine; recall 21V-301 covers this engine in this model year",
+  "title_status": "unknown",
+  "title_evidence": "Title not stated in the listing",
+  "verification_blockers": [
+   "Android Auto unconfirmed on the SE trim",
+   "Recall 21V-301 — demand dealer/NHTSA proof of completion",
+   "Title brand unstated — verify the physical title"
+  ],
+  "first_seen_at": "2026-10-31",
+  "last_seen_at": "2026-10-31",
+  "last_verified_at": "2026-10-31",
+  "listing_status": "not-rechecked-since-2026-10-31"
  },
  {
   "url": "https://www.facebook.com/marketplace/item/1552019169121297/",
@@ -249,7 +386,21 @@
   "transmission": "Automatic",
   "seller_type": "dealer",
   "grade": "C+",
-  "estimate_sources": "KBB Fair Purchase Price, KBB resale value, CarGurus average asking price"
+  "estimate_sources": "KBB Fair Purchase Price, KBB resale value, CarGurus average asking price",
+  "engine": "2.5L",
+  "engine_evidence": "Trim-implied: the S trim carries the 2.5L (the reliable Fusion engine); not stated by the seller",
+  "title_status": "unknown",
+  "title_evidence": "Title not stated in the listing",
+  "verification_blockers": [
+   "No factory Android Auto on this trim per the matrix (4.2-inch screen)",
+   "Backup camera unconfirmed",
+   "Title brand unstated — verify the physical title",
+   "Dealer seller"
+  ],
+  "first_seen_at": "2026-10-31",
+  "last_seen_at": "2026-10-31",
+  "last_verified_at": "2026-10-31",
+  "listing_status": "not-rechecked-since-2026-10-31"
  },
  {
   "url": "https://www.facebook.com/marketplace/item/1785137865839066/",
@@ -277,6 +428,18 @@
   "transmission": "Automatic",
   "seller_type": "private",
   "grade": "C+",
-  "estimate_sources": "KBB Fair Purchase Price, KBB resale value, CarGurus average asking price"
+  "estimate_sources": "KBB Fair Purchase Price, KBB resale value, CarGurus average asking price",
+  "engine": null,
+  "engine_evidence": "Not stated — trim not stated (the SE standard engine would be the excluded 1.5L EcoBoost)",
+  "title_status": "clean-stated",
+  "title_evidence": "Clean title seller-stated, clear history",
+  "verification_blockers": [
+   "Engine not stated — could be the excluded 1.5L EcoBoost",
+   "Trim unstated — Android Auto unconfirmed"
+  ],
+  "first_seen_at": "2026-10-31",
+  "last_seen_at": "2026-10-31",
+  "last_verified_at": "2026-10-31",
+  "listing_status": "not-rechecked-since-2026-10-31"
  }
 ]

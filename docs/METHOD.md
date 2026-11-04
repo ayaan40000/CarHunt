@@ -25,12 +25,14 @@ Each record in `data/listings.json` has exactly these fields, in this order of m
 
 Fields added 2026-10-31 (append; never remove or reorder the originals): `body_type, fuel, transmission, seller_type (private/dealer), grade (A+ to F), estimate_sources`
 
+Fields appended 2026-11-04 (Phase 0; append-only, after the fields above): `engine, engine_evidence, title_status (clean-stated / paid-off-only / clear-history-only / rebuilt / salvage / flood / unknown / physically-verified-clean), title_evidence, verification_blockers, first_seen_at, last_seen_at, last_verified_at, listing_status`
+
 (In the Sep 28 spec the list is the same set; the Oct 26 records add the derived `discount_pct` and `meets_criteria` fields that the sweep tooling already emitted — a future run should keep emitting exactly the Oct 26 field set so the dashboard code does not change.)
 
 Rules inside the schema:
 
 - Feature fields are `true / false / null`. `null` = not stated in the listing. Null stays null in the data file.
-- `pref_score`: hybrid +3, lane assist +2, reliability (5→+3, 4→+2, 3→+1), year 2019+ +1, under 50,000 mi +1. Max 10.
+- `pref_score`: hybrid +3, reliability (5→+3, 4→+2, 3→+1), year 2019+ +1, under 50,000 mi +1. Max 10. (Until 2026-11-04 the formula also gave lane assist +2. The owner dropped lane assist from the criteria on 2026-10-31, so from the 2026-11-04 Phase 0 pass it earns no points; the `lane_assist` field is still recorded, and all published pref_scores were recomputed without it.)
 - `meets_criteria` is true only when **every** must-have is confirmed: price < $12,000, mileage ≤ 100,000, factory Android Auto confirmed, reverse camera confirmed, body not a truck or compact hatchback, model not on the exclusion list. Unconfirmed (`null`) does not count as met.
 - `notes` carries the reasoning: why it misses, title statements, duplicate relationships, red flags, and the comparables behind the market estimate. The dashboard's short miss line is a condensation of the notes, never a replacement for them.
 
@@ -97,3 +99,13 @@ Every rebuild of `index.html` MUST keep, in `<head>`: the `rel="icon"` and `rel=
 3. Upload the files individually to GitHub repo **ayaan40000/CarHunt** (parent agent handles the upload and any approvals; builders stage locally and do not push).
 4. GitHub Pages serves the repo at **https://ayaan40000.github.io/CarHunt/** (Pages enabled; the repo was renamed from Reserved-1 to CarHunt on 2026-10-31 and the Pages address moved with it).
 5. A refresh run repeats the sweep, replaces `data/listings.json` wholesale with the new sweep only, regenerates the cards, updates the data stamp date everywhere it appears (page, README, FAQ), and republishes.
+
+## Publish gate — Phase 0 (owner green-lit 2026-11-04)
+
+Added after the November 2026 development-plan review found the same car published and staged with conflicting figures. Every publish (Thursday full update or an owner-ordered out-of-cycle publish) passes this gate first:
+
+- **Canonical key is the Marketplace item ID / URL.** Before publishing, check every staged URL against the published set and prior staging. A car that appears twice is merged into ONE canonical record with a change log in its notes (what changed, which figure superseded which, and when). Never publish two records for one item ID.
+- **Source hierarchy for conflicts:** (1) the expert guide in this repo (docs/FAQ.md matrix, docs/RESEARCH.md dossiers) — the project's factory-fit and reliability authority; (2) the seller's explicit listing statements, re-read live; (3) general factory knowledge — inference only, labelled as such, never a confirmation. A staged note that contradicts the guide is an error to correct in the open, not a second truth.
+- **A record may ship as "meets all must-haves" only when:** the listing is live at re-verification; the opened page matches the record's URL/ID; the model/year/trim is not excluded; the engine is known or the trim makes an excluded engine impossible; Android Auto and reverse camera are confirmed under the schema rules (matrix verdict or seller statement, per the matrix-over-seller-claim rule); the title status is not rebuilt/salvage/flood and not unknown-without-explanation; the estimate is current; and the grade recomputes from the preserved inputs under the rubric (including the current pref_score formula — no lane-assist points since 2026-11-04).
+- **Blockers are shown, not buried.** Every published card lists its open verification blockers (title gaps, unconfirmed features, estimate-source gaps). When an estimate source named in the owner's criteria (e.g. CarMax) could not be obtained for a board, the stamp or headline says so plainly. A car with unresolved title evidence may remain a verification candidate but is never described as fully de-risked; physical title verification stays a purchase-stage requirement.
+- **Decision note.** Each gated publish leaves a short private decision note in the goal workspace: top publishable cars, cars held back with their exact blocker, duplicate/conflict resolutions, records dropped, and any correction to something previously reported.
