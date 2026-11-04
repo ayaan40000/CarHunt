@@ -1,6 +1,6 @@
 # CarHunt — Reliable Car Under $15K Dashboard
 
-Ayaan Pathan's used-car search dashboard: a filterable, single-file board of Houston-area listings, with an expert pursue/avoid workup, an Android Auto by year/trim matrix, and a VIN / inspection / scam guide. Every deal is graded A+ to F against a market value estimate. Updated every Thursday, with daily incremental sweeps.
+Ayaan Pathan's used-car search dashboard: a filterable, single-file board of Houston-area listings, with an expert pursue/avoid workup, an Android Auto by year/trim matrix, and a VIN / inspection / scam guide. Every deal is graded A+ to F against a market value estimate. Updated every Thursday, with daily incremental sweeps. Reworked Nov 4, 2026: compact cards with collapsible details, a body-type filter, a slim control deck, a Texas paperwork tab, and the budget raised to $15,000 (see the headline below).
 
 **Live:** https://ayaan40000.github.io/CarHunt/
 
