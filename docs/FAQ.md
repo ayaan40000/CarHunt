@@ -1,8 +1,8 @@
-# FAQ & Help — Reliable Car Under $12,000 (Houston)
+# FAQ & Help — Reliable Car Under $15,000 (Houston)
 
 Data stamp: Listings from Facebook Marketplace sweep, Oct 31, 2026 — listings sell fast; a car shown here may already be gone.
 
-Owner's criteria: under $12,000 cash, any body type except trucks and compact hatchbacks, at most 100,000 miles, factory Android Auto + reverse camera required. Private sellers and gas/hybrid preferred. Models with reliability concerns or major recalls are excluded outright. Every deal is graded A+ to F against a market value estimate.
+Owner's criteria: under $15,000 cash (raised from $12,000 on 2026-11-04), any body type except trucks and compact hatchbacks, at most 100,000 miles, factory Android Auto + reverse camera required. Private sellers and gas/hybrid preferred. Models with reliability concerns or major recalls are excluded outright. Every deal is graded A+ to F against a market value estimate.
 
 **Honest headline:** 6 of the 10 cars in the Oct 31 sweep meet ALL must-haves — led by the 2021 Kia Forte GT-Line in Katy ($9,500, 79,000 mi, grade A, 34.2% below estimate). The Oct 26 star, the 2019 Forte FE in Spring, has sold. 16 listings found this week were excluded under the reliability/title rule and are not shown.
 

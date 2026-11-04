@@ -10,7 +10,7 @@ So a future run can repeat this exactly and produce a dashboard in the same form
 
 ## Sweep method (Oct 26, 2026 run; criteria updated 2026-10-31)
 
-1. Search Facebook Marketplace from the Houston / Stafford TX 77477 area for the candidate families in the spec — sedans (Fusion, Accord, Civic, Elantra, Forte, Sonata, Optima, Mazda6, Malibu, Legacy, Corolla) and, since 2026-10-31, SUV/crossover families (RAV4, CR-V, CX-5, Tucson, Sportage, Forester, Outback; more only after their matrix rows and reliability checks exist) — under the $12,000 / ≤100,000-mile frame, any body type except trucks and compact hatchbacks — while also recording same-family near-misses that explain the market (over-miles, over-price, rebuilt) so market estimates have a visible basis.
+1. Search Facebook Marketplace from the Houston / Stafford TX 77477 area for the candidate families in the spec — sedans (Fusion, Accord, Civic, Elantra, Forte, Sonata, Optima, Mazda6, Malibu, Legacy, Corolla) and, since 2026-10-31, SUV/crossover families (RAV4, CR-V, CX-5, Tucson, Sportage, Forester, Outback; more only after their matrix rows and reliability checks exist) — under the $15,000 / ≤100,000-mile frame (budget raised from $12,000 by the owner on 2026-11-04), any body type except trucks and compact hatchbacks — while also recording same-family near-misses that explain the market (over-miles, over-price, rebuilt) so market estimates have a visible basis.
 2. Open each listing; record only what the listing states or what factory fit for that exact year/trim establishes, labelled as inference in the notes. Never invent a feature: unstated = `null`.
 3. Apply the **exclusion rule** (below) before anything else: excluded models never reach the dashboard.
 4. Estimate market value per the **Value estimates** section (CarMax + leading providers primary; same-sweep comparables as cross-check, named in each record's notes), then grade the deal A+ to F per the **Grading rubric**.
@@ -33,7 +33,7 @@ Rules inside the schema:
 
 - Feature fields are `true / false / null`. `null` = not stated in the listing. Null stays null in the data file.
 - `pref_score`: hybrid +3, reliability (5→+3, 4→+2, 3→+1), year 2019+ +1, under 50,000 mi +1. Max 10. (Until 2026-11-04 the formula also gave lane assist +2. The owner dropped lane assist from the criteria on 2026-10-31, so from the 2026-11-04 Phase 0 pass it earns no points; the `lane_assist` field is still recorded, and all published pref_scores were recomputed without it.)
-- `meets_criteria` is true only when **every** must-have is confirmed: price < $12,000, mileage ≤ 100,000, factory Android Auto confirmed, reverse camera confirmed, body not a truck or compact hatchback, model not on the exclusion list. Unconfirmed (`null`) does not count as met.
+- `meets_criteria` is true only when **every** must-have is confirmed: price < $15,000 (raised from $12,000 on 2026-11-04), mileage ≤ 100,000, factory Android Auto confirmed, reverse camera confirmed, body not a truck or compact hatchback, model not on the exclusion list. Unconfirmed (`null`) does not count as met.
 - `notes` carries the reasoning: why it misses, title statements, duplicate relationships, red flags, and the comparables behind the market estimate. The dashboard's short miss line is a condensation of the notes, never a replacement for them.
 
 ## Matrix-over-seller-claim rule (dashboard)
@@ -94,11 +94,21 @@ Every rebuild of `index.html` MUST keep, in `<head>`: the `rel="icon"` and `rel=
 
 ## Publish flow
 
-1. Build/refresh files locally in this repo: `index.html`, `data/listings.json`, `docs/FAQ.md`, `docs/RESEARCH.md`, `docs/METHOD.md`, `README.md`.
+1. Build/refresh files locally in this repo: `index.html`, `data/listings.json`, `docs/FAQ.md`, `docs/RESEARCH.md`, `docs/METHOD.md`, `docs/PAPERWORK.md`, `README.md`.
 2. Self-check before publishing: HTML parses, JSON parses, listing count in the page matches the JSON count, no file over ~110 KB.
 3. Upload the files individually to GitHub repo **ayaan40000/CarHunt** (parent agent handles the upload and any approvals; builders stage locally and do not push).
 4. GitHub Pages serves the repo at **https://ayaan40000.github.io/CarHunt/** (Pages enabled; the repo was renamed from Reserved-1 to CarHunt on 2026-10-31 and the Pages address moved with it).
 5. A refresh run repeats the sweep, replaces `data/listings.json` wholesale with the new sweep only, regenerates the cards, updates the data stamp date everywhere it appears (page, README, FAQ), and republishes.
+
+## Dashboard UI rules (owner-set 2026-11-04)
+
+The owner found the board text-heavy: descriptions filled the screen and the controls crowded out the listings. Every rebuild of `index.html` MUST keep this structure:
+
+- **Compact cards.** A card shows only: title, price line, grade/meets badges, the underpriced deal line, and the Marketplace CTA. ALL descriptive text — Why, Miss/note, Blockers, the Android Auto line, the specs line, the seller line, and the full sweep notes — lives inside the card's collapsible `<div class="card-more" hidden>` region, opened by that card's "Show details" toggle button (class `card-toggle`). The toolbar's "Show all details" button expands/collapses every card at once. A rebuild that renders the descriptive text always-visible is a failed self-check.
+- **Body-type filter.** Every card carries `data-body` (normalised from the record's `body_type`: `sedan`, `suv` for SUV/crossover, `hatchback`, `coupe`, `wagon`, `van`) and the filters include the Body type select (`#fBody`) wired into `apply()` and the active-filter badge count.
+- **Three tabs:** Listings, FAQ & Help, and Paperwork (TX) — the Texas private-party paperwork process (title transfer, Form 130-U, 6.25% tax on the greater of price or Standard Presumptive Value, 30-day filing, transfer notification). The paperwork content is mirrored in `docs/PAPERWORK.md`; keep both in sync.
+- **Slim chrome.** The sticky control deck stays one compact block (tabs + sort/filters row), and the filters panel starts collapsed at every screen width. Keep header and stamp padding at the slim values in the stylesheet.
+- The icon/manifest and Android app-link rules above still apply unchanged.
 
 ## Publish gate — Phase 0 (owner green-lit 2026-11-04)
 
