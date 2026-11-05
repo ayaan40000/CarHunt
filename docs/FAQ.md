@@ -1,10 +1,10 @@
 # FAQ & Help — Reliable Car Under $15,000 (Houston)
 
-Data stamp: Listings from Facebook Marketplace sweep, Oct 31, 2026 — listings sell fast; a car shown here may already be gone.
+Data stamp: Listings from Facebook Marketplace sweeps, Nov 5, 2026 — full Thursday re-verification plus fresh sweep; listings sell fast; a car shown here may already be gone.
 
 Owner's criteria: under $15,000 cash (raised from $12,000 on 2026-11-04), any body type except trucks and compact hatchbacks, at most 100,000 miles, factory Android Auto + reverse camera required. Private sellers and gas/hybrid preferred. Models with reliability concerns or major recalls are excluded outright. Every deal is graded A+ to F against a market value estimate.
 
-**Honest headline:** 6 of the 10 cars in the Oct 31 sweep meet ALL must-haves — led by the 2021 Kia Forte GT-Line in Katy ($9,500, 79,000 mi, grade A, 34.2% below estimate). The Oct 26 star, the 2019 Forte FE in Spring, has sold. 16 listings found this week were excluded under the reliability/title rule and are not shown.
+**Honest headline:** 10 of the 15 cars meet ALL must-haves — led by the 2024 Chevrolet Malibu LT in Katy ($9,799, 52,000 mi, grade A, 42.5% below estimate). 13 listings checked this week were excluded under the reliability/title rule and are not shown.
 
 Jargon in one line: **Trim** = version of the same car (LX basic, EX mid, Touring high). **CVT** = automatic with a belt instead of fixed gears. Hybrid **eCVT** is a different, simpler, stronger device — not a belt CVT. **PPI** = pre-purchase inspection by your own mechanic. **Android Auto (AA)** = Google's system that puts your phone's maps/calls/music on the car's screen; in this budget it is wired (USB cable) on effectively every car.
 
