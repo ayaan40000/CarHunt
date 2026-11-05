@@ -4,7 +4,7 @@ Ayaan Pathan's used-car search dashboard: a filterable, single-file board of Hou
 
 **Live:** https://ayaan40000.github.io/CarHunt/
 
-**Data stamp:** Listings from Facebook Marketplace sweeps, Oct 31 – Nov 4, 2026 — reconciled Nov 4 (Phase 0); the three changed listings were re-verified live on Nov 4, and the full set is re-verified again Thu Nov 5. Estimates are medians of the providers named on each card — CarMax comparables were not available for any listing here, so no estimate on this board is a CarMax figure. Listings sell fast; a car shown here may already be gone.
+**Data stamp:** Listings from Facebook Marketplace sweeps, Nov 5, 2026 — full Thursday re-verification plus fresh sweep; 2 listings from the Oct 31 board sold or expired since Nov 4 and were dropped. Estimates are medians of the providers named on each card — one estimate (2019 Forte, Houston) includes a CarMax figure; no other estimate on this board is a CarMax figure. Listings sell fast; a car shown here may already be gone.
 
 ## Owner's criteria
 
@@ -16,14 +16,14 @@ Ayaan Pathan's used-car search dashboard: a filterable, single-file board of Hou
 - Reliability first; every model reliability cross-checked; models with reliability concerns or major recalls are excluded
 - Every deal graded A+ to F (A+ = great deal at a great price) against a CarMax / leading-provider value estimate — target is below estimated value
 
-Honest headline (Nov 4, 2026): **7 of 11 listings meet all must-haves** — led by the 2024 Chevrolet Malibu LT in Katy ($9,799, 52,000 mi, grade A, 42.5% below estimate), published Nov 4 at the owner's direction after live re-verification, with its title blockers stated on its card. The Nov 4 Phase 0 pass reconciled the duplicate Tomball Forte record (fresh estimate $12,072, 26.3% under) and the Richmond Sonata record (the published matrix-confirmed reading stands; a Nov 3 staged note misread the expert guide) against the expert guide, removed lane-assist points from all pref scores, and added per-record engine/title evidence and a visible Blockers line to every card. The Oct 26 star, the 2019 Forte FE in Spring, has sold; 16 listings in the Oct 31 sweep were excluded under the reliability/title rule and are not shown. One Oct 26 listing (the 2018 Ford Fusion in Richmond) was re-verified Oct 31 and is included; the other Oct 26 listings were not re-verified and are not included. The regular full Thursday publish still runs Nov 5 and re-verifies the whole set.
+Honest headline (Nov 5, 2026): **10 of 15 listings meet all must-haves** — led by the 2024 Chevrolet Malibu LT in Katy ($9,799, 52,000 mi, grade A, 42.5% below estimate) and a new 2024 Kia Forte LXS in Houston ($10,500, 61,211 mi, grade A, 34.4% below estimate). The Nov 2 standout Civic Sport sold before Thursday, and the 2021 Forte S in Houston also expired — both were dropped, not carried. The Nov 5 Phase 0 pass re-verified all 11 surviving Oct 31–Nov 4 records live, added 4 fresh-sweep finds, and dropped 1 dead published record. 13 listings checked this week were excluded under the reliability/title rule (10 branded titles, 3 excluded engines) and are not shown.
 
 ## What's inside
 
 | File | What it is |
 |---|---|
 | `index.html` | The dashboard — Listings tab (filters: max price, max mileage, body type, model, hybrid only, Android Auto confirmed-by-matrix, meets-criteria only, underpriced only; sort by grade / price / mileage / discount), FAQ & Help tab, and a Paperwork (TX) tab with the Texas private-party buying paperwork process. Cards are compact by default — title, price, grade, deal line and the Marketplace button; all descriptive text sits behind each card's "Show details" toggle (plus a "Show all details" button), and the filters panel starts collapsed. Self-contained, no frameworks, works on mobile. Marketplace links open the Facebook app on Android (web fallback if the app is missing). Installable as a phone web app with its own icon (cream car on deep green) via an inline manifest. |
-| `data/listings.json` | The 11 records (Oct 31 sweep + the Nov 4 Malibu), fixed schema plus the Phase 0 evidence fields appended 2026-11-04 (engine, title status/evidence, verification blockers, verification dates). |
+| `data/listings.json` | The 15 records (Nov 5, 2026 full re-verification + fresh sweep), fixed schema plus the Phase 0 evidence fields appended 2026-11-04 (engine, title status/evidence, verification blockers, verification dates). |
 | `docs/FAQ.md` | The same FAQ & Help content as the page, in Markdown. |
 | `docs/RESEARCH.md` | Expert dossiers condensed: pursue/avoid per model-year-engine with failure modes, hybrid battery notes, Houston flood/salvage notes, recall-confirm list, AA matrix with UNVERIFIED flags. |
 | `docs/METHOD.md` | How the sweep and refresh work: Pi-browser-only Facebook access + session rule, sweep method, fixed schema, matrix-over-seller-claim rule, data stamp rule, dashboard UI rules, Phase 0 publish gate, publish flow. |
