@@ -98,6 +98,24 @@ a{color:var(--steel)}
 }
 @media (min-width:1024px){.grid{grid-template-columns:repeat(3,1fr)}}
 @media (prefers-reduced-motion: reduce){*{transition:none!important}}
+
+/* Phase 1/2 (2026-11-07): freshness + confidence tags, Finalists view */
+.tag.fresh{background:#eef3ee;color:#14532d}
+.tag.conf{background:#fdf0d5;color:#6b4e00}
+.tag.pricechg{background:#145a32;color:#fff}
+.fin h4{margin:18px 0 8px;font-size:15.5px}
+.vin-row{display:flex;gap:8px;flex-wrap:wrap;margin:8px 0}
+.vin-in{flex:1;min-width:220px;min-height:48px;padding:10px;font-size:16px;border:1.5px solid #b7c0b2;border-radius:10px}
+.slim-btn2{min-height:44px;padding:8px 14px;border-radius:10px;border:1.5px solid var(--green);background:#fff;color:var(--green);cursor:pointer;font-size:15px;font-weight:700}
+.slim-btn2:active{background:#e2ecdf}
+.seller-msg{width:100%;font-family:inherit;font-size:14.5px;line-height:1.5;padding:10px;border:1.5px solid #b7c0b2;border-radius:10px;background:#fbfcfa}
+.checklist{display:grid;gap:6px;margin:8px 0}
+.checklist label{display:flex;gap:9px;align-items:flex-start;background:#f7f9f5;border:1px solid var(--line);border-radius:9px;padding:9px 11px;font-size:14.5px;cursor:pointer}
+.checklist input{width:20px;height:20px;margin-top:1px;flex:none}
+.walkaway{background:#fdecea;border:1px solid #e6b0aa;border-radius:10px;padding:10px 12px;margin:8px 0;font-size:14.5px}
+.walkaway ul{margin:6px 0 2px;padding-left:20px}
+.est-total{font-size:17px}
+@media print{header,.stickyhead,footer,#view-list,#view-faq,#view-paper{display:none!important}#view-fin{display:block!important}main{max-width:none}}
 </style></head><body>
 <header><h1>Reliable car under $15,000 — Houston</h1>
 <p>Cash, any body type except trucks and compact hatchbacks, under $15,000, at most 100,000 miles, factory Android Auto + reverse camera required. Private sellers and gas/hybrid preferred. Models with reliability concerns or major recalls are excluded outright.</p>
@@ -105,7 +123,7 @@ a{color:var(--steel)}
 <div class="stamp">Listings from Facebook Marketplace sweeps, Nov 5, 2026 — full Thursday re-verification plus fresh sweep; 2 listings from the Oct 31 board sold or expired since Nov 4 and were dropped. Estimates are medians of the providers named on each card — one estimate (2019 Forte, Houston) includes a CarMax figure; no other estimate on this board is a CarMax figure. Listings sell fast; a car shown here may already be gone.</div>
 <main>
 <div class="stickyhead">
-<nav class="tabs"><button id="tabList" class="active" onclick="showTab('list')">Listings (15)</button><button id="tabFaq" onclick="showTab('faq')">FAQ &amp; Help</button><button id="tabPaper" onclick="showTab('paper')">Paperwork (TX)</button></nav>
+<nav class="tabs"><button id="tabList" class="active" onclick="showTab('list')">Listings (15)</button><button id="tabFin" onclick="showTab('fin')">Finalists (3)</button><button id="tabFaq" onclick="showTab('faq')">FAQ &amp; Help</button><button id="tabPaper" onclick="showTab('paper')">Paperwork (TX)</button></nav>
 <div class="toolbar" id="toolbar">
 <div class="bar-row">
 <div class="sortwrap"><label>Sort by <select id="fSort"><option value="">Default (grade, then discount)</option><option value="price">Price, low first</option><option value="miles">Mileage, low first</option><option value="discount">Discount %, high first</option><option value="pref">Pref score, high first</option><option value="grade">Grade, then discount</option></select></label></div>
@@ -135,7 +153,7 @@ a{color:var(--steel)}
 <div class="grid" id="grid"><article class="card" data-price="9799" data-miles="52000" data-model="Chevrolet Malibu" data-hybrid="false" data-aa="seller" data-meets="true" data-deal="true" data-pref="2" data-discount="42.5" data-grade="A" data-body="sedan">
 <h3>2024 Chevrolet Malibu LT Sedan 4D</h3>
 <p class="price">$9,799 <span class="muted">· 52,000 mi · Katy, TX</span></p>
-<p class="badges"><span class="tag grade">Grade A</span> <span class='meets'>✓ MEETS ALL MUST-HAVES</span></p>
+<p class="badges"><span class="tag grade">Grade A</span> <span class='meets'>✓ MEETS ALL MUST-HAVES</span> <span class="tag fresh">Checked Nov 5, 2026</span> <span class="tag conf">Estimate confidence: Medium</span></p>
 <p class="small"><span class='deal'>★ Underpriced — 42.5% below market est. $17,033</span><br><span class="muted">Market basis: TrueCar average price, CarGurus comparable listing, CarGurus average asking price, Edmunds retail value.</span></p>
 <p class="cta-wrap"><a class="cta" href="https://www.facebook.com/marketplace/item/2085271345433565/" target="_blank" rel="noopener">View on Facebook Marketplace →</a></p>
 <button type="button" class="card-toggle" aria-expanded="false">Show details ▾</button>
@@ -143,6 +161,7 @@ a{color:var(--steel)}
 <p class="small"><b>Why:</b> Newest car on the board — 2024 LT, seller-stated Android Auto + camera, simple checklist of blockers</p>
 <p class="small"><b>Miss / note:</b> ✓ Meets all must-haves (seller-confirmed) — blockers below</p>
 <p class="small"><b>Blockers:</b> Title brand unstated — verify the physical title, plus NICB + NMVTIS, before travelling · Price 42.5% under estimate sits in the washed-title flag zone · No expert-matrix row for 2021+ Malibu — Android Auto rests on the seller's statement; plug-test in person · 1.5T: cold-start inspection for misfire/oil use</p>
+<p class="small"><b>Freshness:</b> Listing live-verified Nov 5, 2026 · First seen Nov 4, 2026 (1 day before that check) · Price history (starts with our records — earlier prices were not tracked): $9,799 on Nov 5, 2026.</p><p class="small"><b>Estimate:</b> Confidence <b>Medium</b> — Four component figures preserved from the Nov 4, 2026 verification (TrueCar, CarGurus x2, Edmunds), same trim; two are model-wide averages rather than mileage-specific figures, so not High. No CarMax figure is included in this estimate.</p><p class="small"><b>Photos:</b> Photos not captured yet — photo capture starts with the next sweep. Open the Marketplace listing to see photos.</p>
 <p class="small"><b>Android Auto:</b> Seller-stated — touchscreen with Apple CarPlay &amp; Android Auto (expert matrix covers Malibu to 2020 — verify with the plug test)<br></p>
 <p class="small">Reverse camera: Yes · Lane assist: Not stated · Reliability: 3/5 · Pref score: 2/10</p>
 <p class="small muted">Seller: Mohlas McAdams (private seller, Facebook Marketplace)</p>
@@ -152,7 +171,7 @@ a{color:var(--steel)}
 <article class="card" data-price="10500" data-miles="61211" data-model="Kia Forte" data-hybrid="false" data-aa="confirmed" data-meets="true" data-deal="true" data-pref="3" data-discount="34.4" data-grade="A" data-body="sedan">
 <h3>2024 Kia Forte LXS Sedan 4D</h3>
 <p class="price">$10,500 <span class="muted">· 61,211 mi · Houston, TX</span></p>
-<p class="badges"><span class="tag grade">Grade A</span> <span class='meets'>✓ MEETS ALL MUST-HAVES</span></p>
+<p class="badges"><span class="tag grade">Grade A</span> <span class='meets'>✓ MEETS ALL MUST-HAVES</span> <span class="tag fresh">Checked Nov 5, 2026</span> <span class="tag conf">Estimate confidence: Low</span></p>
 <p class="small"><span class='deal'>★ Underpriced — 34.4% below market est. $16,010</span><br><span class="muted">Market basis: KBB Fair Purchase Price, KBB resale value, KBB private-party value.</span></p>
 <p class="cta-wrap"><a class="cta" href="https://www.facebook.com/marketplace/item/1641566861003041/" target="_blank" rel="noopener">View on Facebook Marketplace →</a></p>
 <button type="button" class="card-toggle" aria-expanded="false">Show details ▾</button>
@@ -160,6 +179,7 @@ a{color:var(--steel)}
 <p class="small"><b>Why:</b> Forte value pick: AA + lane-keeping standard, simple 2.0L</p>
 <p class="small"><b>Miss / note:</b> ✓ Meets all must-haves (matrix-confirmed)</p>
 <p class="small"><b>Blockers:</b> Seller stated neither Android Auto nor camera — matrix/federal-standard confirmation only; plug-test in person · Listing description is one line in Spanish — verify condition in person</p>
+<p class="small"><b>Freshness:</b> Listing live-verified Nov 5, 2026 · First seen Nov 5, 2026 (0 days before that check) · Price history (starts with our records — earlier prices were not tracked): $10,500 on Nov 5, 2026.</p><p class="small"><b>Estimate:</b> Confidence <b>Low</b> — All three component figures are KBB valuations captured Nov 5, 2026 - a single provider, so there is no cross-check. No CarMax figure is included in this estimate.</p><p class="small"><b>Photos:</b> Photos not captured yet — photo capture starts with the next sweep. Open the Marketplace listing to see photos.</p>
 <p class="small"><b>Android Auto:</b> AA confirmed — 2019+ Forte: all trims standard (same generation)<br></p>
 <p class="small">Reverse camera: Yes · Lane assist: Yes · Reliability: 4/5 · Pref score: 3/10</p>
 <p class="small muted">Seller: Gervelio Pineiro (private seller, Facebook Marketplace)</p>
@@ -169,7 +189,7 @@ a{color:var(--steel)}
 <article class="card" data-price="9500" data-miles="79000" data-model="Kia Forte" data-hybrid="false" data-aa="confirmed" data-meets="true" data-deal="true" data-pref="3" data-discount="34.2" data-grade="A" data-body="sedan">
 <h3>2021 Kia Forte GT-Line Sedan 4D</h3>
 <p class="price">$9,500 <span class="muted">· 79,000 mi · Katy, TX</span></p>
-<p class="badges"><span class="tag grade">Grade A</span> <span class='meets'>✓ MEETS ALL MUST-HAVES</span></p>
+<p class="badges"><span class="tag grade">Grade A</span> <span class='meets'>✓ MEETS ALL MUST-HAVES</span> <span class="tag fresh">Checked Nov 5, 2026</span> <span class="tag conf">Estimate confidence: Medium</span></p>
 <p class="small"><span class='deal'>★ Underpriced — 34.2% below market est. $14,440</span><br><span class="muted">Market basis: KBB resale value, CarGurus average asking price, dealer comparable listing.</span></p>
 <p class="cta-wrap"><a class="cta" href="https://www.facebook.com/marketplace/item/2137005053575052/" target="_blank" rel="noopener">View on Facebook Marketplace →</a></p>
 <button type="button" class="card-toggle" aria-expanded="false">Show details ▾</button>
@@ -177,6 +197,7 @@ a{color:var(--steel)}
 <p class="small"><b>Why:</b> Forte value pick: AA + lane-keeping standard, simple 2.0L</p>
 <p class="small"><b>Miss / note:</b> ✓ Meets all must-haves</p>
 <p class="small"><b>Blockers:</b> Title brand not explicitly stated — verify the physical title</p>
+<p class="small"><b>Freshness:</b> Listing live-verified Nov 5, 2026 · First seen Oct 31, 2026 (5 days before that check) · Price history (starts with our records — earlier prices were not tracked): $9,500 on Nov 5, 2026.</p><p class="small"><b>Estimate:</b> Confidence <b>Medium</b> — Three component figures preserved from the Oct 31, 2026 cycle (KBB, CarGurus, dealer comparable), same trim; carried one cycle, not re-run provider-by-provider on Nov 5. No CarMax figure is included in this estimate.</p><p class="small"><b>Photos:</b> Photos not captured yet — photo capture starts with the next sweep. Open the Marketplace listing to see photos.</p>
 <p class="small"><b>Android Auto:</b> AA confirmed — 2019+ Forte: all trims standard (same generation)<br></p>
 <p class="small">Reverse camera: Yes · Lane assist: Yes · Reliability: 4/5 · Pref score: 3/10</p>
 <p class="small muted">Seller: Katherine Miranda (private seller, Facebook Marketplace)</p>
@@ -186,7 +207,7 @@ a{color:var(--steel)}
 <article class="card" data-price="10500" data-miles="35000" data-model="Kia Forte" data-hybrid="false" data-aa="confirmed" data-meets="true" data-deal="true" data-pref="4" data-discount="27.3" data-grade="A" data-body="sedan">
 <h3>2021 Kia Forte GT-Line Sedan 4D</h3>
 <p class="price">$10,500 <span class="muted">· 35,000 mi · Houston, TX</span></p>
-<p class="badges"><span class="tag grade">Grade A</span> <span class='meets'>✓ MEETS ALL MUST-HAVES</span></p>
+<p class="badges"><span class="tag grade">Grade A</span> <span class='meets'>✓ MEETS ALL MUST-HAVES</span> <span class="tag fresh">Checked Nov 5, 2026</span> <span class="tag conf">Estimate confidence: Medium</span></p>
 <p class="small"><span class='deal'>★ Underpriced — 27.3% below market est. $14,440</span><br><span class="muted">Market basis: KBB resale value, CarGurus average asking price, dealer comparable listing.</span></p>
 <p class="cta-wrap"><a class="cta" href="https://www.facebook.com/marketplace/item/1778585043338605/" target="_blank" rel="noopener">View on Facebook Marketplace →</a></p>
 <button type="button" class="card-toggle" aria-expanded="false">Show details ▾</button>
@@ -194,6 +215,7 @@ a{color:var(--steel)}
 <p class="small"><b>Why:</b> Forte value pick: AA + lane-keeping standard, simple 2.0L</p>
 <p class="small"><b>Miss / note:</b> ✓ Meets all must-haves</p>
 <p class="small"><b>Blockers:</b> Title brand unstated — verify the physical title</p>
+<p class="small"><b>Freshness:</b> Listing live-verified Nov 5, 2026 · First seen Oct 31, 2026 (5 days before that check) · Price history (starts with our records — earlier prices were not tracked): $10,500 on Nov 5, 2026.</p><p class="small"><b>Estimate:</b> Confidence <b>Medium</b> — Three component figures preserved from the Oct 31, 2026 cycle (KBB, CarGurus, dealer comparable), same trim; carried one cycle, not re-run provider-by-provider on Nov 5. No CarMax figure is included in this estimate.</p><p class="small"><b>Photos:</b> Photos not captured yet — photo capture starts with the next sweep. Open the Marketplace listing to see photos.</p>
 <p class="small"><b>Android Auto:</b> AA confirmed — 2019+ Forte: all trims standard (same generation)<br></p>
 <p class="small">Reverse camera: Yes · Lane assist: Yes · Reliability: 4/5 · Pref score: 4/10</p>
 <p class="small muted">Seller: Wisam Nassar (private seller, Facebook Marketplace)</p>
@@ -203,7 +225,7 @@ a{color:var(--steel)}
 <article class="card" data-price="8900" data-miles="31000" data-model="Kia Forte" data-hybrid="false" data-aa="confirmed" data-meets="true" data-deal="true" data-pref="3" data-discount="26.3" data-grade="A" data-body="sedan">
 <h3>2020 Kia Forte LXS Sedan 4D</h3>
 <p class="price">$8,900 <span class="muted">· 31,000 mi · Tomball, TX</span></p>
-<p class="badges"><span class="tag grade">Grade A</span> <span class='meets'>✓ MEETS ALL MUST-HAVES</span></p>
+<p class="badges"><span class="tag grade">Grade A</span> <span class='meets'>✓ MEETS ALL MUST-HAVES</span> <span class="tag fresh">Checked Nov 5, 2026</span> <span class="tag conf">Estimate confidence: Medium</span></p>
 <p class="small"><span class='deal'>★ Underpriced — 26.3% below market est. $12,072</span><br><span class="muted">Market basis: KBB Fair Purchase Price, Edmunds private-party value, CarGurus average asking price, CarGurus comparable listing.</span></p>
 <p class="cta-wrap"><a class="cta" href="https://www.facebook.com/marketplace/item/1625691275824447/" target="_blank" rel="noopener">View on Facebook Marketplace →</a></p>
 <button type="button" class="card-toggle" aria-expanded="false">Show details ▾</button>
@@ -211,6 +233,7 @@ a{color:var(--steel)}
 <p class="small"><b>Why:</b> Forte value pick: AA + lane-keeping standard, simple 2.0L</p>
 <p class="small"><b>Miss / note:</b> ✓ Meets all must-haves</p>
 <p class="small"><b>Blockers:</b> Title brand unstated — verify the physical title · Seller 'WARRANTY' claim unverified · Description writes the trim as 'XLS' vs LXS in the title</p>
+<p class="small"><b>Freshness:</b> Listing live-verified Nov 5, 2026 · First seen Oct 31, 2026 (5 days before that check) · Price history (starts with our records — earlier prices were not tracked): $8,900 on Nov 5, 2026.</p><p class="small"><b>Estimate:</b> Confidence <b>Medium</b> — Four component figures preserved from Nov 3, 2026 (KBB, Edmunds, CarGurus x2), same trim; one comparable sits at 81,538 mi against this car&#x27;s 31,000 mi. No CarMax figure is included in this estimate.</p><p class="small"><b>Photos:</b> Photos not captured yet — photo capture starts with the next sweep. Open the Marketplace listing to see photos.</p>
 <p class="small"><b>Android Auto:</b> AA confirmed — 2019+ Forte: all trims standard (same generation)<br></p>
 <p class="small">Reverse camera: Yes · Lane assist: Yes · Reliability: 3.5/5 · Pref score: 3/10</p>
 <p class="small muted">Seller: Fernando Valde (private seller, Facebook Marketplace)</p>
@@ -220,7 +243,7 @@ a{color:var(--steel)}
 <article class="card" data-price="9000" data-miles="84507" data-model="Kia Forte" data-hybrid="false" data-aa="confirmed" data-meets="true" data-deal="true" data-pref="3" data-discount="25.6" data-grade="A" data-body="sedan">
 <h3>2021 Kia Forte LXS Sedan 4D</h3>
 <p class="price">$9,000 <span class="muted">· 84,507 mi · Houston, TX</span></p>
-<p class="badges"><span class="tag grade">Grade A</span> <span class='meets'>✓ MEETS ALL MUST-HAVES</span></p>
+<p class="badges"><span class="tag grade">Grade A</span> <span class='meets'>✓ MEETS ALL MUST-HAVES</span> <span class="tag fresh">Checked Nov 5, 2026</span> <span class="tag conf">Estimate confidence: Medium</span> <span class="tag pricechg">Price changed: $9,550 → $9,000</span></p>
 <p class="small"><span class='deal'>★ Underpriced — 25.6% below market est. $12,100</span><br><span class="muted">Market basis: KBB resale value, CarGurus average asking price, iSeeCars comparable listing, CarGurus comparable listing.</span></p>
 <p class="cta-wrap"><a class="cta" href="https://www.facebook.com/marketplace/item/2036352497083781/" target="_blank" rel="noopener">View on Facebook Marketplace →</a></p>
 <button type="button" class="card-toggle" aria-expanded="false">Show details ▾</button>
@@ -228,6 +251,7 @@ a{color:var(--steel)}
 <p class="small"><b>Why:</b> Forte value pick: AA + lane-keeping standard, simple 2.0L</p>
 <p class="small"><b>Miss / note:</b> ✓ Meets all must-haves (matrix-confirmed)</p>
 <p class="small"><b>Blockers:</b> Title brand unstated — verify the physical title · Seller stated neither Android Auto nor camera — matrix/federal-standard confirmation only; plug-test in person · Seller describes condition as 'fair' — inspect in person</p>
+<p class="small"><b>Freshness:</b> Listing live-verified Nov 5, 2026 · First seen Nov 3, 2026 (2 days before that check) · Price history (starts with our records — earlier prices were not tracked): $9,550 on Nov 3, 2026; $9,000 on Nov 5, 2026.</p><p class="small"><b>Estimate:</b> Confidence <b>Medium</b> — Four component figures preserved from Nov 5, 2026 (KBB, CarGurus x2, iSeeCars), same trim with mileage-close comparables; one input is a model-wide average asking price, so not High. No CarMax figure is included in this estimate.</p><p class="small"><b>Photos:</b> Photos not captured yet — photo capture starts with the next sweep. Open the Marketplace listing to see photos.</p>
 <p class="small"><b>Android Auto:</b> AA confirmed — 2019+ Forte: all trims standard (same generation)<br></p>
 <p class="small">Reverse camera: Yes · Lane assist: Yes · Reliability: 4/5 · Pref score: 3/10</p>
 <p class="small muted">Seller: Edward Asamoah (private seller, Facebook Marketplace)</p>
@@ -237,7 +261,7 @@ a{color:var(--steel)}
 <article class="card" data-price="11500" data-miles="70000" data-model="Hyundai Sonata" data-hybrid="false" data-aa="confirmed" data-meets="true" data-deal="true" data-pref="3" data-discount="19.6" data-grade="A-" data-body="sedan">
 <h3>2022 Hyundai Sonata SEL Sedan 4D</h3>
 <p class="price">$11,500 <span class="muted">· 70,000 mi · Richmond, TX</span></p>
-<p class="badges"><span class="tag grade">Grade A-</span> <span class='meets'>✓ MEETS ALL MUST-HAVES</span></p>
+<p class="badges"><span class="tag grade">Grade A-</span> <span class='meets'>✓ MEETS ALL MUST-HAVES</span> <span class="tag fresh">Checked Nov 5, 2026</span> <span class="tag conf">Estimate confidence: Medium</span></p>
 <p class="small"><span class='deal'>★ Underpriced — 19.6% below market est. $14,300</span><br><span class="muted">Market basis: KBB Fair Purchase Price, KBB resale value, Edmunds trade-in value.</span></p>
 <p class="cta-wrap"><a class="cta" href="https://www.facebook.com/marketplace/item/2099246277666831/" target="_blank" rel="noopener">View on Facebook Marketplace →</a></p>
 <button type="button" class="card-toggle" aria-expanded="false">Show details ▾</button>
@@ -245,6 +269,7 @@ a{color:var(--steel)}
 <p class="small"><b>Why:</b> 2022 Sonata SEL: 2.5L Smartstream (not Theta II), AA + safety kit standard</p>
 <p class="small"><b>Miss / note:</b> ✓ Meets all must-haves</p>
 <p class="small"><b>Blockers:</b> Title brand unstated — verify the physical title · Seller account joined Facebook in 2026 · Seller does not mention Android Auto (matrix-confirmed) — plug-test in person</p>
+<p class="small"><b>Freshness:</b> Listing live-verified Nov 5, 2026 · First seen Oct 31, 2026 (5 days before that check) · Price history (starts with our records — earlier prices were not tracked): $11,500 on Nov 5, 2026.</p><p class="small"><b>Estimate:</b> Confidence <b>Medium</b> — Three component figures from the Oct 31, 2026 cycle (KBB x2, Edmunds); the median mixes an Edmunds trade-in figure with purchase and resale figures. No CarMax figure is included in this estimate.</p><p class="small"><b>Photos:</b> Photos not captured yet — photo capture starts with the next sweep. Open the Marketplace listing to see photos.</p>
 <p class="small"><b>Android Auto:</b> AA confirmed — 2022 Sonata: standard on SE and above<br></p>
 <p class="small">Reverse camera: Yes · Lane assist: Yes · Reliability: 4/5 · Pref score: 3/10</p>
 <p class="small muted">Seller: Ahmed Sam (private seller, Facebook Marketplace)</p>
@@ -254,7 +279,7 @@ a{color:var(--steel)}
 <article class="card" data-price="11900" data-miles="57000" data-model="Kia Forte" data-hybrid="false" data-aa="confirmed" data-meets="true" data-deal="true" data-pref="3" data-discount="15.9" data-grade="A-" data-body="sedan">
 <h3>2023 Kia Forte LXS Sedan 4D</h3>
 <p class="price">$11,900 <span class="muted">· 57,000 mi · Richmond, TX</span></p>
-<p class="badges"><span class="tag grade">Grade A-</span> <span class='meets'>✓ MEETS ALL MUST-HAVES</span></p>
+<p class="badges"><span class="tag grade">Grade A-</span> <span class='meets'>✓ MEETS ALL MUST-HAVES</span> <span class="tag fresh">Checked Nov 5, 2026</span> <span class="tag conf">Estimate confidence: Medium</span></p>
 <p class="small"><span class='deal'>★ Underpriced — 15.9% below market est. $14,150</span><br><span class="muted">Market basis: KBB Fair Purchase Price, KBB resale value, Edmunds retail value.</span></p>
 <p class="cta-wrap"><a class="cta" href="https://www.facebook.com/marketplace/item/941745025677309/" target="_blank" rel="noopener">View on Facebook Marketplace →</a></p>
 <button type="button" class="card-toggle" aria-expanded="false">Show details ▾</button>
@@ -262,6 +287,7 @@ a{color:var(--steel)}
 <p class="small"><b>Why:</b> Forte value pick: AA + lane-keeping standard, simple 2.0L</p>
 <p class="small"><b>Miss / note:</b> ✓ Meets all must-haves</p>
 <p class="small"><b>Blockers:</b> Title brand not explicitly stated — verify the physical title · Listing description is empty</p>
+<p class="small"><b>Freshness:</b> Listing live-verified Nov 5, 2026 · First seen Oct 31, 2026 (5 days before that check) · Price history (starts with our records — earlier prices were not tracked): $11,900 on Nov 5, 2026.</p><p class="small"><b>Estimate:</b> Confidence <b>Medium</b> — Three component figures from the Oct 31, 2026 cycle (KBB x2, Edmunds), same trim; carried one cycle. No CarMax figure is included in this estimate.</p><p class="small"><b>Photos:</b> Photos not captured yet — photo capture starts with the next sweep. Open the Marketplace listing to see photos.</p>
 <p class="small"><b>Android Auto:</b> AA confirmed — 2019+ Forte: all trims standard (same generation)<br></p>
 <p class="small">Reverse camera: Yes · Lane assist: Yes · Reliability: 4/5 · Pref score: 3/10</p>
 <p class="small muted">Seller: John Joseph (private seller, Facebook Marketplace)</p>
@@ -271,7 +297,7 @@ a{color:var(--steel)}
 <article class="card" data-price="9000" data-miles="59000" data-model="Kia Forte" data-hybrid="false" data-aa="confirmed" data-meets="true" data-deal="true" data-pref="2" data-discount="12.6" data-grade="A-" data-body="sedan">
 <h3>2019 Kia Forte Not stated</h3>
 <p class="price">$9,000 <span class="muted">· 59,000 mi · Houston, TX</span></p>
-<p class="badges"><span class="tag grade">Grade A-</span> <span class='meets'>✓ MEETS ALL MUST-HAVES</span></p>
+<p class="badges"><span class="tag grade">Grade A-</span> <span class='meets'>✓ MEETS ALL MUST-HAVES</span> <span class="tag fresh">Checked Nov 5, 2026</span> <span class="tag conf">Estimate confidence: Low</span></p>
 <p class="small"><span class='deal'>★ Underpriced — 12.6% below market est. $10,296</span><br><span class="muted">Market basis: KBB resale value, CarMax recent offer, Edmunds private-party value, CarGurus average asking price.</span></p>
 <p class="cta-wrap"><a class="cta" href="https://www.facebook.com/marketplace/item/1624199995839102/" target="_blank" rel="noopener">View on Facebook Marketplace →</a></p>
 <button type="button" class="card-toggle" aria-expanded="false">Show details ▾</button>
@@ -279,6 +305,7 @@ a{color:var(--steel)}
 <p class="small"><b>Why:</b> Forte value pick: AA + lane-keeping standard, simple 2.0L</p>
 <p class="small"><b>Miss / note:</b> ✓ Meets all must-haves (matrix-confirmed)</p>
 <p class="small"><b>Blockers:</b> 'Needs a little fixing up' — repair cost unknown; inspect before any offer · Trim unstated — verify trim, engine and equipment on the car · Title brand unstated — verify the physical title · Seller account joined Facebook in 2025</p>
+<p class="small"><b>Freshness:</b> Listing live-verified Nov 5, 2026 · First seen Nov 5, 2026 (0 days before that check) · Price history (starts with our records — earlier prices were not tracked): $9,000 on Nov 5, 2026.</p><p class="small"><b>Estimate:</b> Confidence <b>Low</b> — Trim not stated, so the estimate rests on unstated-trim comparables (KBB, CarMax, Edmunds, CarGurus, Nov 5, 2026). Includes a CarMax figure: a CarMax recent offer of $9,000 at 58,000 mi is one of the four inputs to the $10,296 median. Per the CarMax policy in docs/METHOD.md an offer is a liquidation reference, not a retail comparable.</p><p class="small"><b>Photos:</b> Photos not captured yet — photo capture starts with the next sweep. Open the Marketplace listing to see photos.</p>
 <p class="small"><b>Android Auto:</b> AA confirmed — 2019+ Forte: all trims standard (same generation)<br></p>
 <p class="small">Reverse camera: Yes · Lane assist: Yes · Reliability: 3.5/5 · Pref score: 2/10</p>
 <p class="small muted">Seller: Jdorrion Smith (private seller, Facebook Marketplace)</p>
@@ -288,7 +315,7 @@ a{color:var(--steel)}
 <article class="card" data-price="9499" data-miles="71000" data-model="Kia Forte" data-hybrid="false" data-aa="confirmed" data-meets="true" data-deal="true" data-pref="3" data-discount="22.5" data-grade="B+" data-body="sedan">
 <h3>2021 Kia Forte EX Sedan 4D</h3>
 <p class="price">$9,499 <span class="muted">· 71,000 mi · Sugar Land, TX</span></p>
-<p class="badges"><span class="tag grade">Grade B+</span> <span class='meets'>✓ MEETS ALL MUST-HAVES</span></p>
+<p class="badges"><span class="tag grade">Grade B+</span> <span class='meets'>✓ MEETS ALL MUST-HAVES</span> <span class="tag fresh">Checked Nov 5, 2026</span> <span class="tag conf">Estimate confidence: Medium</span></p>
 <p class="small"><span class='deal'>★ Underpriced — 22.5% below market est. $12,250</span><br><span class="muted">Market basis: KBB resale value, CarGurus average asking price, CarGurus comparable listing.</span></p>
 <p class="cta-wrap"><a class="cta" href="https://www.facebook.com/marketplace/item/1109600855010568/" target="_blank" rel="noopener">View on Facebook Marketplace →</a></p>
 <button type="button" class="card-toggle" aria-expanded="false">Show details ▾</button>
@@ -296,6 +323,7 @@ a{color:var(--steel)}
 <p class="small"><b>Why:</b> Forte value pick: AA + lane-keeping standard, simple 2.0L</p>
 <p class="small"><b>Miss / note:</b> ✓ Meets all must-haves (matrix-confirmed)</p>
 <p class="small"><b>Blockers:</b> Title brand unstated — verify the physical title · Dealer seller — private-seller preference does not apply · Seller stated neither Android Auto nor camera — matrix/federal-standard confirmation only; plug-test in person</p>
+<p class="small"><b>Freshness:</b> Listing live-verified Nov 5, 2026 · First seen Nov 5, 2026 (0 days before that check) · Price history (starts with our records — earlier prices were not tracked): $9,499 on Nov 5, 2026.</p><p class="small"><b>Estimate:</b> Confidence <b>Medium</b> — Three component figures from Nov 5, 2026 (KBB, CarGurus x2); one comparable is an LXS, not this car&#x27;s EX trim - a proxy input. No CarMax figure is included in this estimate.</p><p class="small"><b>Photos:</b> Photos not captured yet — photo capture starts with the next sweep. Open the Marketplace listing to see photos.</p>
 <p class="small"><b>Android Auto:</b> AA confirmed — 2019+ Forte: all trims standard (same generation)<br></p>
 <p class="small">Reverse camera: Yes · Lane assist: Yes · Reliability: 4/5 · Pref score: 3/10</p>
 <p class="small muted">Seller: Lion Annynne (dealer — Golden Auto, Facebook Marketplace)</p>
@@ -305,7 +333,7 @@ a{color:var(--steel)}
 <article class="card" data-price="5900" data-miles="55000" data-model="Ford Fusion" data-hybrid="false" data-aa="unconfirmed" data-meets="false" data-deal="true" data-pref="1" data-discount="44.3" data-grade="C+" data-body="sedan">
 <h3>2018 Ford Fusion Not stated</h3>
 <p class="price">$5,900 <span class="muted">· 55,000 mi · Richmond, TX</span></p>
-<p class="badges"><span class="tag grade">Grade C+</span> </p>
+<p class="badges"><span class="tag grade">Grade C+</span>  <span class="tag fresh">Checked Nov 5, 2026</span> <span class="tag conf">Estimate confidence: Low</span></p>
 <p class="small"><span class='deal'>★ Underpriced — 44.3% below market est. $10,590</span><br><span class="muted">Market basis: KBB Fair Purchase Price, KBB resale value, CarGurus average asking price.</span></p>
 <p class="cta-wrap"><a class="cta" href="https://www.facebook.com/marketplace/item/1103093259359456/" target="_blank" rel="noopener">View on Facebook Marketplace →</a></p>
 <button type="button" class="card-toggle" aria-expanded="false">Show details ▾</button>
@@ -313,6 +341,7 @@ a{color:var(--steel)}
 <p class="small"><b>Why:</b> Fusion — verify trim, screen and engine before treating as a deal</p>
 <p class="small"><b>Miss / note:</b> Android Auto unconfirmed · backup camera unconfirmed · engine not stated — verify before buying</p>
 <p class="small"><b>Blockers:</b> Engine not stated — could be the excluded 1.5L EcoBoost · Trim/screen unstated — Android Auto and backup camera unconfirmed · Duplicate listing live under a second ID — counted once</p>
+<p class="small"><b>Freshness:</b> Listing live-verified Nov 5, 2026 · First seen Oct 26, 2026 (10 days before that check) · Price history (starts with our records — earlier prices were not tracked): $5,900 on Nov 5, 2026.</p><p class="small"><b>Estimate:</b> Confidence <b>Low</b> — Trim not stated; the estimate uses SE figures as a proxy for an unknown-trim car. No CarMax figure is included in this estimate.</p><p class="small"><b>Photos:</b> Photos not captured yet — photo capture starts with the next sweep. Open the Marketplace listing to see photos.</p>
 <p class="small"><b>Android Auto:</b> Not confirmed — trim not stated / SE small screen (verify on car)<br></p>
 <p class="small">Reverse camera: Not stated · Lane assist: Not stated · Reliability: 3.5/5 · Pref score: 1/10</p>
 <p class="small muted">Seller: Sandoval Fernando (private seller, Facebook Marketplace)</p>
@@ -322,7 +351,7 @@ a{color:var(--steel)}
 <article class="card" data-price="10600" data-miles="92000" data-model="Hyundai Elantra" data-hybrid="false" data-aa="unconfirmed" data-meets="false" data-deal="true" data-pref="2" data-discount="37.1" data-grade="C+" data-body="sedan">
 <h3>2022 Hyundai Elantra Not stated</h3>
 <p class="price">$10,600 <span class="muted">· 92,000 mi · Houston, TX</span></p>
-<p class="badges"><span class="tag grade">Grade C+</span> </p>
+<p class="badges"><span class="tag grade">Grade C+</span>  <span class="tag fresh">Checked Nov 5, 2026</span> <span class="tag conf">Estimate confidence: Low</span></p>
 <p class="small"><span class='deal'>★ Underpriced — 37.1% below market est. $16,862</span><br><span class="muted">Market basis: KBB resale value, CarGurus average asking price, CarEdge current price.</span></p>
 <p class="cta-wrap"><a class="cta" href="https://www.facebook.com/marketplace/item/1792968195344692/" target="_blank" rel="noopener">View on Facebook Marketplace →</a></p>
 <button type="button" class="card-toggle" aria-expanded="false">Show details ▾</button>
@@ -330,6 +359,7 @@ a{color:var(--steel)}
 <p class="small"><b>Why:</b> Elantra value pick — but 2021+ trim and AA need checks</p>
 <p class="small"><b>Miss / note:</b> Android Auto unconfirmed · see notes</p>
 <p class="small"><b>Blockers:</b> Android Auto unconfirmed — no 2021+ Elantra matrix row; seller stated nothing · Trim unstated — verify trim and equipment on the car</p>
+<p class="small"><b>Freshness:</b> Listing live-verified Nov 5, 2026 · First seen Nov 5, 2026 (0 days before that check) · Price history (starts with our records — earlier prices were not tracked): $10,600 on Nov 5, 2026.</p><p class="small"><b>Estimate:</b> Confidence <b>Low</b> — Trim not stated, so the estimate rests on unstated-trim figures (KBB, CarGurus, CarEdge, Nov 5, 2026). No CarMax figure is included in this estimate.</p><p class="small"><b>Photos:</b> Photos not captured yet — photo capture starts with the next sweep. Open the Marketplace listing to see photos.</p>
 <p class="small"><b>Android Auto:</b> Not confirmed — no 2021+ Elantra matrix row (verify on car)<br></p>
 <p class="small">Reverse camera: Yes · Lane assist: Not stated · Reliability: 3.5/5 · Pref score: 2/10</p>
 <p class="small muted">Seller: Jimmy Martinez (private seller, Facebook Marketplace, highly rated)</p>
@@ -339,7 +369,7 @@ a{color:var(--steel)}
 <article class="card" data-price="6000" data-miles="45000" data-model="Hyundai Elantra" data-hybrid="false" data-aa="unconfirmed" data-meets="false" data-deal="true" data-pref="3" data-discount="32.8" data-grade="C+" data-body="sedan">
 <h3>2019 Hyundai Elantra SE Sedan 4D</h3>
 <p class="price">$6,000 <span class="muted">· 45,000 mi · Missouri City, TX</span></p>
-<p class="badges"><span class="tag grade">Grade C+</span> </p>
+<p class="badges"><span class="tag grade">Grade C+</span>  <span class="tag fresh">Checked Nov 5, 2026</span> <span class="tag conf">Estimate confidence: Medium</span></p>
 <p class="small"><span class='deal'>★ Underpriced — 32.8% below market est. $8,925</span><br><span class="muted">Market basis: KBB Fair Purchase Price, KBB resale value, iSeeCars price range.</span></p>
 <p class="cta-wrap"><a class="cta" href="https://www.facebook.com/marketplace/item/988472907230813/" target="_blank" rel="noopener">View on Facebook Marketplace →</a></p>
 <button type="button" class="card-toggle" aria-expanded="false">Show details ▾</button>
@@ -347,6 +377,7 @@ a{color:var(--steel)}
 <p class="small"><b>Why:</b> Elantra value pick — but SE trim and the 21V-301 recall need checks</p>
 <p class="small"><b>Miss / note:</b> Android Auto unconfirmed · see notes</p>
 <p class="small"><b>Blockers:</b> Android Auto unconfirmed on the SE trim · Recall 21V-301 — demand dealer/NHTSA proof of completion · Title brand unstated — verify the physical title</p>
+<p class="small"><b>Freshness:</b> Listing live-verified Nov 5, 2026 · First seen Oct 31, 2026 (5 days before that check) · Price history (starts with our records — earlier prices were not tracked): $6,000 on Nov 5, 2026.</p><p class="small"><b>Estimate:</b> Confidence <b>Medium</b> — Three component figures from the Oct 31, 2026 cycle (KBB x2, iSeeCars); one input is the low end of an iSeeCars range. No CarMax figure is included in this estimate.</p><p class="small"><b>Photos:</b> Photos not captured yet — photo capture starts with the next sweep. Open the Marketplace listing to see photos.</p>
 <p class="small"><b>Android Auto:</b> Not confirmed — trim not stated / SE small screen (verify on car)<br></p>
 <p class="small">Reverse camera: Yes · Lane assist: Not stated · Reliability: 3.5/5 · Pref score: 3/10</p>
 <p class="small muted">Seller: Mike Eze (private seller, Facebook Marketplace)</p>
@@ -356,7 +387,7 @@ a{color:var(--steel)}
 <article class="card" data-price="7500" data-miles="86615" data-model="Ford Fusion" data-hybrid="false" data-aa="none" data-meets="false" data-deal="true" data-pref="1" data-discount="23.3" data-grade="C+" data-body="sedan">
 <h3>2018 Ford Fusion S Sedan 4D</h3>
 <p class="price">$7,500 <span class="muted">· 86,615 mi · Houston, TX</span></p>
-<p class="badges"><span class="tag grade">Grade C+</span> </p>
+<p class="badges"><span class="tag grade">Grade C+</span>  <span class="tag fresh">Checked Nov 5, 2026</span> <span class="tag conf">Estimate confidence: Medium</span></p>
 <p class="small"><span class='deal'>★ Underpriced — 23.3% below market est. $9,775</span><br><span class="muted">Market basis: KBB Fair Purchase Price, KBB resale value, CarGurus average asking price.</span></p>
 <p class="cta-wrap"><a class="cta" href="https://www.facebook.com/marketplace/item/1552019169121297/" target="_blank" rel="noopener">View on Facebook Marketplace →</a></p>
 <button type="button" class="card-toggle" aria-expanded="false">Show details ▾</button>
@@ -364,6 +395,7 @@ a{color:var(--steel)}
 <p class="small"><b>Why:</b> Fusion — verify trim, screen and engine before treating as a deal</p>
 <p class="small"><b>Miss / note:</b> no factory Android Auto on this trim · backup camera unconfirmed · engine not stated — verify before buying</p>
 <p class="small"><b>Blockers:</b> No factory Android Auto on this trim per the matrix (4.2-inch screen) · Backup camera unconfirmed · Title brand unstated — verify the physical title · Dealer seller</p>
+<p class="small"><b>Freshness:</b> Listing live-verified Nov 5, 2026 · First seen Oct 31, 2026 (5 days before that check) · Price history (starts with our records — earlier prices were not tracked): $7,500 on Nov 5, 2026.</p><p class="small"><b>Estimate:</b> Confidence <b>Medium</b> — Three component figures from the Oct 31, 2026 cycle (KBB x2, CarGurus), trim known (S); carried one cycle. No CarMax figure is included in this estimate.</p><p class="small"><b>Photos:</b> Photos not captured yet — photo capture starts with the next sweep. Open the Marketplace listing to see photos.</p>
 <p class="small"><b>Android Auto:</b> No AA by matrix — 2018 Fusion S: 4.2-inch SYNC screen (verify on car)<br></p>
 <p class="small">Reverse camera: Not stated · Lane assist: Not stated · Reliability: 3.5/5 · Pref score: 1/10</p>
 <p class="small muted">Seller: Danyelle Ann (dealer, Facebook Marketplace)</p>
@@ -373,7 +405,7 @@ a{color:var(--steel)}
 <article class="card" data-price="9400" data-miles="80443" data-model="Ford Fusion" data-hybrid="false" data-aa="unconfirmed" data-meets="false" data-deal="true" data-pref="2" data-discount="22.3" data-grade="C+" data-body="sedan">
 <h3>2020 Ford Fusion Not stated</h3>
 <p class="price">$9,400 <span class="muted">· 80,443 mi · Missouri City, TX</span></p>
-<p class="badges"><span class="tag grade">Grade C+</span> </p>
+<p class="badges"><span class="tag grade">Grade C+</span>  <span class="tag fresh">Checked Nov 5, 2026</span> <span class="tag conf">Estimate confidence: Low</span></p>
 <p class="small"><span class='deal'>★ Underpriced — 22.3% below market est. $12,100</span><br><span class="muted">Market basis: KBB Fair Purchase Price, KBB resale value, CarGurus average asking price.</span></p>
 <p class="cta-wrap"><a class="cta" href="https://www.facebook.com/marketplace/item/1785137865839066/" target="_blank" rel="noopener">View on Facebook Marketplace →</a></p>
 <button type="button" class="card-toggle" aria-expanded="false">Show details ▾</button>
@@ -381,6 +413,7 @@ a{color:var(--steel)}
 <p class="small"><b>Why:</b> Fusion — verify trim, screen and engine before treating as a deal</p>
 <p class="small"><b>Miss / note:</b> Android Auto unconfirmed · engine not stated — verify before buying</p>
 <p class="small"><b>Blockers:</b> Engine not stated — could be the excluded 1.5L EcoBoost · Trim unstated — Android Auto unconfirmed</p>
+<p class="small"><b>Freshness:</b> Listing live-verified Nov 5, 2026 · First seen Oct 31, 2026 (5 days before that check) · Price history (starts with our records — earlier prices were not tracked): $9,400 on Nov 5, 2026.</p><p class="small"><b>Estimate:</b> Confidence <b>Low</b> — Trim not stated; the estimate uses SE figures as a proxy for an unknown-trim car. No CarMax figure is included in this estimate.</p><p class="small"><b>Photos:</b> Photos not captured yet — photo capture starts with the next sweep. Open the Marketplace listing to see photos.</p>
 <p class="small"><b>Android Auto:</b> Not confirmed — trim not stated / SE small screen (verify on car)<br></p>
 <p class="small">Reverse camera: Yes · Lane assist: Not stated · Reliability: 3.5/5 · Pref score: 2/10</p>
 <p class="small muted">Seller: Zoher Afan (private seller, Facebook Marketplace)</p>
@@ -391,6 +424,218 @@ a{color:var(--steel)}
 </div>
 </div>
 
+<div id="view-fin" hidden>
+<section class="help">
+<h2>Finalists — the three cars worth a viewing</h2>
+<p>The top 3 of the 10 cars that meet all must-haves, picked from the data by grade, then discount: the 2024 Malibu LT (A, 42.5% under), the 2024 Forte LXS (A, 34.4% under), and the 2021 Forte GT-Line in Katy (A, 34.2% under). The viewing order below weighs the blockers on top of that rank — the Forte LXS is seen first because it is the only one whose seller states a clean Texas title; the Malibu's discount sits in the washed-title flag zone, so it waits for home VIN checks.</p>
+<div style="overflow-x:auto"><table>
+<tr><th>See</th><th>Car</th><th>Price</th><th>Miles</th><th>Grade</th><th>Discount</th><th>Seller</th><th>Listed since</th><th>Blockers</th><th>Est. all-in cash</th><th>Next action</th></tr>
+<tr><td><b>#1</b></td><td><b>2024 Kia Forte LXS Sedan 4D</b><br><span class="muted">Houston, TX</span></td><td>$10,500</td><td>61,211</td><td>A</td><td>34.4% under<br><span class="muted">est. $16,010</span></td><td>private</td><td>Nov 5, 2026</td><td class="small">Seller stated neither Android Auto nor camera — matrix/federal-standard confirmation only; plug-test in person; Listing description is one line in Spanish — verify condition in person</td><td>$11,395<br><span class="muted">with defaults</span></td><td class="small">Send the seller script below, book the viewing, and run the VIN checks when the VIN arrives.</td></tr><tr><td><b>#2</b></td><td><b>2024 Chevrolet Malibu LT Sedan 4D</b><br><span class="muted">Katy, TX</span></td><td>$9,799</td><td>52,000</td><td>A</td><td>42.5% under<br><span class="muted">est. $17,033</span></td><td>private</td><td>Nov 4, 2026</td><td class="small">Title brand unstated — verify the physical title, plus NICB + NMVTIS, before travelling; Price 42.5% under estimate sits in the washed-title flag zone; No expert-matrix row for 2021+ Malibu — Android Auto rests on the seller&#x27;s statement; plug-test in person; 1.5T: cold-start inspection for misfire/oil use</td><td>$10,650.19<br><span class="muted">with defaults</span></td><td class="small">Get the VIN with the seller script and run NICB + NMVTIS from home BEFORE travelling.</td></tr><tr><td><b>#3</b></td><td><b>2021 Kia Forte GT-Line Sedan 4D</b><br><span class="muted">Katy, TX</span></td><td>$9,500</td><td>79,000</td><td>A</td><td>34.2% under<br><span class="muted">est. $14,440</span></td><td>private</td><td>Oct 31, 2026</td><td class="small">Title brand not explicitly stated — verify the physical title</td><td>$10,332.50<br><span class="muted">with defaults</span></td><td class="small">Send the seller script; get the title brand confirmed in writing, then view.</td></tr>
+</table></div>
+<p class="small muted">All-in cash uses the estimator defaults (6.25% tax on the asking price, $33 title fee, $50.75 registration, $125 PPI, $30 history report, repairs unknown and not included). Edit the figures in each car's estimator below. The $15,000 budget is the asking-price cap — each estimator also flags it if total cash passes $15,000.</p>
+</section>
+<section class="help fin" id="fin-1641566861003041">
+<h3>#1 — 2024 Kia Forte LXS Sedan 4D — $10,500 · 61,211 mi · Houston, TX</h3>
+<p class="small"><b>Why this order:</b> See this one first: grade A and 34.4% under estimate, and the only finalist whose seller states a clean Texas title. Its only blockers are an in-person plug test — nothing has to be cleared from home first.</p>
+<p class="small"><b>Next action:</b> Send the seller script below, book the viewing, and run the VIN checks when the VIN arrives. &nbsp;<a href="https://www.facebook.com/marketplace/item/1641566861003041/" target="_blank" rel="noopener">Open the Marketplace listing →</a></p>
+<p class="small"><b>Photos:</b> Photos not captured yet — photo capture starts with the next sweep. Open the Marketplace listing to see photos.</p>
+<h4>VIN checks — do these from home</h4>
+<p class="small">Paste the VIN the seller sends you. <b>The VIN is never stored</b> — not in this page, not in the browser storage, not in the repo. It lives only in the box below while you use it. The checkboxes store only which checks are done.</p>
+<div class="vin-row"><input type="text" class="vin-in" placeholder="Paste VIN here" autocomplete="off" spellcheck="false" aria-label="VIN for 2024 Kia Forte LXS Sedan 4D"><button type="button" class="slim-btn2" data-vin-copy>Copy VIN</button></div>
+<p class="vin-links"><a href="https://www.nhtsa.gov/vin-decoder" target="_blank" rel="noopener">NHTSA VIN Decoder</a> · <a href="https://www.nhtsa.gov/recalls" target="_blank" rel="noopener">NHTSA Recalls</a> · <a href="https://www.nicb.org/vincheck" target="_blank" rel="noopener">NICB VINCheck</a> · <a href="https://vehiclehistory.gov" target="_blank" rel="noopener">NMVTIS (vehiclehistory.gov)</a> · <a href="https://www.txdmv.gov" target="_blank" rel="noopener">TxDMV — search “Title Check”</a></p>
+<div class="checklist"><label><input type="checkbox" data-store="vin:1641566861003041:decoder"> NHTSA VIN Decoder done</label>
+<label><input type="checkbox" data-store="vin:1641566861003041:recalls"> NHTSA Recalls done</label>
+<label><input type="checkbox" data-store="vin:1641566861003041:nicb"> NICB VINCheck done</label>
+<label><input type="checkbox" data-store="vin:1641566861003041:nmvtis"> NMVTIS / TxDMV Title Check done</label>
+<label><input type="checkbox" data-store="vin:1641566861003041:paid"> Paid history report done (finalist only)</label></div>
+<h4>Message to the seller — copy, paste, send it yourself</h4>
+<p class="small muted">Prepared only — CarHunt never sends messages. Tailored to this car's blockers.</p>
+<textarea readonly rows="9" class="seller-msg" id="msg-1641566861003041">Hi — is the 2024 Kia Forte LXS Sedan 4D still available? I&#x27;m a cash buyer, no financing, buying for myself.
+Before I travel to see it, could you confirm a few things?
+1) The VIN, so I can run the free NHTSA and NICB checks.
+2) Is the title in your name and in hand, and what brand is printed on it?
+3) The engine size (the listing suggests 2.0L).
+4) Has Android Auto been used with a cable in this car?
+5) Any open recalls or warning lights?
+6) Would you allow a pre-purchase inspection at my mechanic? I pay for it.
+7) Your listing does not mention Android Auto or the backup camera — could you send a photo of the dashboard screen, and confirm Android Auto connects with a cable?
+8) The description is short — is there any damage, warning light, or repair the car needs?
+Thanks — if those check out I&#x27;m ready to view this week.</textarea>
+<button type="button" class="slim-btn2" data-copy-target="msg-1641566861003041">Copy message</button>
+<h4>All-in cash estimator (Texas defaults — every figure editable)</h4>
+<div class="estimator" data-fin="1641566861003041">
+<div class="fgrid">
+<div><label>Asking price ($) <input type="number" class="est-in" data-k="price" value="10500" min="0" step="1"></label></div>
+<div><label>Standard Presumptive Value ($) <input type="number" class="est-in" data-k="spv" value="10500" min="0" step="1"></label></div>
+<div><label>Title fee ($) <input type="number" class="est-in" data-k="title" value="33" min="0" step="1"></label></div>
+<div><label>Registration ($) <input type="number" class="est-in" data-k="reg" value="50.75" min="0" step="0.01"></label></div>
+<div><label>County fees ($) <input type="number" class="est-in" data-k="county" value="0" min="0" step="0.01"></label></div>
+<div><label>PPI allowance ($) <input type="number" class="est-in" data-k="ppi" value="125" min="0" step="1"></label></div>
+<div><label>Paid history report ($) <input type="number" class="est-in" data-k="report" value="30" min="0" step="1"></label></div>
+
+<div><label>Immediate repairs reserve ($) <input type="number" class="est-in" data-k="reserve" placeholder="unknown" min="0" step="1"></label></div>
+</div>
+<p class="small">Sales tax: 6.25% of the <b>greater</b> of the asking price or the Standard Presumptive Value = <b data-out="tax">$656.25</b>. Title fee is $28 in Harris County and $33 in most other counties — edit it to yours.</p>
+<p class="est-total">Estimated total cash before repairs: <b data-out="total">$11,395</b></p>
+<p class="small" data-out="headroom"></p>
+<p class="small muted" data-out="reserve-note">Immediate repairs: unknown — not included in the total.</p>
+</div>
+<h4>Test-drive &amp; inspection checklist</h4>
+<div class="walkaway"><b>Walk away now if:</b><ul><li>Title, odometer, or VIN mismatch in any of the three places.</li>
+<li>Flood evidence or frame repair.</li>
+<li>Metal in the fluids, or a seller who refuses a pre-purchase inspection.</li>
+<li>Title in someone else&#x27;s name (title jumping) or a blank buyer line.</li></ul></div>
+<div class="checklist"><label><input type="checkbox" data-store="ppi:1641566861003041:0"> Cold start observed — never accept a pre-warmed car; listen for knock/rattle, watch for smoke.</label>
+<label><input type="checkbox" data-store="ppi:1641566861003041:1"> VIN plate (windshield) = door sticker = title, and the seller&#x27;s photo ID name = the name on the title. Any mismatch: stop.</label>
+<label><input type="checkbox" data-store="ppi:1641566861003041:2"> Read the brand printed on the physical title itself (a blue Texas title is not automatically clean).</label>
+<label><input type="checkbox" data-store="ppi:1641566861003041:3"> Houston flood protocol: silt under carpets and in the spare-tyre well, rusty seat rails and under-dash metal, musty smell, fogged lamps.</label>
+<label><input type="checkbox" data-store="ppi:1641566861003041:4"> Full scan of all modules; watch for freshly cleared codes.</label>
+<label><input type="checkbox" data-store="ppi:1641566861003041:5"> Oil and coolant: fuel smell or glitter in the oil, low or disappearing coolant.</label>
+<label><input type="checkbox" data-store="ppi:1641566861003041:6"> On a lift: frame rails, crash/flood signs, leaks, suspension, all four tyre dates.</label>
+<label><input type="checkbox" data-store="ppi:1641566861003041:7"> A/C torture test: max cold for 10 minutes, vent temperature measured.</label>
+<label><input type="checkbox" data-store="ppi:1641566861003041:8"> Road test: highway merge, straight-line braking, whine with the radio off.</label>
+<label><input type="checkbox" data-store="ppi:1641566861003041:9"> Android Auto plug test: your phone and a known-good data cable — it must launch in this car.</label>
+<label><input type="checkbox" data-store="ppi:1641566861003041:10"> Reverse camera test: engages in reverse, picture clear.</label>
+<label><input type="checkbox" data-store="ppi:1641566861003041:11"> Written list of everything due now, priced — add it to the price before negotiating.</label>
+<label><input type="checkbox" data-store="ppi:1641566861003041:12"> Condition in person — the listing description is one line, so check for damage and wear the listing does not cover.</label>
+<label><input type="checkbox" data-store="ppi:1641566861003041:13"> IVT (transmission) fluid history — ask for any IVT service records.</label>
+<label><input type="checkbox" data-store="ppi:1641566861003041:14"> Hyundai/Kia ABS/HECU fire-recall applicability — confirm by VIN on the NHTSA recalls check.</label></div>
+<button type="button" class="slim-btn2" data-print>Print this checklist</button>
+</section><section class="help fin" id="fin-2085271345433565">
+<h3>#2 — 2024 Chevrolet Malibu LT Sedan 4D — $9,799 · 52,000 mi · Katy, TX</h3>
+<p class="small"><b>Why this order:</b> Second: the cheapest finalist with the fewest miles, and the deepest discount on the board — but at 42.5% under estimate the price sits in the washed-title flag zone, so it is not seen first. Clear NICB + NMVTIS from home before travelling to Katy.</p>
+<p class="small"><b>Next action:</b> Get the VIN with the seller script and run NICB + NMVTIS from home BEFORE travelling. &nbsp;<a href="https://www.facebook.com/marketplace/item/2085271345433565/" target="_blank" rel="noopener">Open the Marketplace listing →</a></p>
+<p class="small"><b>Photos:</b> Photos not captured yet — photo capture starts with the next sweep. Open the Marketplace listing to see photos.</p>
+<h4>VIN checks — do these from home</h4>
+<p class="small">Paste the VIN the seller sends you. <b>The VIN is never stored</b> — not in this page, not in the browser storage, not in the repo. It lives only in the box below while you use it. The checkboxes store only which checks are done.</p>
+<div class="vin-row"><input type="text" class="vin-in" placeholder="Paste VIN here" autocomplete="off" spellcheck="false" aria-label="VIN for 2024 Chevrolet Malibu LT Sedan 4D"><button type="button" class="slim-btn2" data-vin-copy>Copy VIN</button></div>
+<p class="vin-links"><a href="https://www.nhtsa.gov/vin-decoder" target="_blank" rel="noopener">NHTSA VIN Decoder</a> · <a href="https://www.nhtsa.gov/recalls" target="_blank" rel="noopener">NHTSA Recalls</a> · <a href="https://www.nicb.org/vincheck" target="_blank" rel="noopener">NICB VINCheck</a> · <a href="https://vehiclehistory.gov" target="_blank" rel="noopener">NMVTIS (vehiclehistory.gov)</a> · <a href="https://www.txdmv.gov" target="_blank" rel="noopener">TxDMV — search “Title Check”</a></p>
+<div class="checklist"><label><input type="checkbox" data-store="vin:2085271345433565:decoder"> NHTSA VIN Decoder done</label>
+<label><input type="checkbox" data-store="vin:2085271345433565:recalls"> NHTSA Recalls done</label>
+<label><input type="checkbox" data-store="vin:2085271345433565:nicb"> NICB VINCheck done</label>
+<label><input type="checkbox" data-store="vin:2085271345433565:nmvtis"> NMVTIS / TxDMV Title Check done</label>
+<label><input type="checkbox" data-store="vin:2085271345433565:paid"> Paid history report done (finalist only)</label></div>
+<h4>Message to the seller — copy, paste, send it yourself</h4>
+<p class="small muted">Prepared only — CarHunt never sends messages. Tailored to this car's blockers.</p>
+<textarea readonly rows="9" class="seller-msg" id="msg-2085271345433565">Hi — is the 2024 Chevrolet Malibu LT Sedan 4D still available? I&#x27;m a cash buyer, no financing, buying for myself.
+Before I travel to see it, could you confirm a few things?
+1) The VIN, so I can run the free NHTSA and NICB checks.
+2) Is the title in your name and in hand, and what brand is printed on it?
+3) The engine size (the listing suggests 1.5L ECOTEC).
+4) Has Android Auto been used with a cable in this car?
+5) Any open recalls or warning lights?
+6) Would you allow a pre-purchase inspection at my mechanic? I pay for it.
+7) Could you send a short cold-start video — the first start of the day, not a warmed-up car?
+8) You mention the car is paid off — what brand is printed on the title itself (Clean, Rebuilt, Salvage)? Has the title ever been issued in another state?
+9) Any oil-change records? Has the car ever had a misfire or a check-engine light?
+Thanks — if those check out I&#x27;m ready to view this week.</textarea>
+<button type="button" class="slim-btn2" data-copy-target="msg-2085271345433565">Copy message</button>
+<h4>All-in cash estimator (Texas defaults — every figure editable)</h4>
+<div class="estimator" data-fin="2085271345433565">
+<div class="fgrid">
+<div><label>Asking price ($) <input type="number" class="est-in" data-k="price" value="9799" min="0" step="1"></label></div>
+<div><label>Standard Presumptive Value ($) <input type="number" class="est-in" data-k="spv" value="9799" min="0" step="1"></label></div>
+<div><label>Title fee ($) <input type="number" class="est-in" data-k="title" value="33" min="0" step="1"></label></div>
+<div><label>Registration ($) <input type="number" class="est-in" data-k="reg" value="50.75" min="0" step="0.01"></label></div>
+<div><label>County fees ($) <input type="number" class="est-in" data-k="county" value="0" min="0" step="0.01"></label></div>
+<div><label>PPI allowance ($) <input type="number" class="est-in" data-k="ppi" value="125" min="0" step="1"></label></div>
+<div><label>Paid history report ($) <input type="number" class="est-in" data-k="report" value="30" min="0" step="1"></label></div>
+
+<div><label>Immediate repairs reserve ($) <input type="number" class="est-in" data-k="reserve" placeholder="unknown" min="0" step="1"></label></div>
+</div>
+<p class="small">Sales tax: 6.25% of the <b>greater</b> of the asking price or the Standard Presumptive Value = <b data-out="tax">$612.44</b>. Title fee is $28 in Harris County and $33 in most other counties — edit it to yours.</p>
+<p class="est-total">Estimated total cash before repairs: <b data-out="total">$10,650.19</b></p>
+<p class="small" data-out="headroom"></p>
+<p class="small muted" data-out="reserve-note">Immediate repairs: unknown — not included in the total.</p>
+</div>
+<h4>Test-drive &amp; inspection checklist</h4>
+<div class="walkaway"><b>Walk away now if:</b><ul><li>Title, odometer, or VIN mismatch in any of the three places.</li>
+<li>Flood evidence or frame repair.</li>
+<li>Metal in the fluids, or a seller who refuses a pre-purchase inspection.</li>
+<li>Title in someone else&#x27;s name (title jumping) or a blank buyer line.</li></ul></div>
+<div class="checklist"><label><input type="checkbox" data-store="ppi:2085271345433565:0"> Cold start observed — never accept a pre-warmed car; listen for knock/rattle, watch for smoke.</label>
+<label><input type="checkbox" data-store="ppi:2085271345433565:1"> VIN plate (windshield) = door sticker = title, and the seller&#x27;s photo ID name = the name on the title. Any mismatch: stop.</label>
+<label><input type="checkbox" data-store="ppi:2085271345433565:2"> Read the brand printed on the physical title itself (a blue Texas title is not automatically clean).</label>
+<label><input type="checkbox" data-store="ppi:2085271345433565:3"> Houston flood protocol: silt under carpets and in the spare-tyre well, rusty seat rails and under-dash metal, musty smell, fogged lamps.</label>
+<label><input type="checkbox" data-store="ppi:2085271345433565:4"> Full scan of all modules; watch for freshly cleared codes.</label>
+<label><input type="checkbox" data-store="ppi:2085271345433565:5"> Oil and coolant: fuel smell or glitter in the oil, low or disappearing coolant.</label>
+<label><input type="checkbox" data-store="ppi:2085271345433565:6"> On a lift: frame rails, crash/flood signs, leaks, suspension, all four tyre dates.</label>
+<label><input type="checkbox" data-store="ppi:2085271345433565:7"> A/C torture test: max cold for 10 minutes, vent temperature measured.</label>
+<label><input type="checkbox" data-store="ppi:2085271345433565:8"> Road test: highway merge, straight-line braking, whine with the radio off.</label>
+<label><input type="checkbox" data-store="ppi:2085271345433565:9"> Android Auto plug test: your phone and a known-good data cable — it must launch in this car.</label>
+<label><input type="checkbox" data-store="ppi:2085271345433565:10"> Reverse camera test: engages in reverse, picture clear.</label>
+<label><input type="checkbox" data-store="ppi:2085271345433565:11"> Written list of everything due now, priced — add it to the price before negotiating.</label>
+<label><input type="checkbox" data-store="ppi:2085271345433565:12"> 1.5T cold start (a named blocker on this card): listen for misfire or rattle, watch for smoke, check oil level and smell. The 2024 1.5T is not the 2016–17 LSPI population, but this check still applies.</label>
+<label><input type="checkbox" data-store="ppi:2085271345433565:13"> Read the brand printed on the physical title before anything else, with the NICB + NMVTIS results already in hand.</label>
+<label><input type="checkbox" data-store="ppi:2085271345433565:14"> The Android Auto plug test is the only AA evidence for this car — there is no expert-matrix row for 2021+ Malibu.</label></div>
+<button type="button" class="slim-btn2" data-print>Print this checklist</button>
+</section><section class="help fin" id="fin-2137005053575052">
+<h3>#3 — 2021 Kia Forte GT-Line Sedan 4D — $9,500 · 79,000 mi · Katy, TX</h3>
+<p class="small"><b>Why this order:</b> Third: one blocker only (the title brand), but the highest miles of the three and the weakest discount — it wins only if the first two fall through.</p>
+<p class="small"><b>Next action:</b> Send the seller script; get the title brand confirmed in writing, then view. &nbsp;<a href="https://www.facebook.com/marketplace/item/2137005053575052/" target="_blank" rel="noopener">Open the Marketplace listing →</a></p>
+<p class="small"><b>Photos:</b> Photos not captured yet — photo capture starts with the next sweep. Open the Marketplace listing to see photos.</p>
+<h4>VIN checks — do these from home</h4>
+<p class="small">Paste the VIN the seller sends you. <b>The VIN is never stored</b> — not in this page, not in the browser storage, not in the repo. It lives only in the box below while you use it. The checkboxes store only which checks are done.</p>
+<div class="vin-row"><input type="text" class="vin-in" placeholder="Paste VIN here" autocomplete="off" spellcheck="false" aria-label="VIN for 2021 Kia Forte GT-Line Sedan 4D"><button type="button" class="slim-btn2" data-vin-copy>Copy VIN</button></div>
+<p class="vin-links"><a href="https://www.nhtsa.gov/vin-decoder" target="_blank" rel="noopener">NHTSA VIN Decoder</a> · <a href="https://www.nhtsa.gov/recalls" target="_blank" rel="noopener">NHTSA Recalls</a> · <a href="https://www.nicb.org/vincheck" target="_blank" rel="noopener">NICB VINCheck</a> · <a href="https://vehiclehistory.gov" target="_blank" rel="noopener">NMVTIS (vehiclehistory.gov)</a> · <a href="https://www.txdmv.gov" target="_blank" rel="noopener">TxDMV — search “Title Check”</a></p>
+<div class="checklist"><label><input type="checkbox" data-store="vin:2137005053575052:decoder"> NHTSA VIN Decoder done</label>
+<label><input type="checkbox" data-store="vin:2137005053575052:recalls"> NHTSA Recalls done</label>
+<label><input type="checkbox" data-store="vin:2137005053575052:nicb"> NICB VINCheck done</label>
+<label><input type="checkbox" data-store="vin:2137005053575052:nmvtis"> NMVTIS / TxDMV Title Check done</label>
+<label><input type="checkbox" data-store="vin:2137005053575052:paid"> Paid history report done (finalist only)</label></div>
+<h4>Message to the seller — copy, paste, send it yourself</h4>
+<p class="small muted">Prepared only — CarHunt never sends messages. Tailored to this car's blockers.</p>
+<textarea readonly rows="9" class="seller-msg" id="msg-2137005053575052">Hi — is the 2021 Kia Forte GT-Line Sedan 4D still available? I&#x27;m a cash buyer, no financing, buying for myself.
+Before I travel to see it, could you confirm a few things?
+1) The VIN, so I can run the free NHTSA and NICB checks.
+2) Is the title in your name and in hand, and what brand is printed on it?
+3) The engine size (the listing suggests 2.0L).
+4) Has Android Auto been used with a cable in this car?
+5) Any open recalls or warning lights?
+6) Would you allow a pre-purchase inspection at my mechanic? I pay for it.
+7) Facebook shows a clear history — could you confirm the brand printed on the title itself (Clean, Rebuilt, Salvage)?
+Thanks — if those check out I&#x27;m ready to view this week.</textarea>
+<button type="button" class="slim-btn2" data-copy-target="msg-2137005053575052">Copy message</button>
+<h4>All-in cash estimator (Texas defaults — every figure editable)</h4>
+<div class="estimator" data-fin="2137005053575052">
+<div class="fgrid">
+<div><label>Asking price ($) <input type="number" class="est-in" data-k="price" value="9500" min="0" step="1"></label></div>
+<div><label>Standard Presumptive Value ($) <input type="number" class="est-in" data-k="spv" value="9500" min="0" step="1"></label></div>
+<div><label>Title fee ($) <input type="number" class="est-in" data-k="title" value="33" min="0" step="1"></label></div>
+<div><label>Registration ($) <input type="number" class="est-in" data-k="reg" value="50.75" min="0" step="0.01"></label></div>
+<div><label>County fees ($) <input type="number" class="est-in" data-k="county" value="0" min="0" step="0.01"></label></div>
+<div><label>PPI allowance ($) <input type="number" class="est-in" data-k="ppi" value="125" min="0" step="1"></label></div>
+<div><label>Paid history report ($) <input type="number" class="est-in" data-k="report" value="30" min="0" step="1"></label></div>
+
+<div><label>Immediate repairs reserve ($) <input type="number" class="est-in" data-k="reserve" placeholder="unknown" min="0" step="1"></label></div>
+</div>
+<p class="small">Sales tax: 6.25% of the <b>greater</b> of the asking price or the Standard Presumptive Value = <b data-out="tax">$593.75</b>. Title fee is $28 in Harris County and $33 in most other counties — edit it to yours.</p>
+<p class="est-total">Estimated total cash before repairs: <b data-out="total">$10,332.50</b></p>
+<p class="small" data-out="headroom"></p>
+<p class="small muted" data-out="reserve-note">Immediate repairs: unknown — not included in the total.</p>
+</div>
+<h4>Test-drive &amp; inspection checklist</h4>
+<div class="walkaway"><b>Walk away now if:</b><ul><li>Title, odometer, or VIN mismatch in any of the three places.</li>
+<li>Flood evidence or frame repair.</li>
+<li>Metal in the fluids, or a seller who refuses a pre-purchase inspection.</li>
+<li>Title in someone else&#x27;s name (title jumping) or a blank buyer line.</li></ul></div>
+<div class="checklist"><label><input type="checkbox" data-store="ppi:2137005053575052:0"> Cold start observed — never accept a pre-warmed car; listen for knock/rattle, watch for smoke.</label>
+<label><input type="checkbox" data-store="ppi:2137005053575052:1"> VIN plate (windshield) = door sticker = title, and the seller&#x27;s photo ID name = the name on the title. Any mismatch: stop.</label>
+<label><input type="checkbox" data-store="ppi:2137005053575052:2"> Read the brand printed on the physical title itself (a blue Texas title is not automatically clean).</label>
+<label><input type="checkbox" data-store="ppi:2137005053575052:3"> Houston flood protocol: silt under carpets and in the spare-tyre well, rusty seat rails and under-dash metal, musty smell, fogged lamps.</label>
+<label><input type="checkbox" data-store="ppi:2137005053575052:4"> Full scan of all modules; watch for freshly cleared codes.</label>
+<label><input type="checkbox" data-store="ppi:2137005053575052:5"> Oil and coolant: fuel smell or glitter in the oil, low or disappearing coolant.</label>
+<label><input type="checkbox" data-store="ppi:2137005053575052:6"> On a lift: frame rails, crash/flood signs, leaks, suspension, all four tyre dates.</label>
+<label><input type="checkbox" data-store="ppi:2137005053575052:7"> A/C torture test: max cold for 10 minutes, vent temperature measured.</label>
+<label><input type="checkbox" data-store="ppi:2137005053575052:8"> Road test: highway merge, straight-line braking, whine with the radio off.</label>
+<label><input type="checkbox" data-store="ppi:2137005053575052:9"> Android Auto plug test: your phone and a known-good data cable — it must launch in this car.</label>
+<label><input type="checkbox" data-store="ppi:2137005053575052:10"> Reverse camera test: engages in reverse, picture clear.</label>
+<label><input type="checkbox" data-store="ppi:2137005053575052:11"> Written list of everything due now, priced — add it to the price before negotiating.</label>
+<label><input type="checkbox" data-store="ppi:2137005053575052:12"> IVT (transmission) fluid history — ask for any IVT service records.</label>
+<label><input type="checkbox" data-store="ppi:2137005053575052:13"> Hyundai/Kia ABS/HECU fire-recall applicability — confirm by VIN on the NHTSA recalls check.</label></div>
+<button type="button" class="slim-btn2" data-print>Print this checklist</button>
+</section>
+</div>
 <div id="view-faq" hidden>
 <section class="help"><h2>FAQ &amp; Help</h2>
 <h3>Which cars should I pursue?</h3>
@@ -492,7 +737,7 @@ a{color:var(--steel)}
 </main>
 <footer>Built from the Nov 5, 2026 Facebook Marketplace sweeps + expert guide (2026-10-26). Records re-verified live Nov 5, 2026 (Phase 0 gate). Research only — no seller was contacted. Full detail: docs/FAQ.md, docs/RESEARCH.md, docs/METHOD.md in this repo.</footer>
 <script>
-function showTab(t){document.getElementById('view-list').hidden=t!=='list';document.getElementById('view-faq').hidden=t!=='faq';document.getElementById('view-paper').hidden=t!=='paper';document.getElementById('toolbar').hidden=t!=='list';document.getElementById('tabList').classList.toggle('active',t==='list');document.getElementById('tabFaq').classList.toggle('active',t==='faq');document.getElementById('tabPaper').classList.toggle('active',t==='paper');}
+function showTab(t){document.getElementById('view-list').hidden=t!=='list';document.getElementById('view-fin').hidden=t!=='fin';document.getElementById('view-faq').hidden=t!=='faq';document.getElementById('view-paper').hidden=t!=='paper';document.getElementById('toolbar').hidden=t!=='list';document.getElementById('tabList').classList.toggle('active',t==='list');document.getElementById('tabFin').classList.toggle('active',t==='fin');document.getElementById('tabFaq').classList.toggle('active',t==='faq');document.getElementById('tabPaper').classList.toggle('active',t==='paper');}
 var grid=document.getElementById('grid');
 function apply(){
  var mp=parseFloat(document.getElementById('fPrice').value)||Infinity, mm=parseFloat(document.getElementById('fMiles').value)||Infinity, mo=document.getElementById('fModel').value;
@@ -539,6 +784,48 @@ apply();
     mores.forEach(function(m){m.hidden=!anyHidden; var b=m.parentElement.querySelector('.card-toggle'); if(b){b.setAttribute('aria-expanded',anyHidden?'true':'false'); b.textContent=anyHidden?'Hide details ▴':'Show details ▾';}});
     all.textContent=anyHidden?'Hide all details':'Show all details';
   });}
+})();
+</script>
+<script>
+// Phase 1/2 (2026-11-07): Finalists cockpit behaviour.
+// - Checkboxes with a data-store key persist ONLY their done/not-done state
+//   in localStorage 'carhunt-checks-v1'. Nothing else is ever stored.
+// - The VIN input is never read into storage and never sent anywhere; the
+//   copy button copies it to the clipboard and that is all.
+(function(){
+  var KEY='carhunt-checks-v1', state={};
+  try{state=JSON.parse(localStorage.getItem(KEY)||'{}')}catch(e){state={}}
+  function save(){try{localStorage.setItem(KEY,JSON.stringify(state))}catch(e){}}
+  document.querySelectorAll('input[type=checkbox][data-store]').forEach(function(cb){
+    cb.checked=!!state[cb.getAttribute('data-store')];
+    cb.addEventListener('change',function(){state[cb.getAttribute('data-store')]=cb.checked;save();});
+  });
+  function copyText(t,btn){function done(){if(btn){var o=btn.textContent;btn.textContent='Copied ✓';setTimeout(function(){btn.textContent=o},1500)}}
+    if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t).then(done,done);}else{var ta=document.createElement('textarea');ta.value=t;document.body.appendChild(ta);ta.select();try{document.execCommand('copy')}catch(e){}ta.remove();done();}}
+  document.querySelectorAll('[data-copy-target]').forEach(function(b){
+    b.addEventListener('click',function(){var el=document.getElementById(b.getAttribute('data-copy-target'));if(el)copyText(el.value||el.textContent,b);});
+  });
+  document.querySelectorAll('[data-vin-copy]').forEach(function(b){
+    b.addEventListener('click',function(){var inp=b.parentElement.querySelector('.vin-in');if(inp&&inp.value)copyText(inp.value,b);});
+  });
+  document.querySelectorAll('[data-print]').forEach(function(b){b.addEventListener('click',function(){window.print();});});
+  function fmt(n){return '$'+n.toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2});}
+  document.querySelectorAll('.estimator').forEach(function(box){
+    function num(k){var el=box.querySelector('[data-k="'+k+'"]');if(!el)return 0;var v=parseFloat(el.value);return isNaN(v)?0:v;}
+    function recalc(){
+      var price=num('price'),spv=num('spv'),tax=0.0625*Math.max(price,spv),reserveEl=box.querySelector('[data-k="reserve"]');
+      var reserveRaw=reserveEl?reserveEl.value.trim():'',reserve=reserveRaw===''?null:parseFloat(reserveRaw);
+      var total=price+tax+num('title')+num('reg')+num('county')+num('ppi')+num('report')+num('doc')+(reserve||0);
+      box.querySelector('[data-out="tax"]').textContent=fmt(tax);
+      box.querySelector('[data-out="total"]').textContent=fmt(total);
+      var h='Asking price is '+fmt(15000-price)+' under the $15,000 asking-price cap.';
+      if(total>15000)h+=' <b>Warning:</b> estimated total cash ('+fmt(total)+') passes $15,000 by '+fmt(total-15000)+' — the cap is on the asking price, so decide whether the extra is acceptable before viewing.';
+      box.querySelector('[data-out="headroom"]').innerHTML=h;
+      box.querySelector('[data-out="reserve-note"]').textContent=reserve===null?'Immediate repairs: unknown — not included in the total.':'Immediate repairs reserve of '+fmt(reserve)+' is included in the total.';
+    }
+    box.querySelectorAll('.est-in').forEach(function(el){el.addEventListener('input',recalc);el.addEventListener('change',recalc);});
+    recalc();
+  });
 })();
 </script>
 <script>

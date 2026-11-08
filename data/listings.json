@@ -39,7 +39,44 @@
   "first_seen_at": "2026-11-04",
   "last_seen_at": "2026-11-05",
   "last_verified_at": "2026-11-05",
-  "listing_status": "live-verified"
+  "listing_status": "live-verified",
+  "photo_urls": [],
+  "photo_checked_at": null,
+  "price_history": [
+   {
+    "date": "2026-11-05",
+    "price": 9799
+   }
+  ],
+  "estimate_components": [
+   {
+    "provider": "TrueCar",
+    "figure": 16828,
+    "figure_type": "asking",
+    "date": "2026-11-04"
+   },
+   {
+    "provider": "CarGurus",
+    "figure": 17237,
+    "figure_type": "comparable-asking",
+    "date": "2026-11-04"
+   },
+   {
+    "provider": "CarGurus",
+    "figure": 18386,
+    "figure_type": "average-asking",
+    "date": "2026-11-04"
+   },
+   {
+    "provider": "Edmunds",
+    "figure": 13532,
+    "figure_type": "retail",
+    "date": "2026-11-04"
+   }
+  ],
+  "estimate_confidence": "Medium",
+  "estimate_confidence_reason": "Four component figures preserved from the Nov 4, 2026 verification (TrueCar, CarGurus x2, Edmunds), same trim; two are model-wide averages rather than mileage-specific figures, so not High.",
+  "estimate_carmax_note": "No CarMax figure is included in this estimate."
  },
  {
   "url": "https://www.facebook.com/marketplace/item/2137005053575052/",
@@ -78,7 +115,38 @@
   "first_seen_at": "2026-10-31",
   "last_seen_at": "2026-11-05",
   "last_verified_at": "2026-11-05",
-  "listing_status": "live-verified"
+  "listing_status": "live-verified",
+  "photo_urls": [],
+  "photo_checked_at": null,
+  "price_history": [
+   {
+    "date": "2026-11-05",
+    "price": 9500
+   }
+  ],
+  "estimate_components": [
+   {
+    "provider": "KBB",
+    "figure": 11450,
+    "figure_type": "resale",
+    "date": "2026-10-31"
+   },
+   {
+    "provider": "CarGurus",
+    "figure": 14440,
+    "figure_type": "average-asking",
+    "date": "2026-10-31"
+   },
+   {
+    "provider": "Dealer comparable",
+    "figure": 15600,
+    "figure_type": "asking",
+    "date": "2026-10-31"
+   }
+  ],
+  "estimate_confidence": "Medium",
+  "estimate_confidence_reason": "Three component figures preserved from the Oct 31, 2026 cycle (KBB, CarGurus, dealer comparable), same trim; carried one cycle, not re-run provider-by-provider on Nov 5.",
+  "estimate_carmax_note": "No CarMax figure is included in this estimate."
  },
  {
   "url": "https://www.facebook.com/marketplace/item/1778585043338605/",
@@ -117,7 +185,38 @@
   "first_seen_at": "2026-10-31",
   "last_seen_at": "2026-11-05",
   "last_verified_at": "2026-11-05",
-  "listing_status": "live-verified"
+  "listing_status": "live-verified",
+  "photo_urls": [],
+  "photo_checked_at": null,
+  "price_history": [
+   {
+    "date": "2026-11-05",
+    "price": 10500
+   }
+  ],
+  "estimate_components": [
+   {
+    "provider": "KBB",
+    "figure": 11450,
+    "figure_type": "resale",
+    "date": "2026-10-31"
+   },
+   {
+    "provider": "CarGurus",
+    "figure": 14440,
+    "figure_type": "average-asking",
+    "date": "2026-10-31"
+   },
+   {
+    "provider": "Dealer comparable",
+    "figure": 15600,
+    "figure_type": "asking",
+    "date": "2026-10-31"
+   }
+  ],
+  "estimate_confidence": "Medium",
+  "estimate_confidence_reason": "Three component figures preserved from the Oct 31, 2026 cycle (KBB, CarGurus, dealer comparable), same trim; carried one cycle, not re-run provider-by-provider on Nov 5.",
+  "estimate_carmax_note": "No CarMax figure is included in this estimate."
  },
  {
   "url": "https://www.facebook.com/marketplace/item/1625691275824447/",
@@ -158,7 +257,44 @@
   "first_seen_at": "2026-10-31",
   "last_seen_at": "2026-11-05",
   "last_verified_at": "2026-11-05",
-  "listing_status": "live-verified"
+  "listing_status": "live-verified",
+  "photo_urls": [],
+  "photo_checked_at": null,
+  "price_history": [
+   {
+    "date": "2026-11-05",
+    "price": 8900
+   }
+  ],
+  "estimate_components": [
+   {
+    "provider": "KBB",
+    "figure": 11850,
+    "figure_type": "fair-purchase",
+    "date": "2026-11-03"
+   },
+   {
+    "provider": "Edmunds",
+    "figure": 12294,
+    "figure_type": "private-party",
+    "date": "2026-11-03"
+   },
+   {
+    "provider": "CarGurus",
+    "figure": 12901,
+    "figure_type": "average-asking",
+    "date": "2026-11-03"
+   },
+   {
+    "provider": "CarGurus",
+    "figure": 11188,
+    "figure_type": "comparable-asking",
+    "date": "2026-11-03"
+   }
+  ],
+  "estimate_confidence": "Medium",
+  "estimate_confidence_reason": "Four component figures preserved from Nov 3, 2026 (KBB, Edmunds, CarGurus x2), same trim; one comparable sits at 81,538 mi against this car's 31,000 mi.",
+  "estimate_carmax_note": "No CarMax figure is included in this estimate."
  },
  {
   "url": "https://www.facebook.com/marketplace/item/2099246277666831/",
@@ -199,7 +335,38 @@
   "first_seen_at": "2026-10-31",
   "last_seen_at": "2026-11-05",
   "last_verified_at": "2026-11-05",
-  "listing_status": "live-verified"
+  "listing_status": "live-verified",
+  "photo_urls": [],
+  "photo_checked_at": null,
+  "price_history": [
+   {
+    "date": "2026-11-05",
+    "price": 11500
+   }
+  ],
+  "estimate_components": [
+   {
+    "provider": "KBB",
+    "figure": 17000,
+    "figure_type": "fair-purchase",
+    "date": "2026-10-31"
+   },
+   {
+    "provider": "KBB",
+    "figure": 14300,
+    "figure_type": "resale",
+    "date": "2026-10-31"
+   },
+   {
+    "provider": "Edmunds",
+    "figure": 11839,
+    "figure_type": "trade-in",
+    "date": "2026-10-31"
+   }
+  ],
+  "estimate_confidence": "Medium",
+  "estimate_confidence_reason": "Three component figures from the Oct 31, 2026 cycle (KBB x2, Edmunds); the median mixes an Edmunds trade-in figure with purchase and resale figures.",
+  "estimate_carmax_note": "No CarMax figure is included in this estimate."
  },
  {
   "url": "https://www.facebook.com/marketplace/item/941745025677309/",
@@ -239,7 +406,38 @@
   "first_seen_at": "2026-10-31",
   "last_seen_at": "2026-11-05",
   "last_verified_at": "2026-11-05",
-  "listing_status": "live-verified"
+  "listing_status": "live-verified",
+  "photo_urls": [],
+  "photo_checked_at": null,
+  "price_history": [
+   {
+    "date": "2026-11-05",
+    "price": 11900
+   }
+  ],
+  "estimate_components": [
+   {
+    "provider": "KBB",
+    "figure": 16250,
+    "figure_type": "fair-purchase",
+    "date": "2026-10-31"
+   },
+   {
+    "provider": "KBB",
+    "figure": 14150,
+    "figure_type": "resale",
+    "date": "2026-10-31"
+   },
+   {
+    "provider": "Edmunds",
+    "figure": 11949,
+    "figure_type": "retail",
+    "date": "2026-10-31"
+   }
+  ],
+  "estimate_confidence": "Medium",
+  "estimate_confidence_reason": "Three component figures from the Oct 31, 2026 cycle (KBB x2, Edmunds), same trim; carried one cycle.",
+  "estimate_carmax_note": "No CarMax figure is included in this estimate."
  },
  {
   "url": "https://www.facebook.com/marketplace/item/1103093259359456/",
@@ -280,7 +478,50 @@
   "first_seen_at": "2026-10-26",
   "last_seen_at": "2026-11-05",
   "last_verified_at": "2026-11-05",
-  "listing_status": "live-verified"
+  "listing_status": "live-verified",
+  "photo_urls": [],
+  "photo_checked_at": null,
+  "price_history": [
+   {
+    "date": "2026-11-05",
+    "price": 5900
+   }
+  ],
+  "estimate_components": [
+   {
+    "provider": "KBB",
+    "figure": 10590,
+    "figure_type": "fair-purchase",
+    "date": "2026-10-31"
+   },
+   {
+    "provider": "KBB",
+    "figure": 10150,
+    "figure_type": "fair-purchase",
+    "date": "2026-10-31"
+   },
+   {
+    "provider": "KBB",
+    "figure": 8775,
+    "figure_type": "resale",
+    "date": "2026-10-31"
+   },
+   {
+    "provider": "CarGurus",
+    "figure": 12275,
+    "figure_type": "asking",
+    "date": "2026-10-31"
+   },
+   {
+    "provider": "CarGurus",
+    "figure": 11407,
+    "figure_type": "asking",
+    "date": "2026-10-31"
+   }
+  ],
+  "estimate_confidence": "Low",
+  "estimate_confidence_reason": "Trim not stated; the estimate uses SE figures as a proxy for an unknown-trim car.",
+  "estimate_carmax_note": "No CarMax figure is included in this estimate."
  },
  {
   "url": "https://www.facebook.com/marketplace/item/988472907230813/",
@@ -321,7 +562,38 @@
   "first_seen_at": "2026-10-31",
   "last_seen_at": "2026-11-05",
   "last_verified_at": "2026-11-05",
-  "listing_status": "live-verified"
+  "listing_status": "live-verified",
+  "photo_urls": [],
+  "photo_checked_at": null,
+  "price_history": [
+   {
+    "date": "2026-11-05",
+    "price": 6000
+   }
+  ],
+  "estimate_components": [
+   {
+    "provider": "KBB",
+    "figure": 10150,
+    "figure_type": "fair-purchase",
+    "date": "2026-10-31"
+   },
+   {
+    "provider": "KBB",
+    "figure": 8925,
+    "figure_type": "resale",
+    "date": "2026-10-31"
+   },
+   {
+    "provider": "iSeeCars",
+    "figure": 8800,
+    "figure_type": "range-low",
+    "date": "2026-10-31"
+   }
+  ],
+  "estimate_confidence": "Medium",
+  "estimate_confidence_reason": "Three component figures from the Oct 31, 2026 cycle (KBB x2, iSeeCars); one input is the low end of an iSeeCars range.",
+  "estimate_carmax_note": "No CarMax figure is included in this estimate."
  },
  {
   "url": "https://www.facebook.com/marketplace/item/1552019169121297/",
@@ -363,7 +635,38 @@
   "first_seen_at": "2026-10-31",
   "last_seen_at": "2026-11-05",
   "last_verified_at": "2026-11-05",
-  "listing_status": "live-verified"
+  "listing_status": "live-verified",
+  "photo_urls": [],
+  "photo_checked_at": null,
+  "price_history": [
+   {
+    "date": "2026-11-05",
+    "price": 7500
+   }
+  ],
+  "estimate_components": [
+   {
+    "provider": "KBB",
+    "figure": 9775,
+    "figure_type": "fair-purchase",
+    "date": "2026-10-31"
+   },
+   {
+    "provider": "KBB",
+    "figure": 8775,
+    "figure_type": "resale",
+    "date": "2026-10-31"
+   },
+   {
+    "provider": "CarGurus",
+    "figure": 11407,
+    "figure_type": "asking",
+    "date": "2026-10-31"
+   }
+  ],
+  "estimate_confidence": "Medium",
+  "estimate_confidence_reason": "Three component figures from the Oct 31, 2026 cycle (KBB x2, CarGurus), trim known (S); carried one cycle.",
+  "estimate_carmax_note": "No CarMax figure is included in this estimate."
  },
  {
   "url": "https://www.facebook.com/marketplace/item/1785137865839066/",
@@ -403,7 +706,38 @@
   "first_seen_at": "2026-10-31",
   "last_seen_at": "2026-11-05",
   "last_verified_at": "2026-11-05",
-  "listing_status": "live-verified"
+  "listing_status": "live-verified",
+  "photo_urls": [],
+  "photo_checked_at": null,
+  "price_history": [
+   {
+    "date": "2026-11-05",
+    "price": 9400
+   }
+  ],
+  "estimate_components": [
+   {
+    "provider": "KBB",
+    "figure": 12100,
+    "figure_type": "fair-purchase",
+    "date": "2026-10-31"
+   },
+   {
+    "provider": "KBB",
+    "figure": 10000,
+    "figure_type": "resale",
+    "date": "2026-10-31"
+   },
+   {
+    "provider": "CarGurus",
+    "figure": 14090,
+    "figure_type": "average-asking",
+    "date": "2026-10-31"
+   }
+  ],
+  "estimate_confidence": "Low",
+  "estimate_confidence_reason": "Trim not stated; the estimate uses SE figures as a proxy for an unknown-trim car.",
+  "estimate_carmax_note": "No CarMax figure is included in this estimate."
  },
  {
   "url": "https://www.facebook.com/marketplace/item/2036352497083781/",
@@ -444,7 +778,48 @@
   "first_seen_at": "2026-11-03",
   "last_seen_at": "2026-11-05",
   "last_verified_at": "2026-11-05",
-  "listing_status": "live-verified"
+  "listing_status": "live-verified",
+  "photo_urls": [],
+  "photo_checked_at": null,
+  "price_history": [
+   {
+    "date": "2026-11-03",
+    "price": 9550
+   },
+   {
+    "date": "2026-11-05",
+    "price": 9000
+   }
+  ],
+  "estimate_components": [
+   {
+    "provider": "KBB",
+    "figure": 11100,
+    "figure_type": "resale",
+    "date": "2026-11-05"
+   },
+   {
+    "provider": "CarGurus",
+    "figure": 14440,
+    "figure_type": "average-asking",
+    "date": "2026-11-05"
+   },
+   {
+    "provider": "iSeeCars",
+    "figure": 11950,
+    "figure_type": "comparable-asking",
+    "date": "2026-11-05"
+   },
+   {
+    "provider": "CarGurus",
+    "figure": 12250,
+    "figure_type": "comparable-asking",
+    "date": "2026-11-05"
+   }
+  ],
+  "estimate_confidence": "Medium",
+  "estimate_confidence_reason": "Four component figures preserved from Nov 5, 2026 (KBB, CarGurus x2, iSeeCars), same trim with mileage-close comparables; one input is a model-wide average asking price, so not High.",
+  "estimate_carmax_note": "No CarMax figure is included in this estimate."
  },
  {
   "url": "https://www.facebook.com/marketplace/item/1641566861003041/",
@@ -484,7 +859,38 @@
   "first_seen_at": "2026-11-05",
   "last_seen_at": "2026-11-05",
   "last_verified_at": "2026-11-05",
-  "listing_status": "live-verified"
+  "listing_status": "live-verified",
+  "photo_urls": [],
+  "photo_checked_at": null,
+  "price_history": [
+   {
+    "date": "2026-11-05",
+    "price": 10500
+   }
+  ],
+  "estimate_components": [
+   {
+    "provider": "KBB",
+    "figure": 17040,
+    "figure_type": "fair-purchase",
+    "date": "2026-11-05"
+   },
+   {
+    "provider": "KBB",
+    "figure": 15950,
+    "figure_type": "resale",
+    "date": "2026-11-05"
+   },
+   {
+    "provider": "KBB",
+    "figure": 16010,
+    "figure_type": "private-party",
+    "date": "2026-11-05"
+   }
+  ],
+  "estimate_confidence": "Low",
+  "estimate_confidence_reason": "All three component figures are KBB valuations captured Nov 5, 2026 - a single provider, so there is no cross-check.",
+  "estimate_carmax_note": "No CarMax figure is included in this estimate."
  },
  {
   "url": "https://www.facebook.com/marketplace/item/1109600855010568/",
@@ -525,7 +931,38 @@
   "first_seen_at": "2026-11-05",
   "last_seen_at": "2026-11-05",
   "last_verified_at": "2026-11-05",
-  "listing_status": "live-verified"
+  "listing_status": "live-verified",
+  "photo_urls": [],
+  "photo_checked_at": null,
+  "price_history": [
+   {
+    "date": "2026-11-05",
+    "price": 9499
+   }
+  ],
+  "estimate_components": [
+   {
+    "provider": "KBB",
+    "figure": 11100,
+    "figure_type": "resale",
+    "date": "2026-11-05"
+   },
+   {
+    "provider": "CarGurus",
+    "figure": 14440,
+    "figure_type": "average-asking",
+    "date": "2026-11-05"
+   },
+   {
+    "provider": "CarGurus",
+    "figure": 12250,
+    "figure_type": "comparable-asking",
+    "date": "2026-11-05"
+   }
+  ],
+  "estimate_confidence": "Medium",
+  "estimate_confidence_reason": "Three component figures from Nov 5, 2026 (KBB, CarGurus x2); one comparable is an LXS, not this car's EX trim - a proxy input.",
+  "estimate_carmax_note": "No CarMax figure is included in this estimate."
  },
  {
   "url": "https://www.facebook.com/marketplace/item/1624199995839102/",
@@ -567,7 +1004,44 @@
   "first_seen_at": "2026-11-05",
   "last_seen_at": "2026-11-05",
   "last_verified_at": "2026-11-05",
-  "listing_status": "live-verified"
+  "listing_status": "live-verified",
+  "photo_urls": [],
+  "photo_checked_at": null,
+  "price_history": [
+   {
+    "date": "2026-11-05",
+    "price": 9000
+   }
+  ],
+  "estimate_components": [
+   {
+    "provider": "KBB",
+    "figure": 9400,
+    "figure_type": "resale",
+    "date": "2026-11-05"
+   },
+   {
+    "provider": "CarMax",
+    "figure": 9000,
+    "figure_type": "offer",
+    "date": "2026-11-05"
+   },
+   {
+    "provider": "Edmunds",
+    "figure": 11191,
+    "figure_type": "private-party",
+    "date": "2026-11-05"
+   },
+   {
+    "provider": "CarGurus",
+    "figure": 11348,
+    "figure_type": "average-asking",
+    "date": "2026-11-05"
+   }
+  ],
+  "estimate_confidence": "Low",
+  "estimate_confidence_reason": "Trim not stated, so the estimate rests on unstated-trim comparables (KBB, CarMax, Edmunds, CarGurus, Nov 5, 2026).",
+  "estimate_carmax_note": "Includes a CarMax figure: a CarMax recent offer of $9,000 at 58,000 mi is one of the four inputs to the $10,296 median. Per the CarMax policy in docs/METHOD.md an offer is a liquidation reference, not a retail comparable."
  },
  {
   "url": "https://www.facebook.com/marketplace/item/1792968195344692/",
@@ -607,6 +1081,37 @@
   "first_seen_at": "2026-11-05",
   "last_seen_at": "2026-11-05",
   "last_verified_at": "2026-11-05",
-  "listing_status": "live-verified"
+  "listing_status": "live-verified",
+  "photo_urls": [],
+  "photo_checked_at": null,
+  "price_history": [
+   {
+    "date": "2026-11-05",
+    "price": 10600
+   }
+  ],
+  "estimate_components": [
+   {
+    "provider": "KBB",
+    "figure": 12850,
+    "figure_type": "resale",
+    "date": "2026-11-05"
+   },
+   {
+    "provider": "CarGurus",
+    "figure": 16862,
+    "figure_type": "average-asking",
+    "date": "2026-11-05"
+   },
+   {
+    "provider": "CarEdge",
+    "figure": 18500,
+    "figure_type": "current-price",
+    "date": "2026-11-05"
+   }
+  ],
+  "estimate_confidence": "Low",
+  "estimate_confidence_reason": "Trim not stated, so the estimate rests on unstated-trim figures (KBB, CarGurus, CarEdge, Nov 5, 2026).",
+  "estimate_carmax_note": "No CarMax figure is included in this estimate."
  }
 ]
