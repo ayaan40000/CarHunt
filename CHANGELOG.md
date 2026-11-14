@@ -1,5 +1,11 @@
 # CarHunt — Changelog
 
+## 2026-11-12 — Thursday full update
+
+- Full Thursday re-verification plus fresh sweep: 22 listings published, 15 meeting all must-haves, led by the 2024 Chevrolet Malibu LT in Katy ($9,799, grade A, 48.1% below a re-run $18,863 estimate) and the re-verified 2023 Chevrolet Malibu LT in Katy ($9,250, grade A, 38.1% below a revised $14,950 estimate). Three Nov 5 board listings sold or expired (2018 Fusion Richmond, 2022 Elantra Houston, 2024 Forte LXS Houston — the Forte re-listed under a new ID and is kept); 19 checked listings were excluded (16 branded titles, 3 excluded engines).
+- Finalists regenerated from the new data: 2024 Malibu LT, 2023 Malibu LT, 2024 Forte LXS (re-list) — viewing order Forte LXS first (only finalist with a seller-stated clean title), then the two Malibus after home VIN checks. Four estimates now include a CarMax figure, in every case a recent CarMax offer named as an offer, not an asking price.
+- Gate corrections: price history seeded with the current price for the 2020 Forte LXS Tomball ($8,500); stale “no estimate run” CarMax notes and “no same-day estimate check” clauses corrected on three capped records whose estimates exist; reverse camera confirmed by the federal 2019+ rule on six records, correcting Nov 10/11 staging. Photo capture still uncapturable via the Pi text interface (no image URLs exposed); SUV families skipped this run on pacing.
+
 ## 2026-11-07 — Phases 1 and 2 built (feature build; listing data unchanged from Nov 5, 2026)
 
 Built locally on the owner's green-light (Nov 7, 2026). This is a feature build, not a data refresh: the 15 records, grades, prices, and the Nov 5, 2026 data stamp are exactly as published.

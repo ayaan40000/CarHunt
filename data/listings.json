@@ -1,1117 +1,1632 @@
 [
- {
-  "url": "https://www.facebook.com/marketplace/item/2085271345433565/",
-  "year": 2024,
-  "make": "Chevrolet",
-  "model": "Malibu",
-  "trim": "LT Sedan 4D",
-  "price": 9799,
-  "mileage": 52000,
-  "location": "Katy, TX",
-  "seller": "Mohlas McAdams (private seller, Facebook Marketplace)",
-  "hybrid": false,
-  "android_auto": true,
-  "reverse_cam": true,
-  "lane_assist": null,
-  "reliability_score": 3,
-  "market_value_estimate": 17033,
-  "discount_pct": 42.5,
-  "deal_flag": true,
-  "pref_score": 2,
-  "meets_criteria": true,
-  "notes": "MEETS all must-haves (seller-confirmed; re-verified live Nov 4, 2026). Seller states touchscreen with Apple CarPlay & Android Auto and back-up camera; 1.5L ECOTEC automatic, paid off, 2 owners, cash only. Market estimate $17,033 = median of TrueCar 2024 Malibu LT average $16,828, CarGurus comparable 2024 LT 52,155 mi $17,237, CarGurus 2024 Malibu average asking $18,386, Edmunds 2024 Malibu LT retail $13,532. Grade A: base A (42.5% under), one step down for reliability 3, one up for low miles, one up for private seller, capped below A+ because reliability is not 5. CAUTIONS: title brand unstated (only 'paid off') \u2014 verify the physical title and run NICB + NMVTIS before travelling; at 42.5% under estimate the price sits in the washed-title flag zone, so the discount is a warning as well as a bargain; no expert-matrix row exists for 2021+ Malibu, so Android Auto rests on the seller's explicit statement \u2014 plug-test in person; the 2024 1.5T is not the 2016-17 LSPI population, but a cold-start inspection for misfire/oil use still applies. Re-verified live Nov 5, 2026: still $9,799 / 52,000 mi.",
-  "body_type": "Sedan",
-  "fuel": "Petrol",
-  "transmission": "Automatic",
-  "seller_type": "private",
-  "grade": "A",
-  "estimate_sources": "TrueCar average price, CarGurus comparable listing, CarGurus average asking price, Edmunds retail value",
-  "engine": "1.5L ECOTEC",
-  "engine_evidence": "Seller-stated ('1.5 ECOTEC'), re-read live 2026-11-04",
-  "title_status": "paid-off-only",
-  "title_evidence": "FB: paid off, 2 owners; title brand not stated (re-read live 2026-11-04)",
-  "verification_blockers": [
-   "Title brand unstated \u2014 verify the physical title, plus NICB + NMVTIS, before travelling",
-   "Price 42.5% under estimate sits in the washed-title flag zone",
-   "No expert-matrix row for 2021+ Malibu \u2014 Android Auto rests on the seller's statement; plug-test in person",
-   "1.5T: cold-start inspection for misfire/oil use"
-  ],
-  "first_seen_at": "2026-11-04",
-  "last_seen_at": "2026-11-05",
-  "last_verified_at": "2026-11-05",
-  "listing_status": "live-verified",
-  "photo_urls": [],
-  "photo_checked_at": null,
-  "price_history": [
-   {
-    "date": "2026-11-05",
-    "price": 9799
-   }
-  ],
-  "estimate_components": [
-   {
-    "provider": "TrueCar",
-    "figure": 16828,
-    "figure_type": "asking",
-    "date": "2026-11-04"
-   },
-   {
-    "provider": "CarGurus",
-    "figure": 17237,
-    "figure_type": "comparable-asking",
-    "date": "2026-11-04"
-   },
-   {
-    "provider": "CarGurus",
-    "figure": 18386,
-    "figure_type": "average-asking",
-    "date": "2026-11-04"
-   },
-   {
-    "provider": "Edmunds",
-    "figure": 13532,
-    "figure_type": "retail",
-    "date": "2026-11-04"
-   }
-  ],
-  "estimate_confidence": "Medium",
-  "estimate_confidence_reason": "Four component figures preserved from the Nov 4, 2026 verification (TrueCar, CarGurus x2, Edmunds), same trim; two are model-wide averages rather than mileage-specific figures, so not High.",
-  "estimate_carmax_note": "No CarMax figure is included in this estimate."
- },
- {
-  "url": "https://www.facebook.com/marketplace/item/2137005053575052/",
-  "year": 2021,
-  "make": "Kia",
-  "model": "Forte",
-  "trim": "GT-Line Sedan 4D",
-  "price": 9500,
-  "mileage": 79000,
-  "location": "Katy, TX",
-  "seller": "Katherine Miranda (private seller, Facebook Marketplace)",
-  "hybrid": false,
-  "android_auto": true,
-  "reverse_cam": true,
-  "lane_assist": true,
-  "reliability_score": 4,
-  "market_value_estimate": 14440,
-  "discount_pct": 34.2,
-  "deal_flag": true,
-  "pref_score": 3,
-  "meets_criteria": true,
-  "notes": "MEETS all must-haves. Clear history, no significant damage stated. Android Auto and backup camera are factory standard on all 2021 Forte trims (same generation as the 2019 redesign; matrix covers 2019 all-trim standard). Lane-keeping standard on Forte since 2019. Title not explicitly stated as clean (FB shows clear history only) \u2014 verify the physical title brand before money moves. Market estimate $14,440 = median of KBB 2021 Forte resale $11,450, CarGurus 2021 Forte average asking $14,440, dealer 2021 GT-Line 68,607 mi $15,600. Grade A: base A (34.2% under) + private seller, capped below A+ because reliability is 4, not 5. Re-verified live Nov 5, 2026: still $9,500 / 79,000 mi.",
-  "body_type": "Sedan",
-  "fuel": "Petrol",
-  "transmission": "Automatic",
-  "seller_type": "private",
-  "grade": "A",
-  "estimate_sources": "KBB resale value, CarGurus average asking price, dealer comparable listing",
-  "engine": "2.0L",
-  "engine_evidence": "Trim-implied: GT-Line is the 2.0L NA trim (the turbo is the separate GT trim)",
-  "title_status": "clear-history-only",
-  "title_evidence": "FB shows clear history / no significant damage; a clean title brand is not explicitly stated",
-  "verification_blockers": [
-   "Title brand not explicitly stated \u2014 verify the physical title"
-  ],
-  "first_seen_at": "2026-10-31",
-  "last_seen_at": "2026-11-05",
-  "last_verified_at": "2026-11-05",
-  "listing_status": "live-verified",
-  "photo_urls": [],
-  "photo_checked_at": null,
-  "price_history": [
-   {
-    "date": "2026-11-05",
-    "price": 9500
-   }
-  ],
-  "estimate_components": [
-   {
-    "provider": "KBB",
-    "figure": 11450,
-    "figure_type": "resale",
-    "date": "2026-10-31"
-   },
-   {
-    "provider": "CarGurus",
-    "figure": 14440,
-    "figure_type": "average-asking",
-    "date": "2026-10-31"
-   },
-   {
-    "provider": "Dealer comparable",
-    "figure": 15600,
-    "figure_type": "asking",
-    "date": "2026-10-31"
-   }
-  ],
-  "estimate_confidence": "Medium",
-  "estimate_confidence_reason": "Three component figures preserved from the Oct 31, 2026 cycle (KBB, CarGurus, dealer comparable), same trim; carried one cycle, not re-run provider-by-provider on Nov 5.",
-  "estimate_carmax_note": "No CarMax figure is included in this estimate."
- },
- {
-  "url": "https://www.facebook.com/marketplace/item/1778585043338605/",
-  "year": 2021,
-  "make": "Kia",
-  "model": "Forte",
-  "trim": "GT-Line Sedan 4D",
-  "price": 10500,
-  "mileage": 35000,
-  "location": "Houston, TX",
-  "seller": "Wisam Nassar (private seller, Facebook Marketplace)",
-  "hybrid": false,
-  "android_auto": true,
-  "reverse_cam": true,
-  "lane_assist": true,
-  "reliability_score": 4,
-  "market_value_estimate": 14440,
-  "discount_pct": 27.3,
-  "deal_flag": true,
-  "pref_score": 4,
-  "meets_criteria": true,
-  "notes": "MEETS all must-haves. Seller states Apple CarPlay/Android Auto and backup camera, cash price. Leather seats, sunroof, keyless entry. Title not stated \u2014 verify the physical title brand before money moves. Market estimate $14,440 = median of KBB 2021 Forte resale $11,450, CarGurus 2021 Forte average asking $14,440, dealer 2021 GT-Line 68,607 mi $15,600. Grade A: base A (27.3% under) + low miles + private seller, capped below A+ because reliability is 4, not 5. Re-verified live Nov 5, 2026: still $10,500 / 35,000 mi.",
-  "body_type": "Sedan",
-  "fuel": "Petrol",
-  "transmission": "Automatic",
-  "seller_type": "private",
-  "grade": "A",
-  "estimate_sources": "KBB resale value, CarGurus average asking price, dealer comparable listing",
-  "engine": "2.0L",
-  "engine_evidence": "Trim-implied: GT-Line is the 2.0L NA trim (the turbo is the separate GT trim)",
-  "title_status": "unknown",
-  "title_evidence": "Title not stated in the listing",
-  "verification_blockers": [
-   "Title brand unstated \u2014 verify the physical title"
-  ],
-  "first_seen_at": "2026-10-31",
-  "last_seen_at": "2026-11-05",
-  "last_verified_at": "2026-11-05",
-  "listing_status": "live-verified",
-  "photo_urls": [],
-  "photo_checked_at": null,
-  "price_history": [
-   {
-    "date": "2026-11-05",
-    "price": 10500
-   }
-  ],
-  "estimate_components": [
-   {
-    "provider": "KBB",
-    "figure": 11450,
-    "figure_type": "resale",
-    "date": "2026-10-31"
-   },
-   {
-    "provider": "CarGurus",
-    "figure": 14440,
-    "figure_type": "average-asking",
-    "date": "2026-10-31"
-   },
-   {
-    "provider": "Dealer comparable",
-    "figure": 15600,
-    "figure_type": "asking",
-    "date": "2026-10-31"
-   }
-  ],
-  "estimate_confidence": "Medium",
-  "estimate_confidence_reason": "Three component figures preserved from the Oct 31, 2026 cycle (KBB, CarGurus, dealer comparable), same trim; carried one cycle, not re-run provider-by-provider on Nov 5.",
-  "estimate_carmax_note": "No CarMax figure is included in this estimate."
- },
- {
-  "url": "https://www.facebook.com/marketplace/item/1625691275824447/",
-  "year": 2020,
-  "make": "Kia",
-  "model": "Forte",
-  "trim": "LXS Sedan 4D",
-  "price": 8900,
-  "mileage": 31000,
-  "location": "Tomball, TX",
-  "seller": "Fernando Valde (private seller, Facebook Marketplace)",
-  "hybrid": false,
-  "android_auto": true,
-  "reverse_cam": true,
-  "lane_assist": true,
-  "reliability_score": 3.5,
-  "market_value_estimate": 12072,
-  "discount_pct": 26.3,
-  "deal_flag": true,
-  "pref_score": 3,
-  "meets_criteria": true,
-  "notes": "MEETS all must-haves. Seller states 2.0 engine, automatic, 31k original miles, front and rear cameras, Apple CarPlay and Android Auto, cold AC, warranty; Android Auto corroborated by the 2019+ all-trim matrix. 1 owner, paid off. Title brand not stated \u2014 verify the physical title before money moves. Cautions: the seller's WARRANTY claim is unverified; the description writes the trim as XLS (the title says LXS); an unexplained 'anti theft ignition switch' note; listed 7 weeks ago. Market estimate $12,072 = median of KBB Fair Purchase Price LXS $11,850, Edmunds private-party clean $12,294, CarGurus 2020 Forte average asking $12,901, CarGurus comparable 2020 LXS 81,538 mi $11,188. Grade A: base A (26.3% under) + low miles + private seller, capped below A+ because reliability is not 5. Phase 0 (Nov 4, 2026): this car was published Oct 31 and re-staged Nov 3 with a different estimate \u2014 merged into this one canonical record; the Nov 3 estimate supersedes the Oct 31 figure ($11,650 / 23.6% under); re-verified live Nov 4 at $8,900 and 31,000 mi. Re-verified live Nov 5, 2026: still $8,900 / 31,000 mi.",
-  "body_type": "Sedan",
-  "fuel": "Petrol",
-  "transmission": "Automatic",
-  "seller_type": "private",
-  "grade": "A",
-  "estimate_sources": "KBB Fair Purchase Price, Edmunds private-party value, CarGurus average asking price, CarGurus comparable listing",
-  "engine": "2.0L",
-  "engine_evidence": "Seller-stated ('2.0 ENGINE'), re-read live 2026-11-04",
-  "title_status": "paid-off-only",
-  "title_evidence": "FB: paid off, 1 owner; title brand not stated (re-read live 2026-11-04)",
-  "verification_blockers": [
-   "Title brand unstated \u2014 verify the physical title",
-   "Seller 'WARRANTY' claim unverified",
-   "Description writes the trim as 'XLS' vs LXS in the title"
-  ],
-  "first_seen_at": "2026-10-31",
-  "last_seen_at": "2026-11-05",
-  "last_verified_at": "2026-11-05",
-  "listing_status": "live-verified",
-  "photo_urls": [],
-  "photo_checked_at": null,
-  "price_history": [
-   {
-    "date": "2026-11-05",
-    "price": 8900
-   }
-  ],
-  "estimate_components": [
-   {
-    "provider": "KBB",
-    "figure": 11850,
-    "figure_type": "fair-purchase",
-    "date": "2026-11-03"
-   },
-   {
-    "provider": "Edmunds",
-    "figure": 12294,
-    "figure_type": "private-party",
-    "date": "2026-11-03"
-   },
-   {
-    "provider": "CarGurus",
-    "figure": 12901,
-    "figure_type": "average-asking",
-    "date": "2026-11-03"
-   },
-   {
-    "provider": "CarGurus",
-    "figure": 11188,
-    "figure_type": "comparable-asking",
-    "date": "2026-11-03"
-   }
-  ],
-  "estimate_confidence": "Medium",
-  "estimate_confidence_reason": "Four component figures preserved from Nov 3, 2026 (KBB, Edmunds, CarGurus x2), same trim; one comparable sits at 81,538 mi against this car's 31,000 mi.",
-  "estimate_carmax_note": "No CarMax figure is included in this estimate."
- },
- {
-  "url": "https://www.facebook.com/marketplace/item/2099246277666831/",
-  "year": 2022,
-  "make": "Hyundai",
-  "model": "Sonata",
-  "trim": "SEL Sedan 4D",
-  "price": 11500,
-  "mileage": 70000,
-  "location": "Richmond, TX",
-  "seller": "Ahmed Sam (private seller, Facebook Marketplace)",
-  "hybrid": false,
-  "android_auto": true,
-  "reverse_cam": true,
-  "lane_assist": true,
-  "reliability_score": 4,
-  "market_value_estimate": 14300,
-  "discount_pct": 19.6,
-  "deal_flag": true,
-  "pref_score": 3,
-  "meets_criteria": true,
-  "notes": "MEETS all must-haves. Seller states rear camera, front radar, blind spot, lane departure, keyless entry. Android Auto factory standard on 2022 Sonata (SE and SEL: 8-inch touchscreen with Apple CarPlay/Android Auto; SEL adds blind-spot and lane-keeping). Engine is the 2.5L Smartstream (191 hp), NOT the excluded Theta II family (2011-2019). Title not stated \u2014 verify the physical title brand before money moves. Caution: seller account joined Facebook in 2026. Market estimate $14,300 = median of KBB 2022 Sonata SEL Fair Purchase Price $17,000, KBB 2022 Sonata resale $14,300, Edmunds 2022 Sonata SEL trade-in $11,839. Grade A-: base B+ (19.6% under) + private seller. Reliability 4 = RepairPal Sonata 4/5. Phase 0 (Nov 4, 2026): a Nov 3 staged record treated Android Auto as unconfirmed, claiming the expert guide has no 2020+ Sonata matrix row \u2014 checked: docs/FAQ.md gives '2020+: AA standard all trims', so this matrix-confirmed record stands and the staged reading was in error. Re-verified live Nov 4: still $11,500 / 70,000 mi; the seller still does not mention Android Auto and the title is still unstated. Re-verified live Nov 5, 2026: still $11,500 / 70,000 mi.",
-  "body_type": "Sedan",
-  "fuel": "Petrol",
-  "transmission": "Automatic",
-  "seller_type": "private",
-  "grade": "A-",
-  "estimate_sources": "KBB Fair Purchase Price, KBB resale value, Edmunds trade-in value",
-  "engine": "2.5L Smartstream",
-  "engine_evidence": "Model-year/trim standard engine per published notes; NOT the excluded Theta II family",
-  "title_status": "unknown",
-  "title_evidence": "Title not stated in the listing (re-read live 2026-11-04)",
-  "verification_blockers": [
-   "Title brand unstated \u2014 verify the physical title",
-   "Seller account joined Facebook in 2026",
-   "Seller does not mention Android Auto (matrix-confirmed) \u2014 plug-test in person"
-  ],
-  "first_seen_at": "2026-10-31",
-  "last_seen_at": "2026-11-05",
-  "last_verified_at": "2026-11-05",
-  "listing_status": "live-verified",
-  "photo_urls": [],
-  "photo_checked_at": null,
-  "price_history": [
-   {
-    "date": "2026-11-05",
-    "price": 11500
-   }
-  ],
-  "estimate_components": [
-   {
-    "provider": "KBB",
-    "figure": 17000,
-    "figure_type": "fair-purchase",
-    "date": "2026-10-31"
-   },
-   {
-    "provider": "KBB",
-    "figure": 14300,
-    "figure_type": "resale",
-    "date": "2026-10-31"
-   },
-   {
-    "provider": "Edmunds",
-    "figure": 11839,
-    "figure_type": "trade-in",
-    "date": "2026-10-31"
-   }
-  ],
-  "estimate_confidence": "Medium",
-  "estimate_confidence_reason": "Three component figures from the Oct 31, 2026 cycle (KBB x2, Edmunds); the median mixes an Edmunds trade-in figure with purchase and resale figures.",
-  "estimate_carmax_note": "No CarMax figure is included in this estimate."
- },
- {
-  "url": "https://www.facebook.com/marketplace/item/941745025677309/",
-  "year": 2023,
-  "make": "Kia",
-  "model": "Forte",
-  "trim": "LXS Sedan 4D",
-  "price": 11900,
-  "mileage": 57000,
-  "location": "Richmond, TX",
-  "seller": "John Joseph (private seller, Facebook Marketplace)",
-  "hybrid": false,
-  "android_auto": true,
-  "reverse_cam": true,
-  "lane_assist": true,
-  "reliability_score": 4,
-  "market_value_estimate": 14150,
-  "discount_pct": 15.9,
-  "deal_flag": true,
-  "pref_score": 3,
-  "meets_criteria": true,
-  "notes": "MEETS all must-haves. Paid off, clear history, no significant damage stated; listing description is empty. Android Auto and backup camera factory standard on 2023 Forte (same generation as the 2019 redesign). Title not explicitly stated as clean \u2014 verify the physical title brand before money moves. Market estimate $14,150 = median of KBB 2023 Forte LXS Fair Purchase Price $16,250, KBB 2023 Forte resale $14,150, Edmunds 2023 Forte LXS retail $11,949. Grade A-: base B (15.9% under) + low miles + private seller. Reliability 4 = Forte family estimate (CR 4/5 for 2021). Re-verified live Nov 5, 2026: still $11,900 / 57,000 mi.",
-  "body_type": "Sedan",
-  "fuel": "Petrol",
-  "transmission": "Automatic",
-  "seller_type": "private",
-  "grade": "A-",
-  "estimate_sources": "KBB Fair Purchase Price, KBB resale value, Edmunds retail value",
-  "engine": "2.0L",
-  "engine_evidence": "Trim-implied: LXS carries the 2.0L NA engine",
-  "title_status": "paid-off-only",
-  "title_evidence": "Paid off + clear history stated; a clean title brand is not explicitly stated",
-  "verification_blockers": [
-   "Title brand not explicitly stated \u2014 verify the physical title",
-   "Listing description is empty"
-  ],
-  "first_seen_at": "2026-10-31",
-  "last_seen_at": "2026-11-05",
-  "last_verified_at": "2026-11-05",
-  "listing_status": "live-verified",
-  "photo_urls": [],
-  "photo_checked_at": null,
-  "price_history": [
-   {
-    "date": "2026-11-05",
-    "price": 11900
-   }
-  ],
-  "estimate_components": [
-   {
-    "provider": "KBB",
-    "figure": 16250,
-    "figure_type": "fair-purchase",
-    "date": "2026-10-31"
-   },
-   {
-    "provider": "KBB",
-    "figure": 14150,
-    "figure_type": "resale",
-    "date": "2026-10-31"
-   },
-   {
-    "provider": "Edmunds",
-    "figure": 11949,
-    "figure_type": "retail",
-    "date": "2026-10-31"
-   }
-  ],
-  "estimate_confidence": "Medium",
-  "estimate_confidence_reason": "Three component figures from the Oct 31, 2026 cycle (KBB x2, Edmunds), same trim; carried one cycle.",
-  "estimate_carmax_note": "No CarMax figure is included in this estimate."
- },
- {
-  "url": "https://www.facebook.com/marketplace/item/1103093259359456/",
-  "year": 2018,
-  "make": "Ford",
-  "model": "Fusion",
-  "trim": "Not stated",
-  "price": 5900,
-  "mileage": 55000,
-  "location": "Richmond, TX",
-  "seller": "Sandoval Fernando (private seller, Facebook Marketplace)",
-  "hybrid": false,
-  "android_auto": null,
-  "reverse_cam": null,
-  "lane_assist": null,
-  "reliability_score": 3.5,
-  "market_value_estimate": 10590,
-  "discount_pct": 44.3,
-  "deal_flag": true,
-  "pref_score": 1,
-  "meets_criteria": false,
-  "notes": "VERIFY CANDIDATE \u2014 re-verified Oct 31 (also listed Oct 26). Price, miles and clean title all pass, 1 owner, clear history, paid off. Does NOT meet criteria because trim is not stated, so factory Android Auto and backup camera cannot be confirmed, and the engine is not stated \u2014 a Fusion of this year could carry the excluded 1.5L EcoBoost, so verify engine and screen before buying. Duplicate listing also live under a second ID (same seller/price/miles) \u2014 count once. Market estimate $10,590 = median of KBB 2018 Fusion SE Fair Purchase Price $10,590, KBB 2018 SE Fair Purchase Price (national) $10,150, KBB 2018 Fusion resale $8,775, CarGurus 2018 Fusion Houston average $12,275, CarGurus 2018 Fusion current average $11,407 (SE figure used as proxy; trim unstated). Grade C+: computed A before the unconfirmed-must-have cap. Re-verified live Nov 5, 2026: still $5,900 / 55,000 mi.",
-  "body_type": "Sedan",
-  "fuel": "Petrol",
-  "transmission": "Automatic",
-  "seller_type": "private",
-  "grade": "C+",
-  "estimate_sources": "KBB Fair Purchase Price, KBB resale value, CarGurus average asking price",
-  "engine": null,
-  "engine_evidence": "Not stated \u2014 trim not stated, so the engine is unknown",
-  "title_status": "clean-stated",
-  "title_evidence": "Clean title stated; 1 owner, clear history, paid off",
-  "verification_blockers": [
-   "Engine not stated \u2014 could be the excluded 1.5L EcoBoost",
-   "Trim/screen unstated \u2014 Android Auto and backup camera unconfirmed",
-   "Duplicate listing live under a second ID \u2014 counted once"
-  ],
-  "first_seen_at": "2026-10-26",
-  "last_seen_at": "2026-11-05",
-  "last_verified_at": "2026-11-05",
-  "listing_status": "live-verified",
-  "photo_urls": [],
-  "photo_checked_at": null,
-  "price_history": [
-   {
-    "date": "2026-11-05",
-    "price": 5900
-   }
-  ],
-  "estimate_components": [
-   {
-    "provider": "KBB",
-    "figure": 10590,
-    "figure_type": "fair-purchase",
-    "date": "2026-10-31"
-   },
-   {
-    "provider": "KBB",
-    "figure": 10150,
-    "figure_type": "fair-purchase",
-    "date": "2026-10-31"
-   },
-   {
-    "provider": "KBB",
-    "figure": 8775,
-    "figure_type": "resale",
-    "date": "2026-10-31"
-   },
-   {
-    "provider": "CarGurus",
-    "figure": 12275,
-    "figure_type": "asking",
-    "date": "2026-10-31"
-   },
-   {
-    "provider": "CarGurus",
-    "figure": 11407,
-    "figure_type": "asking",
-    "date": "2026-10-31"
-   }
-  ],
-  "estimate_confidence": "Low",
-  "estimate_confidence_reason": "Trim not stated; the estimate uses SE figures as a proxy for an unknown-trim car.",
-  "estimate_carmax_note": "No CarMax figure is included in this estimate."
- },
- {
-  "url": "https://www.facebook.com/marketplace/item/988472907230813/",
-  "year": 2019,
-  "make": "Hyundai",
-  "model": "Elantra",
-  "trim": "SE Sedan 4D",
-  "price": 6000,
-  "mileage": 45000,
-  "location": "Missouri City, TX",
-  "seller": "Mike Eze (private seller, Facebook Marketplace)",
-  "hybrid": false,
-  "android_auto": null,
-  "reverse_cam": true,
-  "lane_assist": null,
-  "reliability_score": 3.5,
-  "market_value_estimate": 8925,
-  "discount_pct": 32.8,
-  "deal_flag": true,
-  "pref_score": 3,
-  "meets_criteria": false,
-  "notes": "Does NOT meet criteria: 2019 Elantra SE has the small screen in most builds, so factory Android Auto is unconfirmed (SEL and above are the AA trims). Backup camera confirmed by the 2019+ federal standard. Price dropped from $6,500 to $6,000. Title not stated \u2014 verify the physical title brand. MUST VERIFY BEFORE BUYING: piston oil-ring recall NHTSA 21V-301 covers certain 2019-2020 Elantra 2.0L Nu MPI \u2014 demand dealer/NHTSA proof of completion; do not take the seller's word. Market estimate $8,925 = median of KBB 2019 Elantra SE Fair Purchase Price $10,150, KBB 2019 Elantra resale $8,925, iSeeCars 2019 Elantra SE range low $8,800. Grade C+: computed A before the unconfirmed-must-have cap. Re-verified live Nov 5, 2026: still $6,000 / 45,000 mi.",
-  "body_type": "Sedan",
-  "fuel": "Petrol",
-  "transmission": "Automatic",
-  "seller_type": "private",
-  "grade": "C+",
-  "estimate_sources": "KBB Fair Purchase Price, KBB resale value, iSeeCars price range",
-  "engine": "2.0L Nu MPI",
-  "engine_evidence": "Trim standard engine; recall 21V-301 covers this engine in this model year",
-  "title_status": "unknown",
-  "title_evidence": "Title not stated in the listing",
-  "verification_blockers": [
-   "Android Auto unconfirmed on the SE trim",
-   "Recall 21V-301 \u2014 demand dealer/NHTSA proof of completion",
-   "Title brand unstated \u2014 verify the physical title"
-  ],
-  "first_seen_at": "2026-10-31",
-  "last_seen_at": "2026-11-05",
-  "last_verified_at": "2026-11-05",
-  "listing_status": "live-verified",
-  "photo_urls": [],
-  "photo_checked_at": null,
-  "price_history": [
-   {
-    "date": "2026-11-05",
-    "price": 6000
-   }
-  ],
-  "estimate_components": [
-   {
-    "provider": "KBB",
-    "figure": 10150,
-    "figure_type": "fair-purchase",
-    "date": "2026-10-31"
-   },
-   {
-    "provider": "KBB",
-    "figure": 8925,
-    "figure_type": "resale",
-    "date": "2026-10-31"
-   },
-   {
-    "provider": "iSeeCars",
-    "figure": 8800,
-    "figure_type": "range-low",
-    "date": "2026-10-31"
-   }
-  ],
-  "estimate_confidence": "Medium",
-  "estimate_confidence_reason": "Three component figures from the Oct 31, 2026 cycle (KBB x2, iSeeCars); one input is the low end of an iSeeCars range.",
-  "estimate_carmax_note": "No CarMax figure is included in this estimate."
- },
- {
-  "url": "https://www.facebook.com/marketplace/item/1552019169121297/",
-  "year": 2018,
-  "make": "Ford",
-  "model": "Fusion",
-  "trim": "S Sedan 4D",
-  "price": 7500,
-  "mileage": 86615,
-  "location": "Houston, TX",
-  "seller": "Danyelle Ann (dealer, Facebook Marketplace)",
-  "hybrid": false,
-  "android_auto": false,
-  "reverse_cam": null,
-  "lane_assist": null,
-  "reliability_score": 3.5,
-  "market_value_estimate": 9775,
-  "discount_pct": 23.3,
-  "deal_flag": true,
-  "pref_score": 1,
-  "meets_criteria": false,
-  "notes": "Does NOT meet criteria: S trim carries the 4.2-inch SYNC screen per the expert matrix \u2014 no factory Android Auto on this trim (verify the screen on the car; a SYNC 3 car would change this). Backup camera unconfirmed. Engine is the 2.5L on the S trim (the reliable Fusion engine), but the listing does not state it. Seller states a used-car lot and financing \u2014 dealer. Title not stated \u2014 verify the physical title brand. Market estimate $9,775 = median of KBB 2018 Fusion S Fair Purchase Price $9,775, KBB 2018 Fusion resale $8,775, CarGurus 2018 Fusion current average $11,407. Grade C+: computed B+ before the must-have cap (AA confirmed absent on this trim). Re-verified live Nov 5, 2026: still $7,500 / 86,615 mi.",
-  "body_type": "Sedan",
-  "fuel": "Petrol",
-  "transmission": "Automatic",
-  "seller_type": "dealer",
-  "grade": "C+",
-  "estimate_sources": "KBB Fair Purchase Price, KBB resale value, CarGurus average asking price",
-  "engine": "2.5L",
-  "engine_evidence": "Trim-implied: the S trim carries the 2.5L (the reliable Fusion engine); not stated by the seller",
-  "title_status": "unknown",
-  "title_evidence": "Title not stated in the listing",
-  "verification_blockers": [
-   "No factory Android Auto on this trim per the matrix (4.2-inch screen)",
-   "Backup camera unconfirmed",
-   "Title brand unstated \u2014 verify the physical title",
-   "Dealer seller"
-  ],
-  "first_seen_at": "2026-10-31",
-  "last_seen_at": "2026-11-05",
-  "last_verified_at": "2026-11-05",
-  "listing_status": "live-verified",
-  "photo_urls": [],
-  "photo_checked_at": null,
-  "price_history": [
-   {
-    "date": "2026-11-05",
-    "price": 7500
-   }
-  ],
-  "estimate_components": [
-   {
-    "provider": "KBB",
-    "figure": 9775,
-    "figure_type": "fair-purchase",
-    "date": "2026-10-31"
-   },
-   {
-    "provider": "KBB",
-    "figure": 8775,
-    "figure_type": "resale",
-    "date": "2026-10-31"
-   },
-   {
-    "provider": "CarGurus",
-    "figure": 11407,
-    "figure_type": "asking",
-    "date": "2026-10-31"
-   }
-  ],
-  "estimate_confidence": "Medium",
-  "estimate_confidence_reason": "Three component figures from the Oct 31, 2026 cycle (KBB x2, CarGurus), trim known (S); carried one cycle.",
-  "estimate_carmax_note": "No CarMax figure is included in this estimate."
- },
- {
-  "url": "https://www.facebook.com/marketplace/item/1785137865839066/",
-  "year": 2020,
-  "make": "Ford",
-  "model": "Fusion",
-  "trim": "Not stated",
-  "price": 9400,
-  "mileage": 80443,
-  "location": "Missouri City, TX",
-  "seller": "Zoher Afan (private seller, Facebook Marketplace)",
-  "hybrid": false,
-  "android_auto": null,
-  "reverse_cam": true,
-  "lane_assist": null,
-  "reliability_score": 3.5,
-  "market_value_estimate": 12100,
-  "discount_pct": 22.3,
-  "deal_flag": true,
-  "pref_score": 2,
-  "meets_criteria": false,
-  "notes": "Does NOT meet criteria: trim is not stated, so factory Android Auto cannot be confirmed from the matrix. Backup camera confirmed by the 2019+ federal standard. Clean title seller-stated, clear history. Engine not stated \u2014 a 2020 Fusion could carry the 1.5L EcoBoost (SE standard engine), so verify the engine before buying. Market estimate $12,100 = median of KBB 2020 Fusion SE Fair Purchase Price $12,100, KBB 2020 Fusion resale $10,000, CarGurus 2020 Fusion average asking $14,090 (SE figure used as proxy; trim unstated). Grade C+: computed A- before the unconfirmed-must-have cap. Re-verified live Nov 5, 2026: still $9,400 / 80,443 mi.",
-  "body_type": "Sedan",
-  "fuel": "Petrol",
-  "transmission": "Automatic",
-  "seller_type": "private",
-  "grade": "C+",
-  "estimate_sources": "KBB Fair Purchase Price, KBB resale value, CarGurus average asking price",
-  "engine": null,
-  "engine_evidence": "Not stated \u2014 trim not stated (the SE standard engine would be the excluded 1.5L EcoBoost)",
-  "title_status": "clean-stated",
-  "title_evidence": "Clean title seller-stated, clear history",
-  "verification_blockers": [
-   "Engine not stated \u2014 could be the excluded 1.5L EcoBoost",
-   "Trim unstated \u2014 Android Auto unconfirmed"
-  ],
-  "first_seen_at": "2026-10-31",
-  "last_seen_at": "2026-11-05",
-  "last_verified_at": "2026-11-05",
-  "listing_status": "live-verified",
-  "photo_urls": [],
-  "photo_checked_at": null,
-  "price_history": [
-   {
-    "date": "2026-11-05",
-    "price": 9400
-   }
-  ],
-  "estimate_components": [
-   {
-    "provider": "KBB",
-    "figure": 12100,
-    "figure_type": "fair-purchase",
-    "date": "2026-10-31"
-   },
-   {
-    "provider": "KBB",
-    "figure": 10000,
-    "figure_type": "resale",
-    "date": "2026-10-31"
-   },
-   {
-    "provider": "CarGurus",
-    "figure": 14090,
-    "figure_type": "average-asking",
-    "date": "2026-10-31"
-   }
-  ],
-  "estimate_confidence": "Low",
-  "estimate_confidence_reason": "Trim not stated; the estimate uses SE figures as a proxy for an unknown-trim car.",
-  "estimate_carmax_note": "No CarMax figure is included in this estimate."
- },
- {
-  "url": "https://www.facebook.com/marketplace/item/2036352497083781/",
-  "year": 2021,
-  "make": "Kia",
-  "model": "Forte",
-  "trim": "LXS Sedan 4D",
-  "price": 9000,
-  "mileage": 84507,
-  "location": "Houston, TX",
-  "seller": "Edward Asamoah (private seller, Facebook Marketplace)",
-  "hybrid": false,
-  "android_auto": true,
-  "reverse_cam": true,
-  "lane_assist": true,
-  "reliability_score": 4,
-  "market_value_estimate": 12100,
-  "discount_pct": 25.6,
-  "deal_flag": true,
-  "pref_score": 3,
-  "meets_criteria": true,
-  "notes": "MEETS all must-haves (matrix-confirmed; re-verified live Nov 5, 2026). Android Auto factory standard on all 2021 Forte trims (same generation as the 2019 redesign); reverse camera standard on 2019+ cars by federal rule. Seller stated neither feature and the description is only 'driven 84,507 miles, fair condition' \u2014 price dropped from $9,550 (Nov 3) to $9,000 (Nov 5); paid off. Market estimate $12,100 = median of KBB 2021 Forte resale $11,100, CarGurus 2021 Forte average asking $14,440, iSeeCars comparable 2021 LXS 85,000 mi $11,950, CarGurus comparable 2021 LXS 93,610 mi $12,250. Grade A: base A (25.6% under) + private seller, capped below A+ because reliability is 4, not 5. CAUTIONS: title brand unstated \u2014 verify the physical title; 'fair condition' \u2014 inspect in person; plug-test Android Auto on the car.",
-  "body_type": "Sedan",
-  "fuel": "Petrol",
-  "transmission": "Automatic",
-  "seller_type": "private",
-  "grade": "A",
-  "estimate_sources": "KBB resale value, CarGurus average asking price, iSeeCars comparable listing, CarGurus comparable listing",
-  "engine": "2.0L",
-  "engine_evidence": "Trim-implied: LXS carries the 2.0L NA engine",
-  "title_status": "unknown",
-  "title_evidence": "Title not stated in the listing (re-read live 2026-11-05); FB shows paid off",
-  "verification_blockers": [
-   "Title brand unstated \u2014 verify the physical title",
-   "Seller stated neither Android Auto nor camera \u2014 matrix/federal-standard confirmation only; plug-test in person",
-   "Seller describes condition as 'fair' \u2014 inspect in person"
-  ],
-  "first_seen_at": "2026-11-03",
-  "last_seen_at": "2026-11-05",
-  "last_verified_at": "2026-11-05",
-  "listing_status": "live-verified",
-  "photo_urls": [],
-  "photo_checked_at": null,
-  "price_history": [
-   {
-    "date": "2026-11-03",
-    "price": 9550
-   },
-   {
-    "date": "2026-11-05",
-    "price": 9000
-   }
-  ],
-  "estimate_components": [
-   {
-    "provider": "KBB",
-    "figure": 11100,
-    "figure_type": "resale",
-    "date": "2026-11-05"
-   },
-   {
-    "provider": "CarGurus",
-    "figure": 14440,
-    "figure_type": "average-asking",
-    "date": "2026-11-05"
-   },
-   {
-    "provider": "iSeeCars",
-    "figure": 11950,
-    "figure_type": "comparable-asking",
-    "date": "2026-11-05"
-   },
-   {
-    "provider": "CarGurus",
-    "figure": 12250,
-    "figure_type": "comparable-asking",
-    "date": "2026-11-05"
-   }
-  ],
-  "estimate_confidence": "Medium",
-  "estimate_confidence_reason": "Four component figures preserved from Nov 5, 2026 (KBB, CarGurus x2, iSeeCars), same trim with mileage-close comparables; one input is a model-wide average asking price, so not High.",
-  "estimate_carmax_note": "No CarMax figure is included in this estimate."
- },
- {
-  "url": "https://www.facebook.com/marketplace/item/1641566861003041/",
-  "year": 2024,
-  "make": "Kia",
-  "model": "Forte",
-  "trim": "LXS Sedan 4D",
-  "price": 10500,
-  "mileage": 61211,
-  "location": "Houston, TX",
-  "seller": "Gervelio Pineiro (private seller, Facebook Marketplace)",
-  "hybrid": false,
-  "android_auto": true,
-  "reverse_cam": true,
-  "lane_assist": true,
-  "reliability_score": 4,
-  "market_value_estimate": 16010,
-  "discount_pct": 34.4,
-  "deal_flag": true,
-  "pref_score": 3,
-  "meets_criteria": true,
-  "notes": "MEETS all must-haves (matrix-confirmed; found in the Nov 5 fresh sweep, re-opened live the same day). Android Auto factory standard on all 2024 Forte trims (same generation as the 2019 redesign); reverse camera standard on 2019+ cars by federal rule. Seller states a clean Texas title and clear history; description is one line in Spanish. Market estimate $16,010 = median of KBB 2024 Forte LXS Fair Purchase Price $17,040, KBB resale value $15,950, KBB private-party value (Very Good) $16,010. Grade A: base A (34.4% under) + private seller, capped below A+ because reliability is 4, not 5. CAUTIONS: seller stated neither Android Auto nor camera \u2014 matrix/federal-standard confirmation only; plug-test on the car.",
-  "body_type": "Sedan",
-  "fuel": "Petrol",
-  "transmission": "Automatic",
-  "seller_type": "private",
-  "grade": "A",
-  "estimate_sources": "KBB Fair Purchase Price, KBB resale value, KBB private-party value",
-  "engine": "2.0L",
-  "engine_evidence": "Trim-implied: LXS carries the 2.0L NA engine",
-  "title_status": "clean-stated",
-  "title_evidence": "Seller states clean Texas title ('titulo limpio de tx'); FB shows clear history",
-  "verification_blockers": [
-   "Seller stated neither Android Auto nor camera \u2014 matrix/federal-standard confirmation only; plug-test in person",
-   "Listing description is one line in Spanish \u2014 verify condition in person"
-  ],
-  "first_seen_at": "2026-11-05",
-  "last_seen_at": "2026-11-05",
-  "last_verified_at": "2026-11-05",
-  "listing_status": "live-verified",
-  "photo_urls": [],
-  "photo_checked_at": null,
-  "price_history": [
-   {
-    "date": "2026-11-05",
-    "price": 10500
-   }
-  ],
-  "estimate_components": [
-   {
-    "provider": "KBB",
-    "figure": 17040,
-    "figure_type": "fair-purchase",
-    "date": "2026-11-05"
-   },
-   {
-    "provider": "KBB",
-    "figure": 15950,
-    "figure_type": "resale",
-    "date": "2026-11-05"
-   },
-   {
-    "provider": "KBB",
-    "figure": 16010,
-    "figure_type": "private-party",
-    "date": "2026-11-05"
-   }
-  ],
-  "estimate_confidence": "Low",
-  "estimate_confidence_reason": "All three component figures are KBB valuations captured Nov 5, 2026 - a single provider, so there is no cross-check.",
-  "estimate_carmax_note": "No CarMax figure is included in this estimate."
- },
- {
-  "url": "https://www.facebook.com/marketplace/item/1109600855010568/",
-  "year": 2021,
-  "make": "Kia",
-  "model": "Forte",
-  "trim": "EX Sedan 4D",
-  "price": 9499,
-  "mileage": 71000,
-  "location": "Sugar Land, TX",
-  "seller": "Lion Annynne (dealer \u2014 Golden Auto, Facebook Marketplace)",
-  "hybrid": false,
-  "android_auto": true,
-  "reverse_cam": true,
-  "lane_assist": true,
-  "reliability_score": 4,
-  "market_value_estimate": 12250,
-  "discount_pct": 22.5,
-  "deal_flag": true,
-  "pref_score": 3,
-  "meets_criteria": true,
-  "notes": "MEETS all must-haves (matrix-confirmed; found in the Nov 5 fresh sweep, opened live the same day). Android Auto factory standard on all 2021 Forte trims (same generation as the 2019 redesign); reverse camera standard on 2019+ cars by federal rule. Dealer listing (Golden Auto, Houston) \u2014 paid off, 2 owners. Market estimate $12,250 = median of KBB 2021 Forte resale $11,100, CarGurus 2021 Forte average asking $14,440, CarGurus comparable 2021 LXS 93,610 mi $12,250. Grade B+: base B+ (22.5% under); no private-seller step (dealer). CAUTIONS: title brand unstated \u2014 verify the physical title; plug-test Android Auto on the car.",
-  "body_type": "Sedan",
-  "fuel": "Petrol",
-  "transmission": "Automatic",
-  "seller_type": "dealer",
-  "grade": "B+",
-  "estimate_sources": "KBB resale value, CarGurus average asking price, CarGurus comparable listing",
-  "engine": "2.0L",
-  "engine_evidence": "Trim-implied: EX carries the 2.0L NA engine (turbo is the separate GT trim)",
-  "title_status": "unknown",
-  "title_evidence": "Title not stated in the listing (opened live 2026-11-05); FB shows paid off",
-  "verification_blockers": [
-   "Title brand unstated \u2014 verify the physical title",
-   "Dealer seller \u2014 private-seller preference does not apply",
-   "Seller stated neither Android Auto nor camera \u2014 matrix/federal-standard confirmation only; plug-test in person"
-  ],
-  "first_seen_at": "2026-11-05",
-  "last_seen_at": "2026-11-05",
-  "last_verified_at": "2026-11-05",
-  "listing_status": "live-verified",
-  "photo_urls": [],
-  "photo_checked_at": null,
-  "price_history": [
-   {
-    "date": "2026-11-05",
-    "price": 9499
-   }
-  ],
-  "estimate_components": [
-   {
-    "provider": "KBB",
-    "figure": 11100,
-    "figure_type": "resale",
-    "date": "2026-11-05"
-   },
-   {
-    "provider": "CarGurus",
-    "figure": 14440,
-    "figure_type": "average-asking",
-    "date": "2026-11-05"
-   },
-   {
-    "provider": "CarGurus",
-    "figure": 12250,
-    "figure_type": "comparable-asking",
-    "date": "2026-11-05"
-   }
-  ],
-  "estimate_confidence": "Medium",
-  "estimate_confidence_reason": "Three component figures from Nov 5, 2026 (KBB, CarGurus x2); one comparable is an LXS, not this car's EX trim - a proxy input.",
-  "estimate_carmax_note": "No CarMax figure is included in this estimate."
- },
- {
-  "url": "https://www.facebook.com/marketplace/item/1624199995839102/",
-  "year": 2019,
-  "make": "Kia",
-  "model": "Forte",
-  "trim": "Not stated",
-  "price": 9000,
-  "mileage": 59000,
-  "location": "Houston, TX",
-  "seller": "Jdorrion Smith (private seller, Facebook Marketplace)",
-  "hybrid": false,
-  "android_auto": true,
-  "reverse_cam": true,
-  "lane_assist": true,
-  "reliability_score": 3.5,
-  "market_value_estimate": 10296,
-  "discount_pct": 12.6,
-  "deal_flag": true,
-  "pref_score": 2,
-  "meets_criteria": true,
-  "notes": "MEETS all must-haves (matrix-confirmed; found in the Nov 5 fresh sweep, opened live the same day). Android Auto factory standard on all 2019 Forte trims; reverse camera standard on 2019+ cars by federal rule. Seller says the car 'needs a little fixing up' and takes offers. Market estimate $10,296 = median of KBB 2019 Forte resale $9,400, CarMax recent offer $9,000 at 58,000 mi, Edmunds private-party Clean $11,191, CarGurus 2019 Forte average asking $11,348. Grade A-: base B (12.6% under) + low miles + private seller. CAUTIONS: the 'fixing up' cost is unknown \u2014 price it after inspection; trim unstated; title brand unstated \u2014 verify the physical title; seller account joined Facebook in 2025.",
-  "body_type": "Sedan",
-  "fuel": "Petrol",
-  "transmission": "Automatic",
-  "seller_type": "private",
-  "grade": "A-",
-  "estimate_sources": "KBB resale value, CarMax recent offer, Edmunds private-party value, CarGurus average asking price",
-  "engine": null,
-  "engine_evidence": "Not stated \u2014 trim not stated; 2019 Forte is 2.0L on all trims except the GT (1.6T), neither is an excluded engine",
-  "title_status": "unknown",
-  "title_evidence": "Title not stated in the listing (opened live 2026-11-05)",
-  "verification_blockers": [
-   "'Needs a little fixing up' \u2014 repair cost unknown; inspect before any offer",
-   "Trim unstated \u2014 verify trim, engine and equipment on the car",
-   "Title brand unstated \u2014 verify the physical title",
-   "Seller account joined Facebook in 2025"
-  ],
-  "first_seen_at": "2026-11-05",
-  "last_seen_at": "2026-11-05",
-  "last_verified_at": "2026-11-05",
-  "listing_status": "live-verified",
-  "photo_urls": [],
-  "photo_checked_at": null,
-  "price_history": [
-   {
-    "date": "2026-11-05",
-    "price": 9000
-   }
-  ],
-  "estimate_components": [
-   {
-    "provider": "KBB",
-    "figure": 9400,
-    "figure_type": "resale",
-    "date": "2026-11-05"
-   },
-   {
-    "provider": "CarMax",
-    "figure": 9000,
-    "figure_type": "offer",
-    "date": "2026-11-05"
-   },
-   {
-    "provider": "Edmunds",
-    "figure": 11191,
-    "figure_type": "private-party",
-    "date": "2026-11-05"
-   },
-   {
-    "provider": "CarGurus",
-    "figure": 11348,
-    "figure_type": "average-asking",
-    "date": "2026-11-05"
-   }
-  ],
-  "estimate_confidence": "Low",
-  "estimate_confidence_reason": "Trim not stated, so the estimate rests on unstated-trim comparables (KBB, CarMax, Edmunds, CarGurus, Nov 5, 2026).",
-  "estimate_carmax_note": "Includes a CarMax figure: a CarMax recent offer of $9,000 at 58,000 mi is one of the four inputs to the $10,296 median. Per the CarMax policy in docs/METHOD.md an offer is a liquidation reference, not a retail comparable."
- },
- {
-  "url": "https://www.facebook.com/marketplace/item/1792968195344692/",
-  "year": 2022,
-  "make": "Hyundai",
-  "model": "Elantra",
-  "trim": "Not stated",
-  "price": 10600,
-  "mileage": 92000,
-  "location": "Houston, TX",
-  "seller": "Jimmy Martinez (private seller, Facebook Marketplace, highly rated)",
-  "hybrid": false,
-  "android_auto": null,
-  "reverse_cam": true,
-  "lane_assist": null,
-  "reliability_score": 3.5,
-  "market_value_estimate": 16862,
-  "discount_pct": 37.1,
-  "deal_flag": true,
-  "pref_score": 2,
-  "meets_criteria": false,
-  "notes": "Does NOT meet criteria: Android Auto unconfirmed \u2014 the expert guide has no 2021+ Elantra matrix row and the seller stated nothing (trim also unstated). Backup camera confirmed by the 2019+ federal standard. Clean blue title seller-stated, 1 owner, paid off, clear history. Market estimate $16,862 = median of KBB 2022 Elantra resale $12,850, CarGurus 2022 Elantra average asking $16,862, CarEdge 2022 Elantra current price $18,500. Grade C+: computed A before the unconfirmed-must-have cap. The 21V-301 piston-ring recall covers 2019\u20132020 Elantra only, so it does not apply to this 2022 \u2014 still confirm open recalls by VIN.",
-  "body_type": "Sedan",
-  "fuel": "Petrol",
-  "transmission": "Automatic",
-  "seller_type": "private",
-  "grade": "C+",
-  "estimate_sources": "KBB resale value, CarGurus average asking price, CarEdge current price",
-  "engine": null,
-  "engine_evidence": "Not stated \u2014 trim not stated; 2022 Elantra is 2.0L on all trims except N Line (1.6T), neither is an excluded engine",
-  "title_status": "clean-stated",
-  "title_evidence": "Seller states 'Clean Blue Title'; 1 owner, paid off, clear history",
-  "verification_blockers": [
-   "Android Auto unconfirmed \u2014 no 2021+ Elantra matrix row; seller stated nothing",
-   "Trim unstated \u2014 verify trim and equipment on the car"
-  ],
-  "first_seen_at": "2026-11-05",
-  "last_seen_at": "2026-11-05",
-  "last_verified_at": "2026-11-05",
-  "listing_status": "live-verified",
-  "photo_urls": [],
-  "photo_checked_at": null,
-  "price_history": [
-   {
-    "date": "2026-11-05",
-    "price": 10600
-   }
-  ],
-  "estimate_components": [
-   {
-    "provider": "KBB",
-    "figure": 12850,
-    "figure_type": "resale",
-    "date": "2026-11-05"
-   },
-   {
-    "provider": "CarGurus",
-    "figure": 16862,
-    "figure_type": "average-asking",
-    "date": "2026-11-05"
-   },
-   {
-    "provider": "CarEdge",
-    "figure": 18500,
-    "figure_type": "current-price",
-    "date": "2026-11-05"
-   }
-  ],
-  "estimate_confidence": "Low",
-  "estimate_confidence_reason": "Trim not stated, so the estimate rests on unstated-trim figures (KBB, CarGurus, CarEdge, Nov 5, 2026).",
-  "estimate_carmax_note": "No CarMax figure is included in this estimate."
- }
+  {
+    "url": "https://www.facebook.com/marketplace/item/2085271345433565/",
+    "year": 2024,
+    "make": "Chevrolet",
+    "model": "Malibu",
+    "trim": "LT Sedan 4D",
+    "price": 9799,
+    "mileage": 52000,
+    "location": "Katy, TX",
+    "seller": "Mohlas McAdams (private seller, Facebook Marketplace)",
+    "hybrid": false,
+    "android_auto": true,
+    "reverse_cam": true,
+    "lane_assist": null,
+    "reliability_score": 3,
+    "market_value_estimate": 18863,
+    "discount_pct": 48.1,
+    "deal_flag": true,
+    "pref_score": 2,
+    "meets_criteria": true,
+    "notes": "MEETS all must-haves (seller-confirmed; re-verified live Nov 4, 2026). Seller states touchscreen with Apple CarPlay & Android Auto and back-up camera; 1.5L ECOTEC automatic, paid off, 2 owners, cash only. Market estimate $17,033 = median of TrueCar 2024 Malibu LT average $16,828, CarGurus comparable 2024 LT 52,155 mi $17,237, CarGurus 2024 Malibu average asking $18,386, Edmunds 2024 Malibu LT retail $13,532. Grade A: base A (42.5% under), one step down for reliability 3, one up for low miles, one up for private seller, capped below A+ because reliability is not 5. CAUTIONS: title brand unstated (only 'paid off') — verify the physical title and run NICB + NMVTIS before travelling; at 42.5% under estimate the price sits in the washed-title flag zone, so the discount is a warning as well as a bargain; no expert-matrix row exists for 2021+ Malibu, so Android Auto rests on the seller's explicit statement — plug-test in person; the 2024 1.5T is not the 2016-17 LSPI population, but a cold-start inspection for misfire/oil use still applies. Re-verified live Nov 5, 2026: still $9,799 / 52,000 mi. Re-verified live Nov 12, 2026: still $9,799 / 52,000 mi. Estimate re-run same-day Nov 12: $18,863 (median of Edmunds 1LT private-party Clean $19,732, KBB comparable 53,484 mi $19,810, CarGurus comparables $17,994 at 53,905 mi and $17,781 at 56,932 mi); discount now 48.1% (was 42.5% on the Nov 4 estimate — the Nov 4 Edmunds retail $13,532 was a low outlier). Grade stays A.",
+    "body_type": "Sedan",
+    "fuel": "Petrol",
+    "transmission": "Automatic",
+    "seller_type": "private",
+    "grade": "A",
+    "estimate_sources": "Edmunds private-party value, KBB comparable listing, CarGurus comparable listings",
+    "engine": "1.5L ECOTEC",
+    "engine_evidence": "Seller-stated ('1.5 ECOTEC'), re-read live 2026-11-04",
+    "title_status": "paid-off-only",
+    "title_evidence": "FB: paid off, 2 owners; title brand not stated (re-read live 2026-11-04)",
+    "verification_blockers": [
+      "Title brand unstated — verify the physical title, plus NICB + NMVTIS, before travelling",
+      "Price 48.1% under estimate sits in the washed-title flag zone",
+      "No expert-matrix row for 2021+ Malibu — Android Auto rests on the seller's statement; plug-test in person",
+      "1.5T: cold-start inspection for misfire/oil use"
+    ],
+    "first_seen_at": "2026-11-04",
+    "last_seen_at": "2026-11-12",
+    "last_verified_at": "2026-11-12",
+    "listing_status": "live-verified",
+    "photo_urls": [],
+    "photo_checked_at": null,
+    "price_history": [
+      {
+        "date": "2026-11-05",
+        "price": 9799
+      }
+    ],
+    "estimate_components": [
+      {
+        "provider": "Edmunds",
+        "figure": 19732,
+        "figure_type": "private-party",
+        "date": "2026-11-12"
+      },
+      {
+        "provider": "KBB",
+        "figure": 19810,
+        "figure_type": "comparable-asking",
+        "date": "2026-11-12"
+      },
+      {
+        "provider": "CarGurus",
+        "figure": 17994,
+        "figure_type": "comparable-asking",
+        "date": "2026-11-12"
+      },
+      {
+        "provider": "CarGurus",
+        "figure": 17781,
+        "figure_type": "comparable-asking",
+        "date": "2026-11-12"
+      }
+    ],
+    "estimate_confidence": "Medium",
+    "estimate_confidence_reason": "Four same-cycle figures, same trim; the Edmunds figure is a 1LT proxy and the KBB/CarGurus figures are comparable listings, not valuations.",
+    "estimate_carmax_note": "No CarMax figure is included in this estimate."
+  },
+  {
+    "url": "https://www.facebook.com/marketplace/item/1510487417639694/",
+    "year": 2023,
+    "make": "Chevrolet",
+    "model": "Malibu",
+    "trim": "LT Sedan 4D",
+    "price": 9250,
+    "mileage": 78000,
+    "location": "Katy, TX",
+    "seller": "Mohlas McAdams (private seller, Facebook Marketplace)",
+    "hybrid": false,
+    "android_auto": true,
+    "reverse_cam": true,
+    "lane_assist": null,
+    "reliability_score": 3,
+    "market_value_estimate": 14950,
+    "discount_pct": 38.1,
+    "deal_flag": true,
+    "pref_score": 2,
+    "meets_criteria": true,
+    "notes": "MEETS all must-haves (seller-confirmed). Seller states touchscreen with Apple CarPlay & Android Auto and Back-up Camera; 1.5L ECOTEC automatic, 2 owners, paid off, cash only, test drive available. STANDOUT — grade A: base A (38.1% under) -1 reliability 3 +1 private seller; A+ blocked (reliability not 5, mileage 78,000 > 75,000). Estimate $14,950 = median of KBB resale $14,950, ForCar median asking $13,750, CarMax recent offer $12,000 at 72,000 mi, Edmunds 1LT private-party Clean $18,100, CarGurus 2023 average asking $16,600. Re-verified live Nov 12, 2026: still $9,250 / 78,000 mi, same seller and description as Nov 11 — the suspicious price is confirmed live, but the title brand is still unstated, so the washed-title caution stands.",
+    "body_type": "Sedan",
+    "fuel": "Petrol",
+    "transmission": "Automatic",
+    "seller_type": "private",
+    "grade": "A",
+    "estimate_sources": "KBB resale value, ForCar median asking price, CarMax recent offer, Edmunds private-party value, CarGurus average asking price",
+    "engine": "1.5L ECOTEC",
+    "engine_evidence": "Seller-stated ('1.5 ECOTEC'), re-read live 2026-11-12",
+    "title_status": "paid-off-only",
+    "title_evidence": "FB: paid off, 2 owners; title brand not stated (re-read live 2026-11-12)",
+    "verification_blockers": [
+      "Title brand unstated — verify the physical title, plus NICB + NMVTIS, before travelling",
+      "Price 38.1% under estimate sits in the washed-title flag zone",
+      "Rearview-camera recall N262551720 (2023–25 Malibu) — confirm the remedy is done on this car",
+      "No expert-matrix row for 2021+ Malibu — Android Auto rests on the seller's statement; plug-test in person",
+      "1.5T: cold-start inspection for misfire/oil use"
+    ],
+    "first_seen_at": "2026-11-11",
+    "last_seen_at": "2026-11-12",
+    "last_verified_at": "2026-11-12",
+    "listing_status": "live-verified",
+    "photo_urls": [],
+    "photo_checked_at": null,
+    "price_history": [
+      {
+        "date": "2026-11-11",
+        "price": 9250
+      }
+    ],
+    "estimate_components": [
+      {
+        "provider": "KBB",
+        "figure": 14950,
+        "figure_type": "resale",
+        "date": "2026-11-12"
+      },
+      {
+        "provider": "ForCar",
+        "figure": 13750,
+        "figure_type": "average-asking",
+        "date": "2026-11-12"
+      },
+      {
+        "provider": "CarMax",
+        "figure": 12000,
+        "figure_type": "offer",
+        "date": "2026-11-12"
+      },
+      {
+        "provider": "Edmunds",
+        "figure": 18100,
+        "figure_type": "private-party",
+        "date": "2026-11-12"
+      },
+      {
+        "provider": "CarGurus",
+        "figure": 16600,
+        "figure_type": "average-asking",
+        "date": "2026-11-12"
+      }
+    ],
+    "estimate_confidence": "Medium",
+    "estimate_confidence_reason": "Five figures same cycle from five providers, but two are model-wide averages, one is a CarMax offer, and the Edmunds figure is a 1LT proxy.",
+    "estimate_carmax_note": "Includes a CarMax figure: a recent offer of $12,000 at 72,000 mi, named as an offer in estimate_components — not a CarMax asking price."
+  },
+  {
+    "url": "https://www.facebook.com/marketplace/item/1148363531040353/",
+    "year": 2024,
+    "make": "Kia",
+    "model": "Forte",
+    "trim": "LXS Sedan 4D",
+    "price": 10500,
+    "mileage": 61211,
+    "location": "Houston, TX",
+    "seller": "Gervelio Pineiro (private seller, Facebook Marketplace)",
+    "hybrid": false,
+    "android_auto": true,
+    "reverse_cam": true,
+    "lane_assist": true,
+    "reliability_score": 4,
+    "market_value_estimate": 16010,
+    "discount_pct": 34.4,
+    "deal_flag": true,
+    "pref_score": 3,
+    "meets_criteria": true,
+    "notes": "MEETS all must-haves (matrix-confirmed; found in the Nov 5 fresh sweep, re-opened live the same day). Android Auto factory standard on all 2024 Forte trims (same generation as the 2019 redesign); reverse camera standard on 2019+ cars by federal rule. Seller states a clean Texas title and clear history; description is one line in Spanish. Market estimate $16,010 = median of KBB 2024 Forte LXS Fair Purchase Price $17,040, KBB resale value $15,950, KBB private-party value (Very Good) $16,010. Grade A: base A (34.4% under) + private seller, capped below A+ because reliability is 4, not 5. CAUTIONS: seller stated neither Android Auto nor camera — matrix/federal-standard confirmation only; plug-test on the car. DUPLICATE / RE-LIST RESOLUTION (Nov 12, 2026): this is the SAME car as the published record under item 1641566861003041 (dead Nov 12) and the staged record under item 1199809759036048 (dead Nov 12) — same seller Gervelio Pineiro, same $10,500 / 61,211 mi, same one-line Spanish description. The car was re-listed under this ID (listed a day ago). Canonical record merged under the live ID; the two dead IDs are not published separately. Re-verified live Nov 12, 2026: $10,500 / 61,211 mi, clean TX title seller-stated.",
+    "body_type": "Sedan",
+    "fuel": "Petrol",
+    "transmission": "Automatic",
+    "seller_type": "private",
+    "grade": "A",
+    "estimate_sources": "KBB Fair Purchase Price, KBB resale value, KBB private-party value",
+    "engine": "2.0L",
+    "engine_evidence": "Trim-implied: LXS carries the 2.0L NA engine",
+    "title_status": "clean-stated",
+    "title_evidence": "Seller states clean Texas title ('titulo limpio de tx'); FB shows clear history",
+    "verification_blockers": [
+      "Seller stated neither Android Auto nor camera — matrix/federal-standard confirmation only; plug-test in person",
+      "Listing description is one line in Spanish — verify condition in person"
+    ],
+    "first_seen_at": "2026-11-05",
+    "last_seen_at": "2026-11-12",
+    "last_verified_at": "2026-11-12",
+    "listing_status": "live-verified",
+    "photo_urls": [],
+    "photo_checked_at": null,
+    "price_history": [
+      {
+        "date": "2026-11-05",
+        "price": 10500
+      }
+    ],
+    "estimate_components": [
+      {
+        "provider": "KBB",
+        "figure": 17040,
+        "figure_type": "fair-purchase",
+        "date": "2026-11-05"
+      },
+      {
+        "provider": "KBB",
+        "figure": 15950,
+        "figure_type": "resale",
+        "date": "2026-11-05"
+      },
+      {
+        "provider": "KBB",
+        "figure": 16010,
+        "figure_type": "private-party",
+        "date": "2026-11-05"
+      }
+    ],
+    "estimate_confidence": "Low",
+    "estimate_confidence_reason": "All three component figures are KBB valuations captured Nov 5, 2026 - a single provider, so there is no cross-check.",
+    "estimate_carmax_note": "No CarMax figure is included in this estimate."
+  },
+  {
+    "url": "https://www.facebook.com/marketplace/item/2137005053575052/",
+    "year": 2021,
+    "make": "Kia",
+    "model": "Forte",
+    "trim": "GT-Line Sedan 4D",
+    "price": 9500,
+    "mileage": 79000,
+    "location": "Katy, TX",
+    "seller": "Katherine Miranda (private seller, Facebook Marketplace)",
+    "hybrid": false,
+    "android_auto": true,
+    "reverse_cam": true,
+    "lane_assist": true,
+    "reliability_score": 4,
+    "market_value_estimate": 14440,
+    "discount_pct": 34.2,
+    "deal_flag": true,
+    "pref_score": 3,
+    "meets_criteria": true,
+    "notes": "MEETS all must-haves. Clear history, no significant damage stated. Android Auto and backup camera are factory standard on all 2021 Forte trims (same generation as the 2019 redesign; matrix covers 2019 all-trim standard). Lane-keeping standard on Forte since 2019. Title not explicitly stated as clean (FB shows clear history only) — verify the physical title brand before money moves. Market estimate $14,440 = median of KBB 2021 Forte resale $11,450, CarGurus 2021 Forte average asking $14,440, dealer 2021 GT-Line 68,607 mi $15,600. Grade A: base A (34.2% under) + private seller, capped below A+ because reliability is 4, not 5. Re-verified live Nov 5, 2026: still $9,500 / 79,000 mi. Re-verified live Nov 12, 2026: still $9,500 / 79,000 mi. Estimate carried from Nov 5 ($14,440); spot-check Nov 12: KBB 2021 Forte resale $11,750 (was $11,450), CarGurus 2021 average asking $14,440 unchanged.",
+    "body_type": "Sedan",
+    "fuel": "Petrol",
+    "transmission": "Automatic",
+    "seller_type": "private",
+    "grade": "A",
+    "estimate_sources": "KBB resale value, CarGurus average asking price, dealer comparable listing",
+    "engine": "2.0L",
+    "engine_evidence": "Trim-implied: GT-Line is the 2.0L NA trim (the turbo is the separate GT trim)",
+    "title_status": "clear-history-only",
+    "title_evidence": "FB shows clear history / no significant damage; a clean title brand is not explicitly stated",
+    "verification_blockers": [
+      "Title brand not explicitly stated — verify the physical title"
+    ],
+    "first_seen_at": "2026-10-31",
+    "last_seen_at": "2026-11-12",
+    "last_verified_at": "2026-11-12",
+    "listing_status": "live-verified",
+    "photo_urls": [],
+    "photo_checked_at": null,
+    "price_history": [
+      {
+        "date": "2026-11-05",
+        "price": 9500
+      }
+    ],
+    "estimate_components": [
+      {
+        "provider": "KBB",
+        "figure": 11450,
+        "figure_type": "resale",
+        "date": "2026-10-31"
+      },
+      {
+        "provider": "CarGurus",
+        "figure": 14440,
+        "figure_type": "average-asking",
+        "date": "2026-10-31"
+      },
+      {
+        "provider": "Dealer comparable",
+        "figure": 15600,
+        "figure_type": "asking",
+        "date": "2026-10-31"
+      }
+    ],
+    "estimate_confidence": "Medium",
+    "estimate_confidence_reason": "Three component figures preserved from the Oct 31, 2026 cycle (KBB, CarGurus, dealer comparable), same trim; carried one cycle, not re-run provider-by-provider on Nov 5.",
+    "estimate_carmax_note": "No CarMax figure is included in this estimate."
+  },
+  {
+    "url": "https://www.facebook.com/marketplace/item/1430771805324735/",
+    "year": 2021,
+    "make": "Kia",
+    "model": "Forte",
+    "trim": "LXS",
+    "price": 8250,
+    "mileage": 83641,
+    "location": "Webster, TX",
+    "seller": "Larry Kirkwood (private seller, Facebook Marketplace)",
+    "hybrid": false,
+    "android_auto": true,
+    "reverse_cam": true,
+    "lane_assist": null,
+    "reliability_score": 4,
+    "market_value_estimate": 11750,
+    "discount_pct": 29.8,
+    "deal_flag": true,
+    "pref_score": 3,
+    "meets_criteria": true,
+    "notes": "MEETS all must-haves (AA matrix-confirmed: 2019+ Forte all trims; reverse camera confirmed by the federal 2019+ rule — correction of the Nov 10 staging, which left it null; the Nov 5 board applies the same rule). 3+ owners, paid off. Market estimate $11,750 = median of KBB resale $11,750, Flipify 2021 median asking $10,800, dealer comparable 2021 LXS 83,630 mi $13,985. Grade A: base A (29.8% under), private seller +1. Re-verified live Nov 12, 2026: still $8,250 / 83,641 mi.",
+    "body_type": "Sedan",
+    "fuel": "Petrol",
+    "transmission": "Automatic",
+    "seller_type": "private",
+    "grade": "A",
+    "estimate_sources": "KBB resale value, Flipify median asking price, dealer comparable listing",
+    "engine": "2.0L",
+    "engine_evidence": "Trim-implied: 2021 LXS is 2.0L (only engine for the trim); seller states nothing",
+    "title_status": "paid-off-only",
+    "title_evidence": "FB: paid off, 3+ owners; title brand not stated (re-read live 2026-11-12)",
+    "verification_blockers": [
+      "Title brand unstated — verify the physical title",
+      "3+ owners — verify service history",
+      "Reverse camera confirmed by the federal 2019+ rule only — plug-test in person"
+    ],
+    "first_seen_at": "2026-11-10",
+    "last_seen_at": "2026-11-12",
+    "last_verified_at": "2026-11-12",
+    "listing_status": "live-verified",
+    "photo_urls": [],
+    "photo_checked_at": null,
+    "price_history": [
+      {
+        "date": "2026-11-10",
+        "price": 8250
+      }
+    ],
+    "estimate_components": [
+      {
+        "provider": "KBB",
+        "figure": 11750,
+        "figure_type": "resale",
+        "date": "2026-11-12"
+      },
+      {
+        "provider": "Flipify",
+        "figure": 10800,
+        "figure_type": "average-asking",
+        "date": "2026-11-12"
+      },
+      {
+        "provider": "Dealer comparable",
+        "figure": 13985,
+        "figure_type": "comparable-asking",
+        "date": "2026-11-12"
+      }
+    ],
+    "estimate_confidence": "Medium",
+    "estimate_confidence_reason": "Three same-cycle figures from three providers; the Flipify figure is a model-year median and the comparable is a dealer asking price.",
+    "estimate_carmax_note": "No CarMax figure is included in this estimate."
+  },
+  {
+    "url": "https://www.facebook.com/marketplace/item/1688116479636743/",
+    "year": 2019,
+    "make": "Mazda",
+    "model": "Mazda6",
+    "trim": "i Touring Sedan 4D",
+    "price": 12900,
+    "mileage": 72000,
+    "location": "Houston, TX",
+    "seller": "Ahmet Artykov (private seller, Facebook Marketplace)",
+    "hybrid": false,
+    "android_auto": true,
+    "reverse_cam": true,
+    "lane_assist": null,
+    "reliability_score": 4,
+    "market_value_estimate": 18097,
+    "discount_pct": 28.7,
+    "deal_flag": true,
+    "pref_score": 3,
+    "meets_criteria": true,
+    "notes": "MEETS all must-haves (AA matrix-confirmed 2019 Touring+; reverse camera confirmed by the federal 2019+ rule — correction of the Nov 11 staging, which left it null). 2 owners. Market estimate $18,097 = median of KBB 2019 resale $11,000, CarGurus 2019 average asking $18,097, CarScout 2019 median asking $18,351. Grade A: base A (28.7% under), private seller +1. Re-verified live Nov 12, 2026: still $12,900 / 72,000 mi.",
+    "body_type": "Sedan",
+    "fuel": "Petrol",
+    "transmission": "Automatic",
+    "seller_type": "private",
+    "grade": "A",
+    "estimate_sources": "KBB resale value, CarGurus average asking price, CarScout median asking price",
+    "engine": "2.5L",
+    "engine_evidence": "Trim-implied: 2019 Touring is 2.5L Skyactiv-G non-turbo (turbo only on Grand Touring Reserve and above); seller states nothing",
+    "title_status": "unknown",
+    "title_evidence": "Title brand not stated (re-read live 2026-11-12)",
+    "verification_blockers": [
+      "Title brand unstated — verify the physical title",
+      "Seller joined Facebook in 2026; description is two lines — verify the car and title in person",
+      "Android Auto matrix-only (2019 Touring+) — plug-test in person"
+    ],
+    "first_seen_at": "2026-11-11",
+    "last_seen_at": "2026-11-12",
+    "last_verified_at": "2026-11-12",
+    "listing_status": "live-verified",
+    "photo_urls": [],
+    "photo_checked_at": null,
+    "price_history": [
+      {
+        "date": "2026-11-11",
+        "price": 12900
+      }
+    ],
+    "estimate_components": [
+      {
+        "provider": "KBB",
+        "figure": 11000,
+        "figure_type": "resale",
+        "date": "2026-11-12"
+      },
+      {
+        "provider": "CarGurus",
+        "figure": 18097,
+        "figure_type": "average-asking",
+        "date": "2026-11-12"
+      },
+      {
+        "provider": "CarScout",
+        "figure": 18351,
+        "figure_type": "average-asking",
+        "date": "2026-11-12"
+      }
+    ],
+    "estimate_confidence": "Medium",
+    "estimate_confidence_reason": "Three same-cycle figures from three providers, but the CarGurus and CarScout figures are model-wide averages and the spread is wide.",
+    "estimate_carmax_note": "No CarMax figure is included in this estimate."
+  },
+  {
+    "url": "https://www.facebook.com/marketplace/item/2036352497083781/",
+    "year": 2021,
+    "make": "Kia",
+    "model": "Forte",
+    "trim": "LXS Sedan 4D",
+    "price": 8500,
+    "mileage": 84513,
+    "location": "Houston, TX",
+    "seller": "Edward Asamoah (private seller, Facebook Marketplace)",
+    "hybrid": false,
+    "android_auto": true,
+    "reverse_cam": true,
+    "lane_assist": true,
+    "reliability_score": 4,
+    "market_value_estimate": 11750,
+    "discount_pct": 27.7,
+    "deal_flag": true,
+    "pref_score": 3,
+    "meets_criteria": true,
+    "notes": "MEETS all must-haves (matrix-confirmed; re-verified live Nov 5, 2026). Android Auto factory standard on all 2021 Forte trims (same generation as the 2019 redesign); reverse camera standard on 2019+ cars by federal rule. Seller stated neither feature and the description is only 'driven 84,507 miles, fair condition' — price dropped from $9,550 (Nov 3) to $9,000 (Nov 5); paid off. Market estimate $12,100 = median of KBB 2021 Forte resale $11,100, CarGurus 2021 Forte average asking $14,440, iSeeCars comparable 2021 LXS 85,000 mi $11,950, CarGurus comparable 2021 LXS 93,610 mi $12,250. Grade A: base A (25.6% under) + private seller, capped below A+ because reliability is 4, not 5. CAUTIONS: title brand unstated — verify the physical title; 'fair condition' — inspect in person; plug-test Android Auto on the car. Re-verified live Nov 12, 2026: price cut again, $8,800 (Nov 10) → $8,500; mileage 84,507 → 84,513. Estimate re-run same-day Nov 12: $11,750 (median of KBB resale $11,750, Flipify 2021 median asking $10,800, dealer comparable 2021 LXS 83,630 mi $13,985); discount now 27.7% (was 25.6%). Grade stays A. Reverse camera confirmed by the federal 2019+ rule, correcting the Nov 10 staging note that left it null (the Nov 5 board already applied this rule).",
+    "body_type": "Sedan",
+    "fuel": "Petrol",
+    "transmission": "Automatic",
+    "seller_type": "private",
+    "grade": "A",
+    "estimate_sources": "KBB resale value, Flipify median asking price, dealer comparable listing",
+    "engine": "2.0L",
+    "engine_evidence": "Trim-implied: LXS carries the 2.0L NA engine",
+    "title_status": "unknown",
+    "title_evidence": "Title not stated in the listing (re-read live 2026-11-05); FB shows paid off",
+    "verification_blockers": [
+      "Title brand unstated — verify the physical title",
+      "Seller stated neither Android Auto nor camera — matrix/federal-standard confirmation only; plug-test in person",
+      "Seller describes condition as 'fair' — inspect in person"
+    ],
+    "first_seen_at": "2026-11-03",
+    "last_seen_at": "2026-11-12",
+    "last_verified_at": "2026-11-12",
+    "listing_status": "live-verified",
+    "photo_urls": [],
+    "photo_checked_at": null,
+    "price_history": [
+      {
+        "date": "2026-11-03",
+        "price": 9550
+      },
+      {
+        "date": "2026-11-10",
+        "price": 8800
+      },
+      {
+        "date": "2026-11-12",
+        "price": 8500
+      }
+    ],
+    "estimate_components": [
+      {
+        "provider": "KBB",
+        "figure": 11750,
+        "figure_type": "resale",
+        "date": "2026-11-12"
+      },
+      {
+        "provider": "Flipify",
+        "figure": 10800,
+        "figure_type": "average-asking",
+        "date": "2026-11-12"
+      },
+      {
+        "provider": "Dealer comparable",
+        "figure": 13985,
+        "figure_type": "comparable-asking",
+        "date": "2026-11-12"
+      }
+    ],
+    "estimate_confidence": "Medium",
+    "estimate_confidence_reason": "Three same-cycle figures from three providers; the Flipify figure is a model-year median and the comparable is a dealer asking price.",
+    "estimate_carmax_note": "No CarMax figure is included in this estimate."
+  },
+  {
+    "url": "https://www.facebook.com/marketplace/item/1778585043338605/",
+    "year": 2021,
+    "make": "Kia",
+    "model": "Forte",
+    "trim": "GT-Line Sedan 4D",
+    "price": 10500,
+    "mileage": 35000,
+    "location": "Houston, TX",
+    "seller": "Wisam Nassar (private seller, Facebook Marketplace)",
+    "hybrid": false,
+    "android_auto": true,
+    "reverse_cam": true,
+    "lane_assist": true,
+    "reliability_score": 4,
+    "market_value_estimate": 14440,
+    "discount_pct": 27.3,
+    "deal_flag": true,
+    "pref_score": 4,
+    "meets_criteria": true,
+    "notes": "MEETS all must-haves. Seller states Apple CarPlay/Android Auto and backup camera, cash price. Leather seats, sunroof, keyless entry. Title not stated — verify the physical title brand before money moves. Market estimate $14,440 = median of KBB 2021 Forte resale $11,450, CarGurus 2021 Forte average asking $14,440, dealer 2021 GT-Line 68,607 mi $15,600. Grade A: base A (27.3% under) + low miles + private seller, capped below A+ because reliability is 4, not 5. Re-verified live Nov 5, 2026: still $10,500 / 35,000 mi. Re-verified live Nov 12, 2026: still $10,500 / 35,000 mi. Estimate carried from Nov 5 ($14,440); spot-check Nov 12: KBB 2021 Forte resale $11,750 (was $11,450), CarGurus 2021 average asking $14,440 unchanged.",
+    "body_type": "Sedan",
+    "fuel": "Petrol",
+    "transmission": "Automatic",
+    "seller_type": "private",
+    "grade": "A",
+    "estimate_sources": "KBB resale value, CarGurus average asking price, dealer comparable listing",
+    "engine": "2.0L",
+    "engine_evidence": "Trim-implied: GT-Line is the 2.0L NA trim (the turbo is the separate GT trim)",
+    "title_status": "unknown",
+    "title_evidence": "Title not stated in the listing",
+    "verification_blockers": [
+      "Title brand unstated — verify the physical title"
+    ],
+    "first_seen_at": "2026-10-31",
+    "last_seen_at": "2026-11-12",
+    "last_verified_at": "2026-11-12",
+    "listing_status": "live-verified",
+    "photo_urls": [],
+    "photo_checked_at": null,
+    "price_history": [
+      {
+        "date": "2026-11-05",
+        "price": 10500
+      }
+    ],
+    "estimate_components": [
+      {
+        "provider": "KBB",
+        "figure": 11450,
+        "figure_type": "resale",
+        "date": "2026-10-31"
+      },
+      {
+        "provider": "CarGurus",
+        "figure": 14440,
+        "figure_type": "average-asking",
+        "date": "2026-10-31"
+      },
+      {
+        "provider": "Dealer comparable",
+        "figure": 15600,
+        "figure_type": "asking",
+        "date": "2026-10-31"
+      }
+    ],
+    "estimate_confidence": "Medium",
+    "estimate_confidence_reason": "Three component figures preserved from the Oct 31, 2026 cycle (KBB, CarGurus, dealer comparable), same trim; carried one cycle, not re-run provider-by-provider on Nov 5.",
+    "estimate_carmax_note": "No CarMax figure is included in this estimate."
+  },
+  {
+    "url": "https://www.facebook.com/marketplace/item/1625691275824447/",
+    "year": 2020,
+    "make": "Kia",
+    "model": "Forte",
+    "trim": "LXS Sedan 4D",
+    "price": 8500,
+    "mileage": 31000,
+    "location": "Tomball, TX",
+    "seller": "Fernando Valde (private seller, Facebook Marketplace)",
+    "hybrid": false,
+    "android_auto": true,
+    "reverse_cam": true,
+    "lane_assist": true,
+    "reliability_score": 3.5,
+    "market_value_estimate": 11372,
+    "discount_pct": 25.3,
+    "deal_flag": true,
+    "pref_score": 3,
+    "meets_criteria": true,
+    "notes": "MEETS all must-haves. Seller states 2.0 engine, automatic, 31k original miles, front and rear cameras, Apple CarPlay and Android Auto, cold AC, warranty; Android Auto corroborated by the 2019+ all-trim matrix. 1 owner, paid off. Title brand not stated — verify the physical title before money moves. Cautions: the seller's WARRANTY claim is unverified; the description writes the trim as XLS (the title says LXS); an unexplained 'anti theft ignition switch' note; listed 7 weeks ago. Market estimate $12,072 = median of KBB Fair Purchase Price LXS $11,850, Edmunds private-party clean $12,294, CarGurus 2020 Forte average asking $12,901, CarGurus comparable 2020 LXS 81,538 mi $11,188. Grade A: base A (26.3% under) + low miles + private seller, capped below A+ because reliability is not 5. Phase 0 (Nov 4, 2026): this car was published Oct 31 and re-staged Nov 3 with a different estimate — merged into this one canonical record; the Nov 3 estimate supersedes the Oct 31 figure ($11,650 / 23.6% under); re-verified live Nov 4 at $8,900 and 31,000 mi. Re-verified live Nov 5, 2026: still $8,900 / 31,000 mi. Re-verified live Nov 12, 2026: still $8,500 / 31,000 mi (price cut from $8,900 Nov 10 stands). Estimate re-run same-day Nov 12: $11,372 (median of KBB resale $10,450, Edmunds EX private-party Clean $12,294, CarMax recent offer $10,000 at 55,000 mi, Flipify 0–50k asking band $13,900); discount now 25.3% (was 26.3% on the Nov 3 estimate). Grade stays A.",
+    "body_type": "Sedan",
+    "fuel": "Petrol",
+    "transmission": "Automatic",
+    "seller_type": "private",
+    "grade": "A",
+    "estimate_sources": "KBB resale value, Edmunds private-party value, CarMax recent offer, Flipify asking-price band",
+    "engine": "2.0L",
+    "engine_evidence": "Seller-stated ('2.0 ENGINE'), re-read live 2026-11-04",
+    "title_status": "paid-off-only",
+    "title_evidence": "FB: paid off, 1 owner; title brand not stated (re-read live 2026-11-04)",
+    "verification_blockers": [
+      "Title brand unstated — verify the physical title",
+      "Seller 'WARRANTY' claim unverified",
+      "Description writes the trim as 'XLS' vs LXS in the title"
+    ],
+    "first_seen_at": "2026-10-31",
+    "last_seen_at": "2026-11-12",
+    "last_verified_at": "2026-11-12",
+    "listing_status": "live-verified",
+    "photo_urls": [],
+    "photo_checked_at": null,
+    "price_history": [
+      {
+        "date": "2026-11-05",
+        "price": 8900
+      },
+      {
+        "date": "2026-11-12",
+        "price": 8500
+      }
+    ],
+    "estimate_components": [
+      {
+        "provider": "KBB",
+        "figure": 10450,
+        "figure_type": "resale",
+        "date": "2026-11-12"
+      },
+      {
+        "provider": "Edmunds",
+        "figure": 12294,
+        "figure_type": "private-party",
+        "date": "2026-11-12"
+      },
+      {
+        "provider": "CarMax",
+        "figure": 10000,
+        "figure_type": "offer",
+        "date": "2026-11-12"
+      },
+      {
+        "provider": "Flipify",
+        "figure": 13900,
+        "figure_type": "average-asking",
+        "date": "2026-11-12"
+      }
+    ],
+    "estimate_confidence": "Medium",
+    "estimate_confidence_reason": "Four same-cycle figures from four providers; the Edmunds figure is an EX-trim proxy, the CarMax figure is an offer, and the Flipify figure is a mileage-band average.",
+    "estimate_carmax_note": "Includes a CarMax figure: a recent offer of $10,000 at 55,000 mi, named as an offer in estimate_components — not a CarMax asking price."
+  },
+  {
+    "url": "https://www.facebook.com/marketplace/item/2099246277666831/",
+    "year": 2022,
+    "make": "Hyundai",
+    "model": "Sonata",
+    "trim": "SEL Sedan 4D",
+    "price": 11500,
+    "mileage": 70000,
+    "location": "Richmond, TX",
+    "seller": "Ahmed Sam (private seller, Facebook Marketplace)",
+    "hybrid": false,
+    "android_auto": true,
+    "reverse_cam": true,
+    "lane_assist": true,
+    "reliability_score": 4,
+    "market_value_estimate": 14300,
+    "discount_pct": 19.6,
+    "deal_flag": true,
+    "pref_score": 3,
+    "meets_criteria": true,
+    "notes": "MEETS all must-haves. Seller states rear camera, front radar, blind spot, lane departure, keyless entry. Android Auto factory standard on 2022 Sonata (SE and SEL: 8-inch touchscreen with Apple CarPlay/Android Auto; SEL adds blind-spot and lane-keeping). Engine is the 2.5L Smartstream (191 hp), NOT the excluded Theta II family (2011-2019). Title not stated — verify the physical title brand before money moves. Caution: seller account joined Facebook in 2026. Market estimate $14,300 = median of KBB 2022 Sonata SEL Fair Purchase Price $17,000, KBB 2022 Sonata resale $14,300, Edmunds 2022 Sonata SEL trade-in $11,839. Grade A-: base B+ (19.6% under) + private seller. Reliability 4 = RepairPal Sonata 4/5. Phase 0 (Nov 4, 2026): a Nov 3 staged record treated Android Auto as unconfirmed, claiming the expert guide has no 2020+ Sonata matrix row — checked: docs/FAQ.md gives '2020+: AA standard all trims', so this matrix-confirmed record stands and the staged reading was in error. Re-verified live Nov 4: still $11,500 / 70,000 mi; the seller still does not mention Android Auto and the title is still unstated. Re-verified live Nov 5, 2026: still $11,500 / 70,000 mi. Re-verified live Nov 12, 2026: still $11,500 / 70,000 mi. Estimate carried from Nov 5 ($14,300); spot-check Nov 12: KBB 2022 Sonata resale $14,200 (was $14,300).",
+    "body_type": "Sedan",
+    "fuel": "Petrol",
+    "transmission": "Automatic",
+    "seller_type": "private",
+    "grade": "A-",
+    "estimate_sources": "KBB Fair Purchase Price, KBB resale value, Edmunds trade-in value",
+    "engine": "2.5L Smartstream",
+    "engine_evidence": "Model-year/trim standard engine per published notes; NOT the excluded Theta II family",
+    "title_status": "unknown",
+    "title_evidence": "Title not stated in the listing (re-read live 2026-11-04)",
+    "verification_blockers": [
+      "Title brand unstated — verify the physical title",
+      "Seller account joined Facebook in 2026",
+      "Seller does not mention Android Auto (matrix-confirmed) — plug-test in person"
+    ],
+    "first_seen_at": "2026-10-31",
+    "last_seen_at": "2026-11-12",
+    "last_verified_at": "2026-11-12",
+    "listing_status": "live-verified",
+    "photo_urls": [],
+    "photo_checked_at": null,
+    "price_history": [
+      {
+        "date": "2026-11-05",
+        "price": 11500
+      }
+    ],
+    "estimate_components": [
+      {
+        "provider": "KBB",
+        "figure": 17000,
+        "figure_type": "fair-purchase",
+        "date": "2026-10-31"
+      },
+      {
+        "provider": "KBB",
+        "figure": 14300,
+        "figure_type": "resale",
+        "date": "2026-10-31"
+      },
+      {
+        "provider": "Edmunds",
+        "figure": 11839,
+        "figure_type": "trade-in",
+        "date": "2026-10-31"
+      }
+    ],
+    "estimate_confidence": "Medium",
+    "estimate_confidence_reason": "Three component figures from the Oct 31, 2026 cycle (KBB x2, Edmunds); the median mixes an Edmunds trade-in figure with purchase and resale figures.",
+    "estimate_carmax_note": "No CarMax figure is included in this estimate."
+  },
+  {
+    "url": "https://www.facebook.com/marketplace/item/941745025677309/",
+    "year": 2023,
+    "make": "Kia",
+    "model": "Forte",
+    "trim": "LXS Sedan 4D",
+    "price": 11900,
+    "mileage": 57000,
+    "location": "Richmond, TX",
+    "seller": "John Joseph (private seller, Facebook Marketplace)",
+    "hybrid": false,
+    "android_auto": true,
+    "reverse_cam": true,
+    "lane_assist": true,
+    "reliability_score": 4,
+    "market_value_estimate": 14150,
+    "discount_pct": 15.9,
+    "deal_flag": true,
+    "pref_score": 3,
+    "meets_criteria": true,
+    "notes": "MEETS all must-haves. Paid off, clear history, no significant damage stated; listing description is empty. Android Auto and backup camera factory standard on 2023 Forte (same generation as the 2019 redesign). Title not explicitly stated as clean — verify the physical title brand before money moves. Market estimate $14,150 = median of KBB 2023 Forte LXS Fair Purchase Price $16,250, KBB 2023 Forte resale $14,150, Edmunds 2023 Forte LXS retail $11,949. Grade A-: base B (15.9% under) + low miles + private seller. Reliability 4 = Forte family estimate (CR 4/5 for 2021). Re-verified live Nov 5, 2026: still $11,900 / 57,000 mi. Re-verified live Nov 12, 2026: still $11,900 / 57,000 mi. Estimate carried from Nov 5 ($14,150); spot-check Nov 12: CarEdge 2023 Forte current price $17,297 and iSeeCars 2023 range $15,357–$23,014 both sit above the carried estimate, so the carry is conservative. Reverse camera confirmed by the federal 2019+ rule (as on the Nov 5 board), correcting the Nov 10 staging note that left it null.",
+    "body_type": "Sedan",
+    "fuel": "Petrol",
+    "transmission": "Automatic",
+    "seller_type": "private",
+    "grade": "A-",
+    "estimate_sources": "KBB Fair Purchase Price, KBB resale value, Edmunds retail value",
+    "engine": "2.0L",
+    "engine_evidence": "Trim-implied: LXS carries the 2.0L NA engine",
+    "title_status": "paid-off-only",
+    "title_evidence": "Paid off + clear history stated; a clean title brand is not explicitly stated",
+    "verification_blockers": [
+      "Title brand not explicitly stated — verify the physical title",
+      "Listing description is empty"
+    ],
+    "first_seen_at": "2026-10-31",
+    "last_seen_at": "2026-11-12",
+    "last_verified_at": "2026-11-12",
+    "listing_status": "live-verified",
+    "photo_urls": [],
+    "photo_checked_at": null,
+    "price_history": [
+      {
+        "date": "2026-11-05",
+        "price": 11900
+      }
+    ],
+    "estimate_components": [
+      {
+        "provider": "KBB",
+        "figure": 16250,
+        "figure_type": "fair-purchase",
+        "date": "2026-10-31"
+      },
+      {
+        "provider": "KBB",
+        "figure": 14150,
+        "figure_type": "resale",
+        "date": "2026-10-31"
+      },
+      {
+        "provider": "Edmunds",
+        "figure": 11949,
+        "figure_type": "retail",
+        "date": "2026-10-31"
+      }
+    ],
+    "estimate_confidence": "Medium",
+    "estimate_confidence_reason": "Three component figures from the Oct 31, 2026 cycle (KBB x2, Edmunds), same trim; carried one cycle.",
+    "estimate_carmax_note": "No CarMax figure is included in this estimate."
+  },
+  {
+    "url": "https://www.facebook.com/marketplace/item/1624199995839102/",
+    "year": 2019,
+    "make": "Kia",
+    "model": "Forte",
+    "trim": "Not stated",
+    "price": 9000,
+    "mileage": 59000,
+    "location": "Houston, TX",
+    "seller": "Jdorrion Smith (private seller, Facebook Marketplace)",
+    "hybrid": false,
+    "android_auto": true,
+    "reverse_cam": true,
+    "lane_assist": true,
+    "reliability_score": 3.5,
+    "market_value_estimate": 10296,
+    "discount_pct": 12.6,
+    "deal_flag": true,
+    "pref_score": 2,
+    "meets_criteria": true,
+    "notes": "MEETS all must-haves (matrix-confirmed; found in the Nov 5 fresh sweep, opened live the same day). Android Auto factory standard on all 2019 Forte trims; reverse camera standard on 2019+ cars by federal rule. Seller says the car 'needs a little fixing up' and takes offers. Market estimate $10,296 = median of KBB 2019 Forte resale $9,400, CarMax recent offer $9,000 at 58,000 mi, Edmunds private-party Clean $11,191, CarGurus 2019 Forte average asking $11,348. Grade A-: base B (12.6% under) + low miles + private seller. CAUTIONS: the 'fixing up' cost is unknown — price it after inspection; trim unstated; title brand unstated — verify the physical title; seller account joined Facebook in 2025. Re-verified live Nov 12, 2026: still $9,000 / 59,000 mi. Estimate carried from Nov 5 ($10,296, the only board estimate that includes a CarMax figure — a $9,000 recent offer at 58,000 mi).",
+    "body_type": "Sedan",
+    "fuel": "Petrol",
+    "transmission": "Automatic",
+    "seller_type": "private",
+    "grade": "A-",
+    "estimate_sources": "KBB resale value, CarMax recent offer, Edmunds private-party value, CarGurus average asking price",
+    "engine": null,
+    "engine_evidence": "Not stated — trim not stated; 2019 Forte is 2.0L on all trims except the GT (1.6T), neither is an excluded engine",
+    "title_status": "unknown",
+    "title_evidence": "Title not stated in the listing (opened live 2026-11-05)",
+    "verification_blockers": [
+      "'Needs a little fixing up' — repair cost unknown; inspect before any offer",
+      "Trim unstated — verify trim, engine and equipment on the car",
+      "Title brand unstated — verify the physical title",
+      "Seller account joined Facebook in 2025"
+    ],
+    "first_seen_at": "2026-11-05",
+    "last_seen_at": "2026-11-12",
+    "last_verified_at": "2026-11-12",
+    "listing_status": "live-verified",
+    "photo_urls": [],
+    "photo_checked_at": null,
+    "price_history": [
+      {
+        "date": "2026-11-05",
+        "price": 9000
+      }
+    ],
+    "estimate_components": [
+      {
+        "provider": "KBB",
+        "figure": 9400,
+        "figure_type": "resale",
+        "date": "2026-11-05"
+      },
+      {
+        "provider": "CarMax",
+        "figure": 9000,
+        "figure_type": "offer",
+        "date": "2026-11-05"
+      },
+      {
+        "provider": "Edmunds",
+        "figure": 11191,
+        "figure_type": "private-party",
+        "date": "2026-11-05"
+      },
+      {
+        "provider": "CarGurus",
+        "figure": 11348,
+        "figure_type": "average-asking",
+        "date": "2026-11-05"
+      }
+    ],
+    "estimate_confidence": "Low",
+    "estimate_confidence_reason": "Trim not stated, so the estimate rests on unstated-trim comparables (KBB, CarMax, Edmunds, CarGurus, Nov 5, 2026).",
+    "estimate_carmax_note": "Includes a CarMax figure: a CarMax recent offer of $9,000 at 58,000 mi is one of the four inputs to the $10,296 median. Per the CarMax policy in docs/METHOD.md an offer is a liquidation reference, not a retail comparable."
+  },
+  {
+    "url": "https://www.facebook.com/marketplace/item/1109600855010568/",
+    "year": 2021,
+    "make": "Kia",
+    "model": "Forte",
+    "trim": "EX Sedan 4D",
+    "price": 9499,
+    "mileage": 71000,
+    "location": "Sugar Land, TX",
+    "seller": "Lion Annynne (dealer — Golden Auto, Facebook Marketplace)",
+    "hybrid": false,
+    "android_auto": true,
+    "reverse_cam": true,
+    "lane_assist": true,
+    "reliability_score": 4,
+    "market_value_estimate": 12250,
+    "discount_pct": 22.5,
+    "deal_flag": true,
+    "pref_score": 3,
+    "meets_criteria": true,
+    "notes": "MEETS all must-haves (matrix-confirmed; found in the Nov 5 fresh sweep, opened live the same day). Android Auto factory standard on all 2021 Forte trims (same generation as the 2019 redesign); reverse camera standard on 2019+ cars by federal rule. Dealer listing (Golden Auto, Houston) — paid off, 2 owners. Market estimate $12,250 = median of KBB 2021 Forte resale $11,100, CarGurus 2021 Forte average asking $14,440, CarGurus comparable 2021 LXS 93,610 mi $12,250. Grade B+: base B+ (22.5% under); no private-seller step (dealer). CAUTIONS: title brand unstated — verify the physical title; plug-test Android Auto on the car. Re-verified live Nov 12, 2026: still $9,499 / 71,000 mi. Estimate carried from Nov 5 ($12,250).",
+    "body_type": "Sedan",
+    "fuel": "Petrol",
+    "transmission": "Automatic",
+    "seller_type": "dealer",
+    "grade": "B+",
+    "estimate_sources": "KBB resale value, CarGurus average asking price, CarGurus comparable listing",
+    "engine": "2.0L",
+    "engine_evidence": "Trim-implied: EX carries the 2.0L NA engine (turbo is the separate GT trim)",
+    "title_status": "unknown",
+    "title_evidence": "Title not stated in the listing (opened live 2026-11-05); FB shows paid off",
+    "verification_blockers": [
+      "Title brand unstated — verify the physical title",
+      "Dealer seller — private-seller preference does not apply",
+      "Seller stated neither Android Auto nor camera — matrix/federal-standard confirmation only; plug-test in person"
+    ],
+    "first_seen_at": "2026-11-05",
+    "last_seen_at": "2026-11-12",
+    "last_verified_at": "2026-11-12",
+    "listing_status": "live-verified",
+    "photo_urls": [],
+    "photo_checked_at": null,
+    "price_history": [
+      {
+        "date": "2026-11-05",
+        "price": 9499
+      }
+    ],
+    "estimate_components": [
+      {
+        "provider": "KBB",
+        "figure": 11100,
+        "figure_type": "resale",
+        "date": "2026-11-05"
+      },
+      {
+        "provider": "CarGurus",
+        "figure": 14440,
+        "figure_type": "average-asking",
+        "date": "2026-11-05"
+      },
+      {
+        "provider": "CarGurus",
+        "figure": 12250,
+        "figure_type": "comparable-asking",
+        "date": "2026-11-05"
+      }
+    ],
+    "estimate_confidence": "Medium",
+    "estimate_confidence_reason": "Three component figures from Nov 5, 2026 (KBB, CarGurus x2); one comparable is an LXS, not this car's EX trim - a proxy input.",
+    "estimate_carmax_note": "No CarMax figure is included in this estimate."
+  },
+  {
+    "url": "https://www.facebook.com/marketplace/item/1414588987501345/",
+    "year": 2019,
+    "make": "Ford",
+    "model": "Fusion",
+    "trim": "SEL Sedan",
+    "price": 10950,
+    "mileage": 98386,
+    "location": "Sugar Land, TX",
+    "seller": "Ashley Zora (dealer — Zora Motors, Facebook Marketplace)",
+    "hybrid": true,
+    "android_auto": true,
+    "reverse_cam": true,
+    "lane_assist": true,
+    "reliability_score": 4,
+    "market_value_estimate": 12713,
+    "discount_pct": 13.9,
+    "deal_flag": true,
+    "pref_score": 6,
+    "meets_criteria": true,
+    "notes": "MEETS all must-haves (AA matrix-confirmed: 2019 Hybrid SE+ SYNC 3 standard; reverse camera by the federal 2019+ rule). Dealer Zora Motors, Rosenberg; clean title seller-stated, clear history, excellent condition. Market estimate $12,713 = median of CarGurus 2019 Fusion Hybrid average asking $12,713 and $12,770 and a CarMax recent offer of $5,600 at 103,000 mi (offer, not retail). Grade B-: base B (13.9% under), one step down for 90,000–100,000 mi. The guide's Tier 1 pick (2019 Hybrid SEL) — but at 98,386 mi the hybrid battery is mid-life; the PPI must scan battery health. First seen Nov 12, 2026 (fresh sweep).",
+    "body_type": "Sedan",
+    "fuel": "Hybrid",
+    "transmission": "Automatic",
+    "seller_type": "dealer",
+    "grade": "B-",
+    "estimate_sources": "CarGurus average asking price, CarMax recent offer",
+    "engine": "2.0L Hybrid",
+    "engine_evidence": "Seller-stated fuel type Hybrid; 2019 Fusion Hybrid SEL is the 2.0L Atkinson hybrid + eCVT (not the Energi plug-in)",
+    "title_status": "clean-stated",
+    "title_evidence": "Seller states 'clean title'; FB clear-history badge (re-read live 2026-11-12)",
+    "verification_blockers": [
+      "Dealer seller — confirm the out-the-door total including any doc fee",
+      "98,386 mi, near the 100,000-mile cap",
+      "Hybrid battery is 7 years old — PPI must scan battery health",
+      "Android Auto matrix-only (2019 Hybrid SE+ SYNC 3 standard) — plug-test in person"
+    ],
+    "first_seen_at": "2026-11-12",
+    "last_seen_at": "2026-11-12",
+    "last_verified_at": "2026-11-12",
+    "listing_status": "live-verified",
+    "photo_urls": [],
+    "photo_checked_at": null,
+    "price_history": [
+      {
+        "date": "2026-11-12",
+        "price": 10950
+      }
+    ],
+    "estimate_components": [
+      {
+        "provider": "CarGurus",
+        "figure": 12713,
+        "figure_type": "average-asking",
+        "date": "2026-11-12"
+      },
+      {
+        "provider": "CarGurus",
+        "figure": 12770,
+        "figure_type": "average-asking",
+        "date": "2026-11-12"
+      },
+      {
+        "provider": "CarMax",
+        "figure": 5600,
+        "figure_type": "offer",
+        "date": "2026-11-12"
+      }
+    ],
+    "estimate_confidence": "Medium",
+    "estimate_confidence_reason": "Multi-source, same cycle, but the CarGurus figures are model-wide averages and the CarMax figure is a mileage-matched offer, not retail.",
+    "estimate_carmax_note": "Includes a CarMax figure: a recent offer of $5,600 at 103,000 mi, named as an offer in estimate_components — not a CarMax asking price."
+  },
+  {
+    "android_auto": null,
+    "body_type": "Sedan",
+    "deal_flag": true,
+    "discount_pct": 48.1,
+    "engine": null,
+    "engine_evidence": "Not stated — 2025 1LT factory engine is the 1.5L turbo (only engine); verify from photos/VIN",
+    "estimate_carmax_note": "No CarMax figure is included in this estimate.",
+    "estimate_components": [
+      {
+        "provider": "ForCar",
+        "figure": 18160,
+        "figure_type": "average-asking",
+        "date": "2026-11-12"
+      },
+      {
+        "provider": "CarGurus",
+        "figure": 19252,
+        "figure_type": "average-asking",
+        "date": "2026-11-12"
+      },
+      {
+        "provider": "iSeeCars",
+        "figure": 21522,
+        "figure_type": "range-low",
+        "date": "2026-11-12"
+      }
+    ],
+    "estimate_confidence": "Medium",
+    "estimate_confidence_reason": "Three same-cycle figures from three providers; all are model-wide averages for the 2025 model year.",
+    "estimate_sources": "ForCar median asking price, CarGurus average asking price, iSeeCars price range",
+    "first_seen_at": "2026-11-11",
+    "fuel": "Petrol",
+    "grade": "C+",
+    "hybrid": false,
+    "lane_assist": null,
+    "last_seen_at": "2026-11-12",
+    "last_verified_at": "2026-11-12",
+    "listing_status": "live-verified",
+    "location": "Houston, TX",
+    "make": "Chevrolet",
+    "market_value_estimate": 19252,
+    "meets_criteria": false,
+    "mileage": 53000,
+    "model": "Malibu",
+    "notes": "Must-haves UNCONFIRMED — seller states nothing about AA or camera (1LT has AA per the LS+ matrix row, but that is not a confirmation for this car without a seller statement or trim-level check). Grade capped at C+ until AA/camera confirmed, so the estimate below is a provisional market read until Android Auto is confirmed. Price $9,999 for a 2025 at 53,000 mi is far below market — verify in person; possible bait. Video in listing. Listed 4 weeks ago. Re-verified live Nov 12, 2026: still $9,999 / 53,000 mi. Reverse camera confirmed by the federal 2019+ rule (2025 car); Android Auto still unconfirmed, so the grade stays capped at C+. Market estimate $19,252 = median of ForCar 2025 median asking $18,160, CarGurus 2025 average asking $19,252, iSeeCars 2025 range low $21,522. Grade C+: computed A before the unconfirmed-must-have cap.",
+    "photo_checked_at": null,
+    "photo_urls": [],
+    "pref_score": 2,
+    "price": 9999,
+    "price_history": [
+      {
+        "date": "2026-11-11",
+        "price": 9999
+      }
+    ],
+    "reliability_score": 3,
+    "reverse_cam": true,
+    "seller": "Onnyxd DirectAuto (dealer, Facebook Marketplace; joined 2026; 9700 Westpark Dr, Houston)",
+    "seller_type": "dealer",
+    "title_evidence": "No title statement in listing",
+    "title_status": "unknown",
+    "transmission": "Automatic",
+    "trim": "1LT Sedan 4D",
+    "url": "https://www.facebook.com/marketplace/item/1082643077933474/",
+    "verification_blockers": [
+      "Android Auto unconfirmed — no 2021+ Malibu matrix row in the expert guide; verify on the car",
+      "Title brand unstated — verify the physical title",
+      "Dealer joined Facebook in 2026; price far below market for a 2025 — verify in person, possible bait",
+      "Video in the listing, no usable stills in the text capture"
+    ],
+    "year": 2025
+  },
+  {
+    "url": "https://www.facebook.com/marketplace/item/988472907230813/",
+    "year": 2019,
+    "make": "Hyundai",
+    "model": "Elantra",
+    "trim": "SE Sedan 4D",
+    "price": 6000,
+    "mileage": 45000,
+    "location": "Missouri City, TX",
+    "seller": "Mike Eze (private seller, Facebook Marketplace)",
+    "hybrid": false,
+    "android_auto": null,
+    "reverse_cam": true,
+    "lane_assist": null,
+    "reliability_score": 3.5,
+    "market_value_estimate": 8925,
+    "discount_pct": 32.8,
+    "deal_flag": true,
+    "pref_score": 3,
+    "meets_criteria": false,
+    "notes": "Does NOT meet criteria: 2019 Elantra SE has the small screen in most builds, so factory Android Auto is unconfirmed (SEL and above are the AA trims). Backup camera confirmed by the 2019+ federal standard. Price dropped from $6,500 to $6,000. Title not stated — verify the physical title brand. MUST VERIFY BEFORE BUYING: piston oil-ring recall NHTSA 21V-301 covers certain 2019-2020 Elantra 2.0L Nu MPI — demand dealer/NHTSA proof of completion; do not take the seller's word. Market estimate $8,925 = median of KBB 2019 Elantra SE Fair Purchase Price $10,150, KBB 2019 Elantra resale $8,925, iSeeCars 2019 Elantra SE range low $8,800. Grade C+: computed A before the unconfirmed-must-have cap. Re-verified live Nov 5, 2026: still $6,000 / 45,000 mi. Re-verified live Nov 12, 2026: still $6,000 / 45,000 mi. Estimate carried from Nov 5 ($8,925); spot-check Nov 12: KBB 2019 Elantra resale $8,825 (was $8,925).",
+    "body_type": "Sedan",
+    "fuel": "Petrol",
+    "transmission": "Automatic",
+    "seller_type": "private",
+    "grade": "C+",
+    "estimate_sources": "KBB Fair Purchase Price, KBB resale value, iSeeCars price range",
+    "engine": "2.0L Nu MPI",
+    "engine_evidence": "Trim standard engine; recall 21V-301 covers this engine in this model year",
+    "title_status": "unknown",
+    "title_evidence": "Title not stated in the listing",
+    "verification_blockers": [
+      "Android Auto unconfirmed on the SE trim",
+      "Recall 21V-301 — demand dealer/NHTSA proof of completion",
+      "Title brand unstated — verify the physical title"
+    ],
+    "first_seen_at": "2026-10-31",
+    "last_seen_at": "2026-11-12",
+    "last_verified_at": "2026-11-12",
+    "listing_status": "live-verified",
+    "photo_urls": [],
+    "photo_checked_at": null,
+    "price_history": [
+      {
+        "date": "2026-11-05",
+        "price": 6000
+      }
+    ],
+    "estimate_components": [
+      {
+        "provider": "KBB",
+        "figure": 10150,
+        "figure_type": "fair-purchase",
+        "date": "2026-10-31"
+      },
+      {
+        "provider": "KBB",
+        "figure": 8925,
+        "figure_type": "resale",
+        "date": "2026-10-31"
+      },
+      {
+        "provider": "iSeeCars",
+        "figure": 8800,
+        "figure_type": "range-low",
+        "date": "2026-10-31"
+      }
+    ],
+    "estimate_confidence": "Medium",
+    "estimate_confidence_reason": "Three component figures from the Oct 31, 2026 cycle (KBB x2, iSeeCars); one input is the low end of an iSeeCars range.",
+    "estimate_carmax_note": "No CarMax figure is included in this estimate."
+  },
+  {
+    "url": "https://www.facebook.com/marketplace/item/1105853975386615/",
+    "year": 2022,
+    "make": "Hyundai",
+    "model": "Elantra",
+    "trim": "SE Sedan 4D",
+    "price": 11500,
+    "mileage": 60000,
+    "location": "Katy, TX",
+    "seller": "Glayner Romero (private seller, Facebook Marketplace)",
+    "hybrid": false,
+    "android_auto": null,
+    "reverse_cam": true,
+    "lane_assist": null,
+    "reliability_score": 3.5,
+    "market_value_estimate": 16862,
+    "discount_pct": 31.8,
+    "deal_flag": true,
+    "pref_score": 2,
+    "meets_criteria": false,
+    "notes": "Verification candidate, grade capped at C+ on unconfirmed Android Auto (no 2021+ Elantra matrix row; seller states nothing). Reverse camera confirmed by the federal 2019+ rule. Original blue title, 1 accident on report. Market estimate $16,862 = median of KBB resale $12,850, CarGurus average asking $16,862, CarEdge current price $18,500 (Nov 5 figures for a 92,000-mi 2022 Elantra — a mileage-mismatched proxy). Grade C+: computed A before the unconfirmed-must-have cap. First seen Nov 12, 2026 (fresh sweep).",
+    "body_type": "Sedan",
+    "fuel": "Petrol",
+    "transmission": "Automatic",
+    "seller_type": "private",
+    "grade": "C+",
+    "estimate_sources": "KBB resale value, CarGurus average asking price, CarEdge current price",
+    "engine": "2.0L",
+    "engine_evidence": "Trim-implied: 2022 Elantra SE is 2.0L MPI gas (Hybrid was Blue/Limited only); seller states nothing",
+    "title_status": "clean-stated",
+    "title_evidence": "Seller states 'Original blue title'; 1 accident on report (re-read live 2026-11-12)",
+    "verification_blockers": [
+      "Android Auto unconfirmed — no 2021+ Elantra matrix row in the expert guide; verify on the car",
+      "1 accident on report — verify on a history report and PPI",
+      "Engine and fuel trim-implied only — verify on the car"
+    ],
+    "first_seen_at": "2026-11-12",
+    "last_seen_at": "2026-11-12",
+    "last_verified_at": "2026-11-12",
+    "listing_status": "live-verified",
+    "photo_urls": [],
+    "photo_checked_at": null,
+    "price_history": [
+      {
+        "date": "2026-11-12",
+        "price": 11500
+      }
+    ],
+    "estimate_components": [
+      {
+        "provider": "KBB",
+        "figure": 12850,
+        "figure_type": "resale",
+        "date": "2026-11-05"
+      },
+      {
+        "provider": "CarGurus",
+        "figure": 16862,
+        "figure_type": "average-asking",
+        "date": "2026-11-05"
+      },
+      {
+        "provider": "CarEdge",
+        "figure": 18500,
+        "figure_type": "current-price",
+        "date": "2026-11-05"
+      }
+    ],
+    "estimate_confidence": "Medium",
+    "estimate_confidence_reason": "Multi-source estimate from the immediately prior cycle for a 92,000-mi car — a mileage-mismatched proxy for this 60,000-mi car.",
+    "estimate_carmax_note": "No CarMax figure is included in this estimate."
+  },
+  {
+    "android_auto": null,
+    "body_type": "Sedan",
+    "deal_flag": true,
+    "discount_pct": 31.0,
+    "engine": null,
+    "engine_evidence": "Not stated — 2024 SE factory engine is the 2.0L MPI (not an excluded engine); verify from photos/VIN",
+    "estimate_carmax_note": "No CarMax figure is included in this estimate.",
+    "estimate_components": [
+      {
+        "provider": "Edmunds",
+        "figure": 20279,
+        "figure_type": "private-party",
+        "date": "2026-11-12"
+      },
+      {
+        "provider": "CarEdge",
+        "figure": 20376,
+        "figure_type": "resale",
+        "date": "2026-11-12"
+      },
+      {
+        "provider": "Dealer comparable",
+        "figure": 19195,
+        "figure_type": "comparable-asking",
+        "date": "2026-11-12"
+      }
+    ],
+    "estimate_confidence": "Medium",
+    "estimate_confidence_reason": "Three same-cycle figures from three providers; the Edmunds figure is a Limited-trim proxy and the comparable is a 17,000-mi CPO car.",
+    "estimate_sources": "Edmunds private-party value, CarEdge resale value, dealer comparable listing",
+    "first_seen_at": "2026-11-10",
+    "fuel": "Petrol",
+    "grade": "C+",
+    "hybrid": false,
+    "lane_assist": null,
+    "last_seen_at": "2026-11-12",
+    "last_verified_at": "2026-11-12",
+    "listing_status": "live-verified",
+    "location": "Sugar Land, TX",
+    "make": "Hyundai",
+    "market_value_estimate": 20279,
+    "meets_criteria": false,
+    "mileage": 34150,
+    "model": "Elantra",
+    "notes": "Must-haves UNCONFIRMED — seller states nothing about AA or camera (description is only 'RUNS AND DRIVE LIKE NEW / NO ISSUES / CLEAN TITLE / WE FINANCE (only bank)'). No 2021+ Elantra matrix row in the goal's expert guide, so AA is NOT inferred. Grade capped at C+ until AA/camera confirmed, so the estimate below is a provisional market read until Android Auto is confirmed. Price $12,900 at 34,150 mi for a 2024 SE is low vs typical 2024 SE asking prices — a Thursday estimate priority once AA/camera are verified from photos/in person. 1 owner, paid off, clear-history badge. Listed 5 days ago. Re-verified live Nov 12, 2026: price ROSE $12,900 → $13,995; mileage still 34,150. Reverse camera confirmed by the federal 2019+ rule (2024 car); Android Auto still unconfirmed (no 2021+ Elantra matrix row), so the grade stays capped at C+. Market estimate $20,279 = median of Edmunds Limited private-party Clean $20,279, CarEdge 2024 Elantra resale $20,376, dealer comparable CPO 2024 SE 17,000 mi $19,195. Grade C+: computed A before the unconfirmed-must-have cap.",
+    "photo_checked_at": null,
+    "photo_urls": [],
+    "pref_score": 3,
+    "price": 13995,
+    "price_history": [
+      {
+        "date": "2026-11-10",
+        "price": 12900
+      },
+      {
+        "date": "2026-11-12",
+        "price": 13995
+      }
+    ],
+    "reliability_score": 3.5,
+    "reverse_cam": true,
+    "seller": "Ashad Jafri (Facebook Marketplace; joined 2020)",
+    "seller_type": "private",
+    "title_evidence": "CLEAN TITLE seller-stated; FB clear-history badge, 1 owner, paid off",
+    "title_status": "clean-stated",
+    "transmission": "Automatic",
+    "trim": "SE Sedan 4D",
+    "url": "https://www.facebook.com/marketplace/item/2242228443176481/",
+    "verification_blockers": [
+      "Android Auto unconfirmed — no 2021+ Elantra matrix row in the expert guide; verify on the car",
+      "Seller type unclear — listing advertises financing ('WE FINANCE (only bank)')",
+      "Price rose $12,900 → $13,995 between Nov 10 and Nov 12"
+    ],
+    "year": 2024
+  },
+  {
+    "android_auto": null,
+    "body_type": "Sedan",
+    "deal_flag": true,
+    "discount_pct": 23.4,
+    "engine": null,
+    "engine_evidence": "Not stated — trim unstated, so factory engine unknown (2.5L non-turbo on Sport/Touring, 2.5T turbo on Grand Touring+); verify from photos/VIN",
+    "estimate_carmax_note": "No CarMax figure is included in this estimate.",
+    "estimate_components": [
+      {
+        "provider": "KBB",
+        "figure": 14300,
+        "figure_type": "resale",
+        "date": "2026-11-11"
+      },
+      {
+        "provider": "CarGurus",
+        "figure": 19506,
+        "figure_type": "average-asking",
+        "date": "2026-11-12"
+      },
+      {
+        "provider": "CarGurus",
+        "figure": 19442,
+        "figure_type": "average-asking",
+        "date": "2026-11-12"
+      }
+    ],
+    "estimate_confidence": "Low",
+    "estimate_confidence_reason": "Trim unstated, so the estimate rests on proxy-trim figures (KBB Touring resale, CarGurus model-wide averages).",
+    "estimate_sources": "KBB resale value, CarGurus average asking price",
+    "first_seen_at": "2026-11-11",
+    "fuel": "Petrol",
+    "grade": "C+",
+    "hybrid": false,
+    "lane_assist": null,
+    "last_seen_at": "2026-11-12",
+    "last_verified_at": "2026-11-12",
+    "listing_status": "live-verified",
+    "location": "Houston, TX",
+    "make": "Mazda",
+    "market_value_estimate": 19442,
+    "meets_criteria": false,
+    "mileage": 87052,
+    "model": "Mazda6",
+    "notes": "Must-haves UNCONFIRMED — trim unstated, so AA cannot be matrix-confirmed (Sport has no AA; Touring+ does) and the seller states nothing about AA or camera. Grade capped at C+ until trim/AA/camera confirmed, so the estimate below rests on proxy-trim figures. Dealer-style ad (financing, shipping, 'new inventory & deals', TikTok) under a personal name. Listed 9 weeks ago. Re-verified live Nov 12, 2026: still $14,900 / 87,052 mi. Seller type corrected to dealer: the ad is a dealer operation (financing, shipping, 'new inventory & deals', TikTok) under a personal name. Market estimate $19,442 = median of KBB 2021 Touring resale $14,300 (Nov 11, proxy trim), CarGurus 2021 average asking $19,506 and $19,442. Grade C+: computed B+ before the unconfirmed-must-have cap.",
+    "photo_checked_at": null,
+    "photo_urls": [],
+    "pref_score": 3,
+    "price": 14900,
+    "price_history": [
+      {
+        "date": "2026-11-11",
+        "price": 14900
+      }
+    ],
+    "reliability_score": 4,
+    "reverse_cam": true,
+    "seller": "Danyelle Ann (dealer, Facebook Marketplace)",
+    "seller_type": "dealer",
+    "title_evidence": "No title statement in listing",
+    "title_status": "unknown",
+    "transmission": "Automatic",
+    "trim": null,
+    "url": "https://www.facebook.com/marketplace/item/2263115841157539/",
+    "verification_blockers": [
+      "Trim unstated — Android Auto cannot be confirmed without it (Sport has no AA; Touring+ does)",
+      "Reverse camera confirmed by the federal 2019+ rule only",
+      "Title brand unstated — verify the physical title",
+      "Dealer-style ad (financing, shipping, inventory, TikTok) under a personal name; seller joined Facebook in 2026"
+    ],
+    "year": 2021
+  },
+  {
+    "url": "https://www.facebook.com/marketplace/item/1552019169121297/",
+    "year": 2018,
+    "make": "Ford",
+    "model": "Fusion",
+    "trim": "S Sedan 4D",
+    "price": 7500,
+    "mileage": 86615,
+    "location": "Houston, TX",
+    "seller": "Danyelle Ann (dealer, Facebook Marketplace)",
+    "hybrid": false,
+    "android_auto": false,
+    "reverse_cam": null,
+    "lane_assist": null,
+    "reliability_score": 3.5,
+    "market_value_estimate": 9775,
+    "discount_pct": 23.3,
+    "deal_flag": true,
+    "pref_score": 1,
+    "meets_criteria": false,
+    "notes": "Does NOT meet criteria: S trim carries the 4.2-inch SYNC screen per the expert matrix — no factory Android Auto on this trim (verify the screen on the car; a SYNC 3 car would change this). Backup camera unconfirmed. Engine is the 2.5L on the S trim (the reliable Fusion engine), but the listing does not state it. Seller states a used-car lot and financing — dealer. Title not stated — verify the physical title brand. Market estimate $9,775 = median of KBB 2018 Fusion S Fair Purchase Price $9,775, KBB 2018 Fusion resale $8,775, CarGurus 2018 Fusion current average $11,407. Grade C+: computed B+ before the must-have cap (AA confirmed absent on this trim). Re-verified live Nov 5, 2026: still $7,500 / 86,615 mi. Re-verified live Nov 12, 2026: still $7,500 / 86,615 mi. Estimate carried from Nov 5 ($9,775).",
+    "body_type": "Sedan",
+    "fuel": "Petrol",
+    "transmission": "Automatic",
+    "seller_type": "dealer",
+    "grade": "C+",
+    "estimate_sources": "KBB Fair Purchase Price, KBB resale value, CarGurus average asking price",
+    "engine": "2.5L",
+    "engine_evidence": "Trim-implied: the S trim carries the 2.5L (the reliable Fusion engine); not stated by the seller",
+    "title_status": "unknown",
+    "title_evidence": "Title not stated in the listing",
+    "verification_blockers": [
+      "No factory Android Auto on this trim per the matrix (4.2-inch screen)",
+      "Backup camera unconfirmed",
+      "Title brand unstated — verify the physical title",
+      "Dealer seller"
+    ],
+    "first_seen_at": "2026-10-31",
+    "last_seen_at": "2026-11-12",
+    "last_verified_at": "2026-11-12",
+    "listing_status": "live-verified",
+    "photo_urls": [],
+    "photo_checked_at": null,
+    "price_history": [
+      {
+        "date": "2026-11-05",
+        "price": 7500
+      }
+    ],
+    "estimate_components": [
+      {
+        "provider": "KBB",
+        "figure": 9775,
+        "figure_type": "fair-purchase",
+        "date": "2026-10-31"
+      },
+      {
+        "provider": "KBB",
+        "figure": 8775,
+        "figure_type": "resale",
+        "date": "2026-10-31"
+      },
+      {
+        "provider": "CarGurus",
+        "figure": 11407,
+        "figure_type": "asking",
+        "date": "2026-10-31"
+      }
+    ],
+    "estimate_confidence": "Medium",
+    "estimate_confidence_reason": "Three component figures from the Oct 31, 2026 cycle (KBB x2, CarGurus), trim known (S); carried one cycle.",
+    "estimate_carmax_note": "No CarMax figure is included in this estimate."
+  },
+  {
+    "url": "https://www.facebook.com/marketplace/item/1785137865839066/",
+    "year": 2020,
+    "make": "Ford",
+    "model": "Fusion",
+    "trim": "Not stated",
+    "price": 9400,
+    "mileage": 80443,
+    "location": "Missouri City, TX",
+    "seller": "Zoher Afan (private seller, Facebook Marketplace)",
+    "hybrid": false,
+    "android_auto": null,
+    "reverse_cam": true,
+    "lane_assist": null,
+    "reliability_score": 3.5,
+    "market_value_estimate": 12100,
+    "discount_pct": 22.3,
+    "deal_flag": true,
+    "pref_score": 2,
+    "meets_criteria": false,
+    "notes": "Does NOT meet criteria: trim is not stated, so factory Android Auto cannot be confirmed from the matrix. Backup camera confirmed by the 2019+ federal standard. Clean title seller-stated, clear history. Engine not stated — a 2020 Fusion could carry the 1.5L EcoBoost (SE standard engine), so verify the engine before buying. Market estimate $12,100 = median of KBB 2020 Fusion SE Fair Purchase Price $12,100, KBB 2020 Fusion resale $10,000, CarGurus 2020 Fusion average asking $14,090 (SE figure used as proxy; trim unstated). Grade C+: computed A- before the unconfirmed-must-have cap. Re-verified live Nov 5, 2026: still $9,400 / 80,443 mi. Re-verified live Nov 12, 2026: still $9,400 / 80,443 mi. Estimate carried from Nov 5 ($12,100).",
+    "body_type": "Sedan",
+    "fuel": "Petrol",
+    "transmission": "Automatic",
+    "seller_type": "private",
+    "grade": "C+",
+    "estimate_sources": "KBB Fair Purchase Price, KBB resale value, CarGurus average asking price",
+    "engine": null,
+    "engine_evidence": "Not stated — trim not stated (the SE standard engine would be the excluded 1.5L EcoBoost)",
+    "title_status": "clean-stated",
+    "title_evidence": "Clean title seller-stated, clear history",
+    "verification_blockers": [
+      "Engine not stated — could be the excluded 1.5L EcoBoost",
+      "Trim unstated — Android Auto unconfirmed"
+    ],
+    "first_seen_at": "2026-10-31",
+    "last_seen_at": "2026-11-12",
+    "last_verified_at": "2026-11-12",
+    "listing_status": "live-verified",
+    "photo_urls": [],
+    "photo_checked_at": null,
+    "price_history": [
+      {
+        "date": "2026-11-05",
+        "price": 9400
+      }
+    ],
+    "estimate_components": [
+      {
+        "provider": "KBB",
+        "figure": 12100,
+        "figure_type": "fair-purchase",
+        "date": "2026-10-31"
+      },
+      {
+        "provider": "KBB",
+        "figure": 10000,
+        "figure_type": "resale",
+        "date": "2026-10-31"
+      },
+      {
+        "provider": "CarGurus",
+        "figure": 14090,
+        "figure_type": "average-asking",
+        "date": "2026-10-31"
+      }
+    ],
+    "estimate_confidence": "Low",
+    "estimate_confidence_reason": "Trim not stated; the estimate uses SE figures as a proxy for an unknown-trim car.",
+    "estimate_carmax_note": "No CarMax figure is included in this estimate."
+  },
+  {
+    "android_auto": true,
+    "body_type": "Sedan",
+    "deal_flag": false,
+    "discount_pct": 2.4,
+    "engine": "2.5L",
+    "engine_evidence": "Seller-stated '2.5L SKYACTIV-G 4-Cylinder Engine' in description (non-turbo Touring engine)",
+    "estimate_carmax_note": "No CarMax figure is included in this estimate.",
+    "estimate_components": [
+      {
+        "date": "2026-11-11",
+        "figure": 14300,
+        "figure_type": "resale",
+        "provider": "KBB"
+      },
+      {
+        "date": "2026-11-11",
+        "figure": 14850,
+        "figure_type": "resale",
+        "provider": "KBB via Jalopnik"
+      },
+      {
+        "date": "2026-11-11",
+        "figure": 19506,
+        "figure_type": "average-asking",
+        "provider": "CarGurus"
+      }
+    ],
+    "estimate_confidence": "Medium",
+    "estimate_confidence_reason": "Multi-source same-day estimate, but KBB resale figures are model-wide and CarGurus is a model-wide average asking across trims incl. turbo GT/GTR.",
+    "estimate_sources": "KBB 2021 Mazda6 resale value, KBB resale via Jalopnik, CarGurus 2021 Mazda6 average asking",
+    "first_seen_at": "2026-11-11",
+    "fuel": "Petrol",
+    "grade": "D",
+    "hybrid": false,
+    "lane_assist": true,
+    "last_seen_at": "2026-11-12",
+    "last_verified_at": "2026-11-12",
+    "listing_status": "live-verified",
+    "location": "Houston, TX",
+    "make": "Mazda",
+    "market_value_estimate": 14850,
+    "meets_criteria": true,
+    "mileage": 86146,
+    "model": "Mazda6",
+    "notes": "MEETS all must-haves: AA confirmed by the expert-guide matrix (2019-21 Touring+: AA standard); reverse camera seller-stated ('Backup Camera'); 2.5L non-turbo seller-stated. Grade D: $14,500 is only 2.4% under the $14,850 same-day estimate (median of KBB resale $14,300, KBB resale via Jalopnik $14,850, CarGurus 2021 average asking $19,506) — priced at market, not a deal. Dealer notes price excludes tax/title/license; 3-month/3,000-mile engine & transmission warranty on selected vehicles (unverified for this car). Listed a week ago. Re-verified live Nov 12, 2026: still $14,500 / 86,146 mi. Estimate carried from Nov 11 ($14,850).",
+    "photo_checked_at": null,
+    "photo_urls": [],
+    "pref_score": 3,
+    "price": 14500,
+    "price_history": [
+      {
+        "date": "2026-11-11",
+        "price": 14500
+      }
+    ],
+    "reliability_score": 4,
+    "reverse_cam": true,
+    "seller": "Veronica Perez / Elite Auto Traders (dealer, Facebook Marketplace; 6679 Harwin Dr, Houston)",
+    "seller_type": "dealer",
+    "title_evidence": "No title statement in listing",
+    "title_status": "unknown",
+    "transmission": "Automatic",
+    "trim": "Touring Sedan",
+    "url": "https://www.facebook.com/marketplace/item/29475361135389493/",
+    "verification_blockers": [
+      "Title brand unstated — verify physical title",
+      "Dealer doc fee / extras not in price — confirm out-the-door total"
+    ],
+    "year": 2021
+  }
 ]
