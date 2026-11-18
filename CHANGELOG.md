@@ -1,5 +1,14 @@
 # CarHunt — Changelog
 
+## 2026-11-17 — Phase 3 built (coverage; listing data and dashboard unchanged)
+
+Docs-only build under the owner's repo-development order (Nov 17, 2026). The Nov 12 board, its data stamp, and all grades are exactly as published; the Thursday update remains the publish gate.
+
+- **Matrix gates completed** (docs/RESEARCH.md "Phase 3 sedan gate packs" + "SUV/crossover gate packs"; docs/FAQ.md matrix rows; dated addendum in the expert guide): 2020+ Sonata conflict resolved (FAQ verdict confirmed and sourced; published 2022 SEL reliability 4 confirmed via RepairPal 4.0/5, with an oil-history condition and per-engine splits — 1.6T = 3 behind the 25V-796 fuel-tank hard gate, Hybrid = 3, N Line = avoid); 2021+ Elantra rows added (gas 3 for 2021–22 / 4 for 2023, Hybrid 4, IVT caution, Campaign 993 theft gate); Kia K5 and Malibu 2021+ rows added (K5 1.6T = 3 behind the SC356 fuel-tank blocker, GT = avoid; Malibu = 3, and the board's 2024 Malibu LT now has its Android Auto + camera verified from GM's own 2024 media sheet instead of a seller statement alone — its 2023–25 camera recall N262551720 is a Thursday must-check); all seven SUV families reconciled from the November research notes (RAV4 2020+, CR-V Hybrid only, CX-5 non-turbo, Tucson 2.0L Nu only, no 2017–22 Sportage stageable, Forester 2019+, Outback 2018–19).
+- **Reliability gate packs** per new family in docs/RESEARCH.md: pursue/avoid years and engines, recall-confirm lists, hybrid-battery notes, model-specific cautions, UNVERIFIED cells flagged (no CR score used for Sonata/Elantra; no invented IVT/CVT failure rates).
+- **Non-Facebook sources** (docs/METHOD.md): Carvana adopted for search-results screening only, with a `listing_source` schema field appended (absence = Facebook Marketplace), a Thursday live-browser re-verification rule, and cross-source duplicate detection (VIN in private data only; similarity = warning, not proof). Two SRP-level Carvana Forte candidates staged as sourced-unverified in the goal workspace — not published. CarMax, Hertz, Enterprise, OfferUp, and Cars.com/Autotrader evaluated and rejected with concrete reasons (several are web-text readability limits, recorded as such).
+- DEVELOPMENT-PLAN-2026-11.md: Phase 3 marked built in the sequence and at the phase head.
+
 ## 2026-11-12 — Thursday full update
 
 - Full Thursday re-verification plus fresh sweep: 22 listings published, 15 meeting all must-haves, led by the 2024 Chevrolet Malibu LT in Katy ($9,799, grade A, 48.1% below a re-run $18,863 estimate) and the re-verified 2023 Chevrolet Malibu LT in Katy ($9,250, grade A, 38.1% below a revised $14,950 estimate). Three Nov 5 board listings sold or expired (2018 Fusion Richmond, 2022 Elantra Houston, 2024 Forte LXS Houston — the Forte re-listed under a new ID and is kept); 19 checked listings were excluded (16 branded titles, 3 excluded engines).

@@ -17,6 +17,8 @@ More jargon: **KSDS** = Hyundai/Kia knock-sensor software that detects engine kn
 - **2016–17 Honda Accord EX/EX-L, 2.4L** and **Honda Civic Sedan 2.0L — 2016–18 EX and above; 2019 Sport (the only 2019 2.0L with Android Auto)** — Avoid 2019 EX and above — that's the 1.5T. Test the Civic's A/C hard; Honda extended the condenser warranty on some 2016–17 Civics.
 - **2019 Kia Forte (any trim)** and **2018 Hyundai Elantra SEL** — value picks. A 2019 Elantra needs proof the piston-ring recall (21V-301) was done.
 - **2018–19 Subaru Legacy Premium, late-2018/2019 Mazda6 Touring (non-turbo), 2017–19 Chevy Impala LT V6, 2020 Toyota Camry** — alternatives, each with one named check in RESEARCH.md.
+- **SUVs (gated 2026-11-17): 2020+ Toyota RAV4, 2020–22 Honda CR-V Hybrid EX+, 2019+ Mazda CX-5 (non-turbo), 2019+ Subaru Forester, 2018–19 Subaru Outback** — matrix + reliability packs in RESEARCH.md; each carries one named check.
+- **Newer sedans (gated 2026-11-17): 2020+ Hyundai Sonata 2.5L (oil-history proof required), 2021+ Hyundai Elantra (2023 the pick; the Hybrid is the strongest CN7), 2021+ Kia K5 1.6T (only with the fuel-tank recall closed on the VIN), 2021+ Chevy Malibu (clean CVT test drive + recall paperwork)** — full gate packs in RESEARCH.md.
 
 ## Which should I avoid?
 
@@ -25,6 +27,8 @@ More jargon: **KSDS** = Hyundai/Kia knock-sensor software that detects engine kn
 - **Hyundai Sonata / Kia Optima 2.4L & 2.0T "Theta II"** — connecting-rod bearing failure, knock, seizure, fire risk. Any knock or patchy oil history: walk.
 - **Nissan Altima 2013–18, Ford Focus/Fiesta automatics** — CVT / PowerShift dual-clutch failures. The Fusion never had PowerShift — do not confuse them.
 - **Plug-in hybrids in this budget (Fusion Energi, Sonata Plug-in)** — aged big batteries and a Fusion Energi fire recall (do-not-charge).
+- **Honda CR-V 1.5T (2017–22), Mazda CX-5 2.5 Turbo, Hyundai Tucson 2.4L and every 2017–22 Kia Sportage** — oil dilution / cracked cylinder head / Theta II, the same engine rules as the sedans.
+- **Sonata N Line / Kia K5 GT / Elantra N (2021+)** — performance DCT trims with loss-of-drive and fuel-leak recalls; the wrong car for a reliability-first cash buy. And any 2020–23 Sonata 1.6T or 2021–24 K5 1.6T with its fuel-tank recall (25V-796 / 25V-794) still open — the tank can deform, melt and leak fuel.
 - **Any rebuilt / salvage / flood title, any seller who refuses an inspection** — in Houston, that rule alone saves most bad buys.
 
 ## Android Auto by year & trim (condensed expert matrix)
@@ -37,20 +41,28 @@ Every car here is wired AA unless proven otherwise. The 60-second plug test with
 | Honda Accord | 2016–17: EX+. 2018–20: Sport/EX/EX-L/Touring. LX: never in these years. |
 | Honda Accord Hybrid | 2017: EX-L/Touring only. 2018+: all hybrid trims. |
 | Honda Civic sedan | 2016–18: EX+. 2019–20: Sport and above (LX: no AA — 5-inch screen, Bluetooth only). |
-| Hyundai Sonata | 2015–16: Nav/Display Audio + free update must be installed. 2017–19: SE+ with 7″ screen. 2020+: AA standard all trims (2.5L Smartstream, not Theta II). |
+| Hyundai Sonata | 2015–16: Nav/Display Audio + free update must be installed. 2017–19: SE+ with 7″ screen. 2020+: AA standard all trims (2.5L Smartstream, not Theta II) — wired 2020–23 (2023 SE: wireless), wireless + wired 2024+. |
 | Hyundai Sonata Hybrid | 2016: Nav + update. 2017–19: all hybrid trims. |
-| Hyundai Elantra | 2017–20: SEL+. SE small-screen = no (package cars: verify). |
+| Hyundai Elantra | 2017–20: SEL+. SE small-screen = no (package cars: verify). 2021+: all trims — 8″ cars wireless, 10.25″ navigation cars wired only (2024 SEL moves to the 10.25″ wired unit). Camera standard 2021+. |
 | Kia Forte | 2017–18: S/EX (LX: no). 2019+: all trims standard (same generation through 2024). |
 | Kia Optima | 2015–16: Nav/UVO3 + update installed. 2017 EX+ verified; 2017 LX & 2018–19 by trim: unverified — check in person. |
 | Kia Optima Hybrid | 2017: standard. 2015–16: update-eligible only. 2018–19: unverified — check in person. |
+| Kia K5 (Optima successor) | 2021+: all trims — 8″ cars wireless, 10.25″ navigation cars wired only; 2025: wireless all trims. Camera standard on all trims. Every 2021–24 1.6T carries a fuel-tank recall — buy only with it closed (see RESEARCH.md). |
 | Toyota Camry | 2018: none. 2019: CarPlay only. 2020+: all trims. |
 | Toyota Corolla sedan | 2020 sedan: NO AA (CarPlay only). 2021+: all trims. |
 | Mazda6 | 2018: Touring+ only (dealer upgrade / Nov 2018+ factory); Sport: no. 2019+: Touring+. Older: retrofit only. |
 | Nissan Altima | 2013–18: none. 2019+: all trims. |
 | Subaru Legacy | 2015–17: none. 2018+: all trims incl. base. |
-| Chevrolet Malibu | 2016: MyLink (7″ from launch; 8″ after Mar 2016 update); L: no. 2017–20: LS+. |
+| Chevrolet Malibu | 2016: MyLink (7″ from launch; 8″ after Mar 2016 update); L: no. 2017–20: LS+. 2021+: wireless AA standard on all trims; camera standard (2023–25 cars: camera recall must be closed — see RESEARCH.md). |
 | Chevrolet Impala | 2016: 8″ MyLink after update only; LS 4.2-inch: no AA (unverified — check in person). 2017–20: LT/Premier 8″. |
 | VW Jetta / Passat | 5″ screen = no AA. 6.3″/6.5″ Composition Media = AA. 2019 Jetta / 2019+ Passat: all trims (verify base S). |
+| Toyota RAV4 | 2013–19: NO AA (2019 is CarPlay only). 2020+: all trims, wired. Camera standard on all trims 2020+. |
+| Honda CR-V | 2017–22: EX+ only (LX 5-inch screen: no AA). 2023+: all trims. Camera standard on all trims 2017+. Gas 1.5T excluded — only the 2020–22 Hybrid EX+ is buyable here. |
+| Mazda CX-5 | 2013–18: no factory AA (dealer retrofit = unverified). 2019: Touring+ only (Sport: no). 2020+: all trims. Camera standard on all trims 2019+. 2.5 Turbo excluded. |
+| Hyundai Tucson | 2016–18: upper trims only, unverified by trim. 2019+: all trims. Camera standard 2019+. Only the 2019–21 2.0L (SE/Value) is engine-eligible — the 2.4L is excluded. |
+| Kia Sportage | 2017–19: EX/SX standard; LX only with the Popular package (verify). 2020+: all trims. Every 2017–22 engine is excluded (Theta II) — do not buy those years. |
+| Subaru Forester | 2014–18: none. 2019+: all trims. Camera standard on all trims 2019+. |
+| Subaru Outback | 2015–17: none. 2018+: all trims. Camera standard on all trims 2018+. |
 
 Key corrections: Corolla sedan AA is 2021+ (not 2020). 2019 Fusion S has AA only with the 8-inch SYNC 3 screen. Mazda6 AA is 2018 Touring+ (upgrade) / Sport excluded. "Eligible ≠ installed" for 2016 Chevy 8-inch MyLink and 2015–16 Hyundai/Kia.
 
