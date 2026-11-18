@@ -4,7 +4,7 @@ Ayaan Pathan's used-car search dashboard: a filterable, single-file board of Hou
 
 **Live:** https://ayaan40000.github.io/CarHunt/
 
-**Data stamp:** Listings from Facebook Marketplace sweeps, Nov 18, 2026 — the Thursday publish run, a day early: every board and staged record re-verified live, fresh estimates run, Phase 3 gates applied. 9 checked listings were dead and dropped (including the Nov 12 board’s #3 car, the 2024 Forte LXS); 2024–25 Elantras are held back under the Phase 3 rule (not scored yet). Estimates are medians of the providers named on each card — no estimate on this board includes a CarMax figure. Listings sell fast; a car shown here may already be gone.
+**Data stamp:** Listings from Facebook Marketplace sweeps, Nov 18, 2026 — the Thursday publish run, a day early: every board and staged record re-verified live, fresh estimates run (three records carry prior-cycle estimates, marked on their cards), Phase 3 gates applied. 9 checked listings were dead and dropped (including the Nov 12 board’s #3 car, the 2024 Forte LXS); 2024–25 Elantras are held back under the Phase 3 rule (not scored yet). Estimates are medians of the providers named on each card — one carried estimate (the 2019 Fusion SEL) includes a CarMax recent offer, named as an offer on its card; no other estimate includes a CarMax figure. Listings sell fast; a car shown here may already be gone.
 
 ## Owner's criteria
 
@@ -16,7 +16,7 @@ Ayaan Pathan's used-car search dashboard: a filterable, single-file board of Hou
 - Reliability first; every model reliability cross-checked; models with reliability concerns or major recalls are excluded
 - Every deal graded A+ to F (A+ = great deal at a great price) against a CarMax / leading-provider value estimate — target is below estimated value
 
-Honest headline (Nov 18, 2026): **39 of 47 listings meet all must-haves** — led by a 2018 Chevrolet Malibu 1LT in Houston ($5,000, 85,000 mi, grade A, 51.5% below estimate) and the 2024 Chevrolet Malibu LT in Katy ($9,799, 52,000 mi, grade A, 46.4% below estimate). The Nov 12 board’s #3 car, the 2024 Forte LXS, is dead and dropped; a new 2024 Forte LXS in Houston ($10,200, grade A) takes its place after the mandatory camera check. Fusion, Accord and Civic were swept fresh today and produced no new shippable car. 2024–25 Elantras are held back under the Phase 3 rule — they are not scored yet. No estimate on this board includes a CarMax figure.
+Honest headline (Nov 18, 2026): **39 of 47 listings meet all must-haves** — led by a 2018 Chevrolet Malibu 1LT in Houston ($5,000, 85,000 mi, grade A, 51.5% below estimate) and the 2024 Chevrolet Malibu LT in Katy ($9,799, 52,000 mi, grade A, 46.4% below estimate). The Nov 12 board’s #3 car, the 2024 Forte LXS, is dead and dropped; a new 2024 Forte LXS in Houston ($10,200, grade A) takes its place after the mandatory camera check. Fusion, Accord and Civic were swept fresh today and produced no new shippable car. 2024–25 Elantras are held back under the Phase 3 rule — they are not scored yet. One carried estimate (the 2019 Fusion SEL) includes a CarMax recent offer, named as an offer; no other estimate includes a CarMax figure.
 
 ## What's inside
 

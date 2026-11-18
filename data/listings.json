@@ -3011,7 +3011,7 @@
     ],
     "estimate_confidence": "Medium",
     "estimate_confidence_reason": "Multi-source estimate from the immediately prior cycle (Nov 12), components preserved in the record.",
-    "estimate_carmax_note": "No CarMax figure is included in this estimate.",
+    "estimate_carmax_note": "Includes a CarMax figure: a recent CarMax offer of $5,600 (2026-11-12) — an offer, not a CarMax asking price.",
     "srcs": [
       "board-nov12"
     ],
