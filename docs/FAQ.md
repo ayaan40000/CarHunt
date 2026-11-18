@@ -1,6 +1,6 @@
 # FAQ & Help — Reliable Car Under $15,000 (Houston)
 
-Data stamp: Listings from Facebook Marketplace sweeps, Nov 12, 2026 — full Thursday re-verification plus fresh sweep; listings sell fast; a car shown here may already be gone.
+Data stamp: Listings from Facebook Marketplace sweeps, Nov 18, 2026 — the Thursday publish run, a day early: full re-verification plus fresh sweep; listings sell fast; a car shown here may already be gone.
 
 Owner's criteria: under $15,000 cash (raised from $12,000 on 2026-11-04), any body type except trucks and compact hatchbacks, at most 100,000 miles, factory Android Auto + reverse camera required. Private sellers and gas/hybrid preferred. Models with reliability concerns or major recalls are excluded outright. Every deal is graded A+ to F against a market value estimate.
 

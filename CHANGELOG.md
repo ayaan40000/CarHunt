@@ -1,5 +1,11 @@
 # CarHunt — Changelog
 
+## 2026-11-18 — Thursday full update, run a day early (Wednesday)
+
+- Full re-verification of every board and staged record plus the Nov 13 exhaustive audit: 47 listings published, 39 meeting all must-haves, led by a 2018 Chevrolet Malibu 1LT in Houston ($5,000, grade A, 51.5% below a fresh $10,313 estimate) and the 2024 Chevrolet Malibu LT in Katy ($9,799, grade A, 46.4% below a fresh $18,281 estimate). 9 checked listings were dead and dropped, including the Nov 12 board’s #3 car and finalist, the 2024 Forte LXS. Price changes applied: 2021 Forte LXS Webster $8,250 → $8,000; 2019 Mazda6 Touring $12,900 → $12,500; 2021 Forte LXS Katy $9,000 → $8,500.
+- Finalists regenerated from the new data: 2018 Malibu 1LT, 2024 Malibu LT, 2022 Malibu LT — viewing order 2022 LT first (paperwork-only blockers), 2024 LT second (title unstated, camera recall unconfirmed), 1LT last (ranked first by discount but deepest in the washed-title flag zone, piston-program proof outstanding). No estimate on this board includes a CarMax figure.
+- Phase 3 gates applied throughout: Malibu 2021–25 Android Auto wireless standard on all trims; rearview-camera recall N262551720 added as a must-check blocker on every 2023–25 Malibu; 2021–22 Elantra 2.0L scored 3 with IVT conditions; Sonata 2.5L graded at 3 without a documented oil history; 2024–25 Elantras held back (not scored); the 1.6T Sonata held behind the 25V-796 hard gate; key-start 2021–22 Elantras held without Service Campaign 993 proof. Fusion, Accord and Civic swept fresh: no new shippable car (in-frame finds were excluded models, branded titles, or over the mileage cap). The two staged Carvana Fortes could not be found on the live Carvana results page for 77477 and were dropped unverified. Photo capture still uncapturable via the Pi text interface (no image URLs exposed).
+
 ## 2026-11-17 — Phase 3 built (coverage; listing data and dashboard unchanged)
 
 Docs-only build under the owner's repo-development order (Nov 17, 2026). The Nov 12 board, its data stamp, and all grades are exactly as published; the Thursday update remains the publish gate.
