@@ -1,5 +1,11 @@
 # CarHunt — Changelog
 
+## 2026-11-19 — Thursday full update
+
+- Full re-verification of every board and staged record plus a fresh core-family sweep: 57 listings published, 47 meeting all must-haves, led by the same top three as Nov 18 — a 2018 Chevrolet Malibu 1LT in Houston ($5,000, grade A, 51.5% below estimate), the 2024 Chevrolet Malibu LT in Katy ($9,799, grade A, 46.4% below estimate) and the 2022 Chevrolet Malibu LT ($8,800, grade A, 43.4% below estimate). No price changes in the re-verified pool. 2 checked listings were dead and dropped; 24 checked listings were excluded on live evidence (branded titles, excluded engines, compact hatchbacks).
+- 10 newly admitted cars, all with fresh same-day estimates: five 2023–24 Fortes (two cut $2,100 and $1,900 the same day they were found), a 2019 Elantra Limited priced above its estimate (grade D-, the only over-market car on the board), two capped 2019 Elantra SEs, a capped 2020 Elantra (trim unstated, dealer) and a 2020 Forte (trim unstated). 16 records held back, not shipped: CN7-unscored 2024–25 Elantras, key-start-gate 2022 Elantras, the 1.6T Sonata 25V-796 gate, unscored 2021+ Civics, the 2024 Forte GT (1.6L turbo + DCT, no dossier), the Malibu Limited, the 2016 Sonata Hybrid, and a year-conflict Forte LXS.
+- Corrections at this publish: the federal May-2018 backup-camera basis is now applied board-wide to 2019+ cars, which moves the 2020 Malibu LT and RS from capped C+ to meets (both grade A); the 2024 Malibu LT seller is corrected to dealer (CAR CRAZE AUTO lot + financing in the live description), grade A- → B+; three full VINs found in the published data (two in vin/description fields, one in a card’s sweep notes) were redacted to [VIN-REDACTED]. Carried Nov 18 estimates stand (prices unchanged); the five Nov 18 High-confidence records drop to Medium and the Nov 12 Fusion SEL estimate drops to Low as two cycles old. Carvana screening found nothing to stage; the two staged Fortes are gone from the results page and dropped as cannot-find. Photo capture still uncapturable via the Pi text interface (no image URLs exposed).
+
 ## 2026-11-18 — Trait icons, database layer, slim entrance, negotiation notes, representative images
 
 Feature build on the Nov 18 board (same 47 listings, same grades/prices; one data correction noted below).
