@@ -168,7 +168,7 @@ Card links stay as static `https://www.facebook.com/marketplace/item/<id>/` href
 
 ## App icon & inline manifest (owner rule, 2026-11-01)
 
-Every rebuild of `index.html` MUST keep, in `<head>`: the `rel="icon"` and `rel="apple-touch-icon"` links (SVG data URIs — cream car front on the deep-green tile) plus the `theme-color` meta; and just before `</body>`, AFTER the app-link script: the inline manifest script (generates the web app manifest from the favicon, name "CarHunt"). Together they are what makes the phone home-screen icon the CarHunt logo instead of a generic letter/screenshot. Missing either block = failed self-check, same as the app-link script.
+Every rebuild of `index.html` MUST keep, in `<head>`: the `rel="icon"` and `rel="apple-touch-icon"` links (SVG data URIs — the "Grade-A Road" mark: an amber A whose road edges converge, cream lane dashes, on the deep-green tile; `rel="icon"` is the simplified small-size cut, `rel="apple-touch-icon"` the full mark on a full-bleed tile. Master files: `docs/brand/`) plus the `theme-color` meta; and just before `</body>`, AFTER the app-link script: the inline manifest script (generates the web app manifest from the favicon, name "CarHunt"). Together they are what makes the phone home-screen icon the CarHunt logo instead of a generic letter/screenshot. Missing either block = failed self-check, same as the app-link script.
 
 ## Publish flow
 

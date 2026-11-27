@@ -1,5 +1,11 @@
 # CarHunt — Changelog
 
+## 2026-11-27 — New logo
+
+- New CarHunt logo: the **"Grade-A Road"**. Road edges meet in an amber A, with cream lane dashes running up the middle, on the deep-green tile. It ties the mark to the A+ to F deal grades and replaces the cream car front.
+- Swapped in the header logo, the browser tab icon (a simpler small-size cut with a single centre line) and the home-screen icon (the full mark). The inline web-app manifest picks up the new tab icon automatically.
+- Master SVGs and usage notes are in `docs/brand/`. `docs/METHOD.md` now describes the new icon. No data changes.
+
 ## 2026-11-26 — Thursday full update
 
 - Full re-verification of every board and staged record plus a fresh core-family sweep: 44 listings published, 34 meeting all must-haves, led by a 2021 Kia Forte LXS in Webster ($5,500, grade A, 54.6% below estimate after a $2,500 cut this week), the 2022 Chevrolet Malibu LS in Houston ($8,500, grade A, 43.1% below estimate) and the 2018 Chevrolet Malibu LT in Houston ($6,000, grade A, 41.7% below estimate). All three of last week’s finalists are gone — the 2018 Malibu 1LT sold, and the 2024 and 2022 Malibu LTs are unreachable behind a Facebook login wall (held as unverified, not shipped). 10 checked listings were sold and dropped; 6 checked listings are login-walled.
